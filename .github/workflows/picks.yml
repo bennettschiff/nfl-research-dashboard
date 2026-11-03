@@ -1,0 +1,117 @@
+name: NFL pick ledger (snapshot + grade)
+
+# Records every pick the board makes and scores it. See src/lib/pickLedger.js
+# for what a pick is, scripts/snapshot_picks.mjs and scripts/grade_picks.mjs for
+# the two halves.
+#
+# ── SNAPSHOT ─────────────────────────────────────────────────────────────────
+# The main snapshot is NOT here: it is a step at the end of odds-pull.yml, so
+# picks are re-frozen the moment fresh lines land, in the same job, in order. A
+# separate cron would race the odds pull and could freeze Tuesday's prices an
+# hour before Sunday's arrived.
+#
+# The slot below is the injury-report pass. injury-pull.yml files Saturday's
+# designations at ~18:00 UTC and the Sunday-morning odds pull may already have
+# run by then, so a player ruled Out on Saturday afternoon would otherwise stay
+# in the ledger until the next odds pull. A late delivery is harmless: games
+# that have kicked off are never touched, so the worst case is re-freezing fewer
+# games rather than freezing any after kickoff. A game whose close capture has
+# begun keeps its picks' prices here too (it can still gain new rows and drop
+# ruled-out ones) — otherwise this pass would re-price a Sunday-night game at
+# its morning close, which is the price it is graded against.
+#
+#   daily 21:00 UTC = 5 PM ET · after the injury pull, before the next day's games
+#
+# ── GRADE ────────────────────────────────────────────────────────────────────
+# nflverse rebuilds stats_player_week and snap_counts overnight after games, and
+# GitHub's cron delivery runs hours late, so two passes a day: the morning one
+# settles last night's games, the afternoon one catches a late nflverse build.
+# A pick whose game is not in the file yet simply stays pending; recent weeks
+# are re-scored every run so stat corrections flow through.
+#
+#   daily 12:00 UTC = 8 AM ET
+#   daily 19:00 UTC = 3 PM ET
+#
+# nflverse posts a game's box score within about an hour of the final (week 7's
+# 1 PM games were all in the file by 5:20 PM ET), so the two passes above left
+# the Sunday 4 PM window and SNF pending overnight — and with GitHub delivering
+# the 12:00 slot around 15:00, until mid-morning Monday. Two night passes close
+# that: one after the late window, one after the night game (daily, so TNF and
+# MNF settle overnight too).
+#
+#   Mon 01:00 UTC = Sun 9 PM ET · after the 4:05/4:25 window
+#   daily 05:00 UTC = 1 AM ET   · after SNF / TNF / MNF
+#
+# Costs nothing but Actions minutes: no Odds API credits, one nflverse download,
+# and a handful of batched Supabase writes.
+
+on:
+  # Production runs this on a cron schedule. The public copy is manual-only,
+  # so a fork without secrets never fires it.
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'snapshot or grade'
+        type: choice
+        options: [grade, snapshot]
+        default: grade
+
+permissions:
+  contents: read
+
+# Snapshot and grade both write nfl_picks; never let two runs interleave.
+concurrency:
+  group: nfl-picks
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          check-latest: true   # runner cache lags security releases
+
+      - name: Choose job from the cron that fired
+        id: job
+        env:
+          CRON: ${{ github.event.schedule }}
+          IN_JOB: ${{ github.event.inputs.job }}
+        run: |
+          if [ -n "$IN_JOB" ]; then JOB="$IN_JOB"
+          elif [ "$CRON" = "0 21 * * *" ]; then JOB=snapshot
+          else JOB=grade; fi
+          echo "job=$JOB" >> "$GITHUB_OUTPUT"
+          echo "cron='$CRON' -> $JOB"
+
+      - name: Snapshot the board's picks
+        if: steps.job.outputs.job == 'snapshot'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/snapshot_picks.mjs --write --within 36
+
+      - name: Grade finished games
+        if: steps.job.outputs.job == 'grade'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/grade_picks.mjs --write
+
+      # The lab header's "model" time: lab_status() in the shared Supabase
+      # (Postgres functions, not in this copy) reads the newest lab_runs row.
+      - name: Log the model run for the header
+        if: steps.job.outputs.job == 'snapshot'
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: >
+          curl -fsS -X POST "$SUPABASE_URL/rest/v1/lab_runs"
+          -H "apikey: $SUPABASE_SERVICE_ROLE_KEY" -H "Authorization: Bearer $SUPABASE_SERVICE_ROLE_KEY"
+          -H "Content-Type: application/json" -d "{\"lab\":\"nfl\",\"run_url\":\"$RUN_URL\"}"

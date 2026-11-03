@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>NFL Research Dashboard</title>
+    <style>
+      html, body, #root {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        width: 100%;
+        background: #0f1923;
+      }
+      html[data-theme="light"], html[data-theme="light"] body, html[data-theme="light"] #root {
+        background: #eef2f8;
+      }
+      /* `clip`, NOT `hidden`. overflow-x:hidden computes overflow-y:auto, which
+         turns these into scroll containers and silently breaks the sticky
+         header inside them; clip suppresses the sideways scroll without
+         creating one. Wide content (tables) scrolls in its own wrapper. */
+      html, body { overflow-x: clip; }
+      @media (max-width: 768px) {
+        input, select, textarea { font-size: 16px !important; }
+      }
+    </style>
+    <script>
+      // Theme before first paint (src/lib/theme.js owns the key and the default).
+      try {
+        var t = localStorage.getItem("nfl-lab-theme");
+        document.documentElement.dataset.theme = t === "dark" || t === "light" ? t : "light";
+      } catch (e) { document.documentElement.dataset.theme = "light"; }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

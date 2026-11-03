@@ -1,0 +1,1666 @@
+[
+ {
+  "season": 2026,
+  "team_abbr": "ARI",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.177,
+    "r": 0.0084
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.447,
+    "league_mean": 0.198,
+    "r": 0.636
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.428,
+    "league_mean": 0.254,
+    "r": 0.501
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 7.21,
+    "r": 0.0162
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0725
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.223,
+    "league_mean": -0.0771
+   }
+  },
+  "is_man": 0.234,
+  "blitz": 0.239,
+  "pressure": 0.32,
+  "box": 6.94,
+  "def_pass_epa": 0.0406,
+  "def_rush_epa": -0.066,
+  "man_rate": 0.287,
+  "zone_rate": 0.944,
+  "blitz_rate": 0.331,
+  "pressure_rate": 0.192,
+  "avg_box": 6.05
+ },
+ {
+  "season": 2026,
+  "team_abbr": "ATL",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.395,
+    "r": 0.0072
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.6,
+    "league_mean": 0.273,
+    "r": 0.715
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.553,
+    "league_mean": 0.264,
+    "r": 0.362
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 7.61,
+    "r": 0.0136
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0456
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.168,
+    "league_mean": -0.058
+   }
+  },
+  "is_man": 0.246,
+  "blitz": 0.405,
+  "pressure": 0.312,
+  "box": 7.09,
+  "def_pass_epa": 0.0822,
+  "def_rush_epa": -0.0354,
+  "man_rate": 0.241,
+  "zone_rate": 0.739,
+  "blitz_rate": 0.302,
+  "pressure_rate": 0.28,
+  "avg_box": 4.52
+ },
+ {
+  "season": 2026,
+  "team_abbr": "BAL",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.391,
+    "r": 0.004
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.48,
+    "league_mean": 0.225,
+    "r": 0.608
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.559,
+    "league_mean": 0.298,
+    "r": 0.306
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 5.54,
+    "r": 0.013
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0563
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.189,
+    "league_mean": -0.0532
+   }
+  },
+  "is_man": 0.302,
+  "blitz": 0.264,
+  "pressure": 0.224,
+  "box": 7.94,
+  "def_pass_epa": 0.061,
+  "def_rush_epa": -0.0932,
+  "man_rate": 0.327,
+  "zone_rate": 0.781,
+  "blitz_rate": 0.245,
+  "pressure_rate": 0.285,
+  "avg_box": 6.9
+ },
+ {
+  "season": 2026,
+  "team_abbr": "BUF",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.398,
+    "r": 0.0057
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.628,
+    "league_mean": 0.206,
+    "r": 0.575
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.367,
+    "league_mean": 0.254,
+    "r": 0.381
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 7.4,
+    "r": 0.0204
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0435
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.252,
+    "league_mean": -0.0407
+   }
+  },
+  "is_man": 0.273,
+  "blitz": 0.181,
+  "pressure": 0.208,
+  "box": 8.37,
+  "def_pass_epa": 0.049,
+  "def_rush_epa": -0.0439,
+  "man_rate": 0.211,
+  "zone_rate": 0.681,
+  "blitz_rate": 0.269,
+  "pressure_rate": 0.223,
+  "avg_box": 8.01
+ },
+ {
+  "season": 2026,
+  "team_abbr": "CAR",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.385,
+    "r": 0.0082
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.704,
+    "league_mean": 0.341,
+    "r": 0.65
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.342,
+    "league_mean": 0.179,
+    "r": 0.333
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 3.96,
+    "r": 0.0094
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0691
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.158,
+    "league_mean": -0.0733
+   }
+  },
+  "is_man": 0.292,
+  "blitz": 0.293,
+  "pressure": 0.206,
+  "box": 7.82,
+  "def_pass_epa": 0.0498,
+  "def_rush_epa": -0.0486,
+  "man_rate": 0.388,
+  "zone_rate": 0.49,
+  "blitz_rate": 0.252,
+  "pressure_rate": 0.157,
+  "avg_box": 7.97
+ },
+ {
+  "season": 2026,
+  "team_abbr": "CHI",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.327,
+    "r": 0.0084
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.332,
+    "league_mean": 0.34,
+    "r": 0.403
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.573,
+    "league_mean": 0.31,
+    "r": 0.477
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 4.87,
+    "r": 0.0122
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0484
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.211,
+    "league_mean": -0.0395
+   }
+  },
+  "is_man": 0.358,
+  "blitz": 0.307,
+  "pressure": 0.338,
+  "box": 5.98,
+  "def_pass_epa": 0.0395,
+  "def_rush_epa": -0.0396,
+  "man_rate": 0.394,
+  "zone_rate": 0.497,
+  "blitz_rate": 0.304,
+  "pressure_rate": 0.379,
+  "avg_box": 3.77
+ },
+ {
+  "season": 2026,
+  "team_abbr": "CIN",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.385,
+    "r": 0.0081
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.75,
+    "league_mean": 0.351,
+    "r": 0.652
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.39,
+    "league_mean": 0.235,
+    "r": 0.493
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 7.82,
+    "r": 0.0144
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0497
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.186,
+    "league_mean": -0.0805
+   }
+  },
+  "is_man": 0.309,
+  "blitz": 0.178,
+  "pressure": 0.32,
+  "box": 7.12,
+  "def_pass_epa": 0.0548,
+  "def_rush_epa": -0.0493,
+  "man_rate": 0.277,
+  "zone_rate": 0.535,
+  "blitz_rate": 0.171,
+  "pressure_rate": 0.405,
+  "avg_box": 8.36
+ },
+ {
+  "season": 2026,
+  "team_abbr": "CLE",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.326,
+    "r": 0.0081
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.718,
+    "league_mean": 0.195,
+    "r": 0.6
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.295,
+    "league_mean": 0.294,
+    "r": 0.436
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 7.29,
+    "r": 0.0213
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0622
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.151,
+    "league_mean": -0.0589
+   }
+  },
+  "is_man": 0.216,
+  "blitz": 0.3,
+  "pressure": 0.325,
+  "box": 6.29,
+  "def_pass_epa": 0.0635,
+  "def_rush_epa": -0.078,
+  "man_rate": 0.262,
+  "zone_rate": 0.847,
+  "blitz_rate": 0.165,
+  "pressure_rate": 0.268,
+  "avg_box": 6.19
+ },
+ {
+  "season": 2026,
+  "team_abbr": "DAL",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.225,
+    "r": 0.0074
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.448,
+    "league_mean": 0.203,
+    "r": 0.606
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.393,
+    "league_mean": 0.194,
+    "r": 0.508
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 7.54,
+    "r": 0.0209
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0839
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.23,
+    "league_mean": -0.084
+   }
+  },
+  "is_man": 0.183,
+  "blitz": 0.318,
+  "pressure": 0.324,
+  "box": 7.07,
+  "def_pass_epa": 0.0833,
+  "def_rush_epa": -0.027,
+  "man_rate": 0.209,
+  "zone_rate": 0.468,
+  "blitz_rate": 0.181,
+  "pressure_rate": 0.2,
+  "avg_box": 3.64
+ },
+ {
+  "season": 2026,
+  "team_abbr": "DEN",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.32,
+    "r": 0.0085
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.405,
+    "league_mean": 0.182,
+    "r": 0.41
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.475,
+    "league_mean": 0.234,
+    "r": 0.403
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 8.36,
+    "r": 0.0147
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0719
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.245,
+    "league_mean": -0.0564
+   }
+  },
+  "is_man": 0.275,
+  "blitz": 0.185,
+  "pressure": 0.245,
+  "box": 7.47,
+  "def_pass_epa": 0.0871,
+  "def_rush_epa": -0.0508,
+  "man_rate": 0.395,
+  "zone_rate": 0.71,
+  "blitz_rate": 0.199,
+  "pressure_rate": 0.24,
+  "avg_box": 6.48
+ },
+ {
+  "season": 2026,
+  "team_abbr": "DET",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.217,
+    "r": 0.0041
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.44,
+    "league_mean": 0.287,
+    "r": 0.562
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.411,
+    "league_mean": 0.41,
+    "r": 0.275
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 5.58,
+    "r": 0.0134
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0381
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.122,
+    "league_mean": -0.0572
+   }
+  },
+  "is_man": 0.198,
+  "blitz": 0.21,
+  "pressure": 0.399,
+  "box": 7.32,
+  "def_pass_epa": 0.0765,
+  "def_rush_epa": -0.0536,
+  "man_rate": 0.379,
+  "zone_rate": 0.966,
+  "blitz_rate": 0.331,
+  "pressure_rate": 0.336,
+  "avg_box": 6.34
+ },
+ {
+  "season": 2026,
+  "team_abbr": "GB",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.259,
+    "r": 0.0058
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.537,
+    "league_mean": 0.256,
+    "r": 0.567
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.491,
+    "league_mean": 0.333,
+    "r": 0.462
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 7.09,
+    "r": 0.0205
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0806
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.28,
+    "league_mean": -0.0584
+   }
+  },
+  "is_man": 0.292,
+  "blitz": 0.3,
+  "pressure": 0.41,
+  "box": 5.31,
+  "def_pass_epa": 0.0419,
+  "def_rush_epa": -0.0541,
+  "man_rate": 0.385,
+  "zone_rate": 0.823,
+  "blitz_rate": 0.261,
+  "pressure_rate": 0.406,
+  "avg_box": 7.37
+ },
+ {
+  "season": 2026,
+  "team_abbr": "HOU",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.226,
+    "r": 0.0049
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.666,
+    "league_mean": 0.176,
+    "r": 0.716
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.517,
+    "league_mean": 0.326,
+    "r": 0.488
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 6.16,
+    "r": 0.015
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0819
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.211,
+    "league_mean": -0.0799
+   }
+  },
+  "is_man": 0.241,
+  "blitz": 0.27,
+  "pressure": 0.278,
+  "box": 5.49,
+  "def_pass_epa": 0.0474,
+  "def_rush_epa": -0.0804,
+  "man_rate": 0.231,
+  "zone_rate": 0.93,
+  "blitz_rate": 0.295,
+  "pressure_rate": 0.255,
+  "avg_box": 6.87
+ },
+ {
+  "season": 2026,
+  "team_abbr": "IND",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.384,
+    "r": 0.0043
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.455,
+    "league_mean": 0.344,
+    "r": 0.323
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.294,
+    "league_mean": 0.27,
+    "r": 0.258
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 6.92,
+    "r": 0.0207
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0466
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.155,
+    "league_mean": -0.0835
+   }
+  },
+  "is_man": 0.342,
+  "blitz": 0.194,
+  "pressure": 0.204,
+  "box": 6.6,
+  "def_pass_epa": 0.0387,
+  "def_rush_epa": -0.0868,
+  "man_rate": 0.316,
+  "zone_rate": 0.847,
+  "blitz_rate": 0.184,
+  "pressure_rate": 0.254,
+  "avg_box": 7.02
+ },
+ {
+  "season": 2026,
+  "team_abbr": "JAX",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.402,
+    "r": 0.0065
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.576,
+    "league_mean": 0.314,
+    "r": 0.625
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.495,
+    "league_mean": 0.317,
+    "r": 0.284
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 3.81,
+    "r": 0.0171
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0493
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.214,
+    "league_mean": -0.0492
+   }
+  },
+  "is_man": 0.229,
+  "blitz": 0.271,
+  "pressure": 0.312,
+  "box": 7.49,
+  "def_pass_epa": 0.05,
+  "def_rush_epa": -0.0939,
+  "man_rate": 0.189,
+  "zone_rate": 0.813,
+  "blitz_rate": 0.229,
+  "pressure_rate": 0.348,
+  "avg_box": 6.76
+ },
+ {
+  "season": 2026,
+  "team_abbr": "KC",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.367,
+    "r": 0.0043
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.719,
+    "league_mean": 0.257,
+    "r": 0.676
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.392,
+    "league_mean": 0.38,
+    "r": 0.514
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 7.08,
+    "r": 0.0208
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0812
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.151,
+    "league_mean": -0.0723
+   }
+  },
+  "is_man": 0.213,
+  "blitz": 0.209,
+  "pressure": 0.419,
+  "box": 8.17,
+  "def_pass_epa": 0.0407,
+  "def_rush_epa": -0.0458,
+  "man_rate": 0.239,
+  "zone_rate": 0.954,
+  "blitz_rate": 0.387,
+  "pressure_rate": 0.421,
+  "avg_box": 4.92
+ },
+ {
+  "season": 2026,
+  "team_abbr": "LA",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.224,
+    "r": 0.0039
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.525,
+    "league_mean": 0.27,
+    "r": 0.383
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.358,
+    "league_mean": 0.29,
+    "r": 0.326
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 3.86,
+    "r": 0.01
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0426
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.222,
+    "league_mean": -0.0599
+   }
+  },
+  "is_man": 0.367,
+  "blitz": 0.251,
+  "pressure": 0.305,
+  "box": 6.95,
+  "def_pass_epa": 0.0575,
+  "def_rush_epa": -0.075,
+  "man_rate": 0.405,
+  "zone_rate": 0.858,
+  "blitz_rate": 0.291,
+  "pressure_rate": 0.354,
+  "avg_box": 6.49
+ },
+ {
+  "season": 2026,
+  "team_abbr": "LAC",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.366,
+    "r": 0.0046
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.351,
+    "league_mean": 0.304,
+    "r": 0.601
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.394,
+    "league_mean": 0.305,
+    "r": 0.379
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 5.96,
+    "r": 0.0109
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0412
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.133,
+    "league_mean": -0.0543
+   }
+  },
+  "is_man": 0.258,
+  "blitz": 0.167,
+  "pressure": 0.328,
+  "box": 4.2,
+  "def_pass_epa": 0.0405,
+  "def_rush_epa": -0.0437,
+  "man_rate": 0.374,
+  "zone_rate": 0.914,
+  "blitz_rate": 0.139,
+  "pressure_rate": 0.359,
+  "avg_box": 5.12
+ },
+ {
+  "season": 2026,
+  "team_abbr": "LV",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.272,
+    "r": 0.0083
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.666,
+    "league_mean": 0.157,
+    "r": 0.75
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.319,
+    "league_mean": 0.328,
+    "r": 0.393
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 3.75,
+    "r": 0.0116
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.076
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.242,
+    "league_mean": -0.0491
+   }
+  },
+  "is_man": 0.379,
+  "blitz": 0.291,
+  "pressure": 0.24,
+  "box": 5.8,
+  "def_pass_epa": 0.053,
+  "def_rush_epa": -0.0536,
+  "man_rate": 0.385,
+  "zone_rate": 0.914,
+  "blitz_rate": 0.266,
+  "pressure_rate": 0.281,
+  "avg_box": 7.75
+ },
+ {
+  "season": 2026,
+  "team_abbr": "MIA",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.37,
+    "r": 0.0078
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.65,
+    "league_mean": 0.354,
+    "r": 0.62
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.345,
+    "league_mean": 0.344,
+    "r": 0.359
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 7.74,
+    "r": 0.0115
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0806
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.226,
+    "league_mean": -0.077
+   }
+  },
+  "is_man": 0.287,
+  "blitz": 0.355,
+  "pressure": 0.351,
+  "box": 3.8,
+  "def_pass_epa": 0.0496,
+  "def_rush_epa": -0.043,
+  "man_rate": 0.182,
+  "zone_rate": 0.749,
+  "blitz_rate": 0.359,
+  "pressure_rate": 0.306,
+  "avg_box": 7.69
+ },
+ {
+  "season": 2026,
+  "team_abbr": "MIN",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.381,
+    "r": 0.0078
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.412,
+    "league_mean": 0.27,
+    "r": 0.52
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.379,
+    "league_mean": 0.303,
+    "r": 0.501
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 6.08,
+    "r": 0.0142
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0631
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.16,
+    "league_mean": -0.0715
+   }
+  },
+  "is_man": 0.359,
+  "blitz": 0.307,
+  "pressure": 0.251,
+  "box": 6.54,
+  "def_pass_epa": 0.0658,
+  "def_rush_epa": -0.0894,
+  "man_rate": 0.311,
+  "zone_rate": 0.602,
+  "blitz_rate": 0.395,
+  "pressure_rate": 0.331,
+  "avg_box": 6.64
+ },
+ {
+  "season": 2026,
+  "team_abbr": "NE",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.312,
+    "r": 0.0046
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.413,
+    "league_mean": 0.179,
+    "r": 0.466
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.462,
+    "league_mean": 0.382,
+    "r": 0.465
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 5.46,
+    "r": 0.0138
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.058
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.141,
+    "league_mean": -0.0445
+   }
+  },
+  "is_man": 0.189,
+  "blitz": 0.256,
+  "pressure": 0.255,
+  "box": 4.03,
+  "def_pass_epa": 0.0699,
+  "def_rush_epa": -0.06,
+  "man_rate": 0.285,
+  "zone_rate": 0.479,
+  "blitz_rate": 0.333,
+  "pressure_rate": 0.232,
+  "avg_box": 5.05
+ },
+ {
+  "season": 2026,
+  "team_abbr": "NO",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.206,
+    "r": 0.0048
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.511,
+    "league_mean": 0.195,
+    "r": 0.584
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.443,
+    "league_mean": 0.354,
+    "r": 0.512
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 5.95,
+    "r": 0.0203
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0725
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.14,
+    "league_mean": -0.0676
+   }
+  },
+  "is_man": 0.351,
+  "blitz": 0.325,
+  "pressure": 0.311,
+  "box": 8.23,
+  "def_pass_epa": 0.0526,
+  "def_rush_epa": -0.1053,
+  "man_rate": 0.186,
+  "zone_rate": 0.481,
+  "blitz_rate": 0.21,
+  "pressure_rate": 0.375,
+  "avg_box": 7.9
+ },
+ {
+  "season": 2026,
+  "team_abbr": "NYG",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.347,
+    "r": 0.0065
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.426,
+    "league_mean": 0.264,
+    "r": 0.657
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.312,
+    "league_mean": 0.368,
+    "r": 0.478
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 6.38,
+    "r": 0.0213
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0534
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.125,
+    "league_mean": -0.073
+   }
+  },
+  "is_man": 0.298,
+  "blitz": 0.305,
+  "pressure": 0.343,
+  "box": 6.86,
+  "def_pass_epa": 0.0402,
+  "def_rush_epa": -0.0312,
+  "man_rate": 0.408,
+  "zone_rate": 0.9,
+  "blitz_rate": 0.32,
+  "pressure_rate": 0.313,
+  "avg_box": 4.64
+ },
+ {
+  "season": 2026,
+  "team_abbr": "NYJ",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.325,
+    "r": 0.0066
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.512,
+    "league_mean": 0.159,
+    "r": 0.694
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.468,
+    "league_mean": 0.406,
+    "r": 0.353
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 7.16,
+    "r": 0.0212
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0667
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.221,
+    "league_mean": -0.0466
+   }
+  },
+  "is_man": 0.234,
+  "blitz": 0.252,
+  "pressure": 0.254,
+  "box": 3.82,
+  "def_pass_epa": 0.0666,
+  "def_rush_epa": -0.0686,
+  "man_rate": 0.375,
+  "zone_rate": 0.471,
+  "blitz_rate": 0.223,
+  "pressure_rate": 0.294,
+  "avg_box": 5.62
+ },
+ {
+  "season": 2026,
+  "team_abbr": "PHI",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.252,
+    "r": 0.0052
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.354,
+    "league_mean": 0.23,
+    "r": 0.508
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.462,
+    "league_mean": 0.295,
+    "r": 0.432
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 5.67,
+    "r": 0.0172
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0832
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.273,
+    "league_mean": -0.0596
+   }
+  },
+  "is_man": 0.373,
+  "blitz": 0.302,
+  "pressure": 0.343,
+  "box": 5.53,
+  "def_pass_epa": 0.0696,
+  "def_rush_epa": -0.0446,
+  "man_rate": 0.244,
+  "zone_rate": 0.439,
+  "blitz_rate": 0.277,
+  "pressure_rate": 0.212,
+  "avg_box": 4.74
+ },
+ {
+  "season": 2026,
+  "team_abbr": "PIT",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.334,
+    "r": 0.0049
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.44,
+    "league_mean": 0.183,
+    "r": 0.65
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.353,
+    "league_mean": 0.324,
+    "r": 0.503
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 3.66,
+    "r": 0.0198
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0839
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.244,
+    "league_mean": -0.0838
+   }
+  },
+  "is_man": 0.194,
+  "blitz": 0.206,
+  "pressure": 0.185,
+  "box": 8.31,
+  "def_pass_epa": 0.062,
+  "def_rush_epa": -0.0468,
+  "man_rate": 0.3,
+  "zone_rate": 0.894,
+  "blitz_rate": 0.323,
+  "pressure_rate": 0.361,
+  "avg_box": 3.64
+ },
+ {
+  "season": 2026,
+  "team_abbr": "SEA",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.204,
+    "r": 0.0068
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.645,
+    "league_mean": 0.172,
+    "r": 0.446
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.385,
+    "league_mean": 0.358,
+    "r": 0.476
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 6.62,
+    "r": 0.0114
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0849
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.281,
+    "league_mean": -0.0673
+   }
+  },
+  "is_man": 0.347,
+  "blitz": 0.17,
+  "pressure": 0.409,
+  "box": 4.36,
+  "def_pass_epa": 0.0553,
+  "def_rush_epa": -0.1051,
+  "man_rate": 0.276,
+  "zone_rate": 0.685,
+  "blitz_rate": 0.325,
+  "pressure_rate": 0.299,
+  "avg_box": 6.24
+ },
+ {
+  "season": 2026,
+  "team_abbr": "SF",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.333,
+    "r": 0.0043
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.396,
+    "league_mean": 0.192,
+    "r": 0.683
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.362,
+    "league_mean": 0.411,
+    "r": 0.431
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 4.21,
+    "r": 0.0154
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0635
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.123,
+    "league_mean": -0.0635
+   }
+  },
+  "is_man": 0.37,
+  "blitz": 0.218,
+  "pressure": 0.202,
+  "box": 3.92,
+  "def_pass_epa": 0.07,
+  "def_rush_epa": -0.0601,
+  "man_rate": 0.208,
+  "zone_rate": 0.893,
+  "blitz_rate": 0.142,
+  "pressure_rate": 0.35,
+  "avg_box": 7.05
+ },
+ {
+  "season": 2026,
+  "team_abbr": "TB",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.387,
+    "r": 0.0071
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.616,
+    "league_mean": 0.328,
+    "r": 0.441
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.476,
+    "league_mean": 0.286,
+    "r": 0.251
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 4.18,
+    "r": 0.0105
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0408
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.204,
+    "league_mean": -0.0428
+   }
+  },
+  "is_man": 0.229,
+  "blitz": 0.261,
+  "pressure": 0.355,
+  "box": 4.77,
+  "def_pass_epa": 0.0503,
+  "def_rush_epa": -0.0851,
+  "man_rate": 0.354,
+  "zone_rate": 0.807,
+  "blitz_rate": 0.379,
+  "pressure_rate": 0.235,
+  "avg_box": 4.93
+ },
+ {
+  "season": 2026,
+  "team_abbr": "TEN",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.306,
+    "r": 0.0058
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.578,
+    "league_mean": 0.238,
+    "r": 0.559
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.543,
+    "league_mean": 0.377,
+    "r": 0.386
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 5.31,
+    "r": 0.0216
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.0752
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.271,
+    "league_mean": -0.0486
+   }
+  },
+  "is_man": 0.403,
+  "blitz": 0.313,
+  "pressure": 0.343,
+  "box": 6.32,
+  "def_pass_epa": 0.0706,
+  "def_rush_epa": -0.0758,
+  "man_rate": 0.22,
+  "zone_rate": 0.694,
+  "blitz_rate": 0.223,
+  "pressure_rate": 0.356,
+  "avg_box": 7.18
+ },
+ {
+  "season": 2026,
+  "team_abbr": "WAS",
+  "prior_season": 2025,
+  "basis": {
+   "is_man": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.34,
+    "r": 0.0068
+   },
+   "blitz": {
+    "source": "season-average",
+    "trust": 0.325,
+    "league_mean": 0.215,
+    "r": 0.649
+   },
+   "pressure": {
+    "source": "season-average",
+    "trust": 0.437,
+    "league_mean": 0.184,
+    "r": 0.434
+   },
+   "box": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 8.04,
+    "r": 0.0096
+   },
+   "def_pass_epa": {
+    "source": "league-mean",
+    "trust": 0,
+    "league_mean": 0.086
+   },
+   "def_rush_epa": {
+    "source": "season-epa",
+    "trust": 0.228,
+    "league_mean": -0.0638
+   }
+  },
+  "is_man": 0.38,
+  "blitz": 0.343,
+  "pressure": 0.402,
+  "box": 3.86,
+  "def_pass_epa": 0.076,
+  "def_rush_epa": -0.0386,
+  "man_rate": 0.342,
+  "zone_rate": 0.473,
+  "blitz_rate": 0.239,
+  "pressure_rate": 0.2,
+  "avg_box": 5.05
+ }
+]

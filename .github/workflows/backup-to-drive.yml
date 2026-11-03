@@ -1,0 +1,73 @@
+name: Nightly Supabase → Drive backup
+
+# 4:30 AM ET (08:30 UTC). Mirrors the MLB lab's backup; reuse the same
+# RCLONE_CONF secret (your Google account) — backups land in a separate
+# nfl-research-dashboard-backups folder so the two projects never collide.
+on:
+  # Production runs this on a cron schedule. The public copy is manual-only,
+  # so a fork without secrets never fires it.
+  workflow_dispatch:
+    inputs:
+      tables:
+        description: 'Comma-separated table list (blank = all)'
+        required: false
+        default: ''
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          check-latest: true   # runner cache lags security releases
+
+      # `apt-get update` refreshes EVERY source on the runner image, including
+      # third-party ones this job has no use for, and one broken source fails
+      # the whole command. On 2026-08-29 Microsoft's
+      # packages.microsoft.com/ubuntu/24.04/prod repo went unsigned and killed
+      # the WNBA lab's backup with exit 100 — on an rclone install that only
+      # ever needed Ubuntu's own archive. The MLB and WNBA labs were fixed then;
+      # this one kept the fragile form and would have failed the same way. Drop
+      # the third-party lists first, and fall back to rclone.org's published
+      # .deb if apt is unusable for any other reason.
+      - name: Install rclone
+        run: |
+          sudo rm -f /etc/apt/sources.list.d/microsoft-prod.list \
+                     /etc/apt/sources.list.d/microsoft.list
+          if sudo apt-get update -qq && sudo apt-get install -y -qq rclone; then
+            rclone version
+          else
+            echo "apt unusable — falling back to rclone.org's .deb"
+            curl -fsSL https://downloads.rclone.org/rclone-current-linux-amd64.deb -o /tmp/rclone.deb
+            sudo dpkg -i /tmp/rclone.deb
+            rclone version
+          fi
+
+      - name: Dump tables
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          ARGS="--out-dir=backup-out"
+          if [ -n "${{ github.event.inputs.tables }}" ]; then
+            ARGS="$ARGS --tables=${{ github.event.inputs.tables }}"
+          fi
+          node scripts/backup-to-drive.mjs $ARGS
+
+      # `if: always()` because a dump that lost one table to a transient stall
+      # still exits 1 (see the script's tail) — and the tables it DID read are
+      # exactly what you want on Drive when the database is having a bad night.
+      # The job still goes red, so the failure is not silent.
+      - name: Upload to Google Drive
+        if: always()
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          DATE=$(date -u +%F)
+          rclone copy backup-out "gdrive:nfl-research-dashboard-backups/$DATE" --transfers 4 -v

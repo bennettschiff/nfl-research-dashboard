@@ -1,0 +1,7628 @@
+{
+ "season": 2026,
+ "built_at": "2026-11-03T18:29Z",
+ "next_week": 9,
+ "sigma": {
+  "total": 8,
+  "margin": 17.5,
+  "team": 7.74
+ },
+ "games": [
+  {
+   "game_id": "2026_01_NE_SEA",
+   "week": 1,
+   "gameday": "2026-09-09",
+   "played": true,
+   "home": "SEA",
+   "away": "NE",
+   "total": 36.3,
+   "margin": 4.04,
+   "home_pts": 26,
+   "away_pts": 18.9,
+   "points_total": 55.2,
+   "points_margin": 4.73,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.0517,
+     "qb": 2.03,
+     "weather": -0.144,
+     "efficiency": -0.1128
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.429,
+     "qb": -0.576,
+     "efficiency": 2.15
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034869",
+     "name": "Sam Darnold",
+     "epa_db": 0.0465,
+     "vs_team": 0.0117,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039851",
+     "name": "Drake Maye",
+     "epa_db": 0.12,
+     "vs_team": 0.0091,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 6,
+    "temp": 74
+   },
+   "efficiency": {
+    "home_epa": 0.0166,
+    "away_epa": -0.0105,
+    "home_sr": 0.324,
+    "away_sr": 0.436
+   }
+  },
+  {
+   "game_id": "2026_01_SF_LA",
+   "week": 1,
+   "gameday": "2026-09-10",
+   "played": true,
+   "home": "LA",
+   "away": "SF",
+   "total": 69.2,
+   "margin": 5.93,
+   "home_pts": 31.7,
+   "away_pts": 24.7,
+   "points_total": 64.3,
+   "points_margin": 6.62,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.521,
+     "qb": 1.99,
+     "weather": 2.4,
+     "efficiency": 1.18
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.563,
+     "qb": -0.402,
+     "efficiency": 3
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0026498",
+     "name": "Matthew Stafford",
+     "epa_db": 0.0756,
+     "vs_team": 0.0022,
+     "known": true
+    },
+    "away": {
+     "id": "00-0037834",
+     "name": "Brock Purdy",
+     "epa_db": 0.0961,
+     "vs_team": 0.047,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": 4,
+    "temp": 57
+   },
+   "efficiency": {
+    "home_epa": 0.135,
+    "away_epa": 0.0121,
+    "home_sr": 0.412,
+    "away_sr": 0.466
+   }
+  },
+  {
+   "game_id": "2026_01_ARI_LAC",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "LAC",
+   "away": "ARI",
+   "total": 46.8,
+   "margin": 6.21,
+   "home_pts": 20,
+   "away_pts": 26.5,
+   "points_total": 29.4,
+   "points_margin": 5.38,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.0088,
+     "qb": -0.6,
+     "weather": 2.53,
+     "efficiency": -0.445
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.75,
+     "qb": 1.12,
+     "efficiency": 2.26
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "epa_db": 0.0058,
+     "vs_team": 0.0085,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033119",
+     "name": "Jacoby Brissett",
+     "epa_db": -0.0565,
+     "vs_team": -0.021,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0339,
+    "away_epa": -0.0293,
+    "home_sr": 0.61,
+    "away_sr": 0.41
+   }
+  },
+  {
+   "game_id": "2026_01_ATL_PIT",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "PIT",
+   "away": "ATL",
+   "total": 56.7,
+   "margin": 5.06,
+   "home_pts": 26.9,
+   "away_pts": 19.9,
+   "points_total": 45.6,
+   "points_margin": 4.37,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.0541,
+     "qb": -1.45,
+     "weather": 0.315,
+     "efficiency": -0.24
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.545,
+     "qb": 1.61,
+     "efficiency": 0.484
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "epa_db": -0.0142,
+     "vs_team": 0.0111,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033662",
+     "name": "Cooper Rush",
+     "epa_db": -0.1197,
+     "vs_team": -0.046,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 4,
+    "temp": 77
+   },
+   "efficiency": {
+    "home_epa": 0.0158,
+    "away_epa": 0.0009,
+    "home_sr": 0.412,
+    "away_sr": 0.315
+   }
+  },
+  {
+   "game_id": "2026_01_BAL_IND",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "IND",
+   "away": "BAL",
+   "total": 33.4,
+   "margin": -0.196,
+   "home_pts": 19.5,
+   "away_pts": 28,
+   "points_total": 34.8,
+   "points_margin": 1.09,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.688,
+     "qb": 0.97,
+     "weather": 2.53,
+     "efficiency": 1.32
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.144,
+     "qb": -1.204,
+     "efficiency": -1.034
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0035710",
+     "name": "Daniel Jones",
+     "epa_db": -0.0167,
+     "vs_team": 0.0235,
+     "known": true
+    },
+    "away": {
+     "id": "00-0034796",
+     "name": "Lamar Jackson",
+     "epa_db": 0.0375,
+     "vs_team": 0.0256,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0249,
+    "away_epa": 0.029,
+    "home_sr": 0.489,
+    "away_sr": 0.354
+   }
+  },
+  {
+   "game_id": "2026_01_BUF_HOU",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "HOU",
+   "away": "BUF",
+   "total": 57.5,
+   "margin": -0.119,
+   "home_pts": 27.6,
+   "away_pts": 19.1,
+   "points_total": 60.1,
+   "points_margin": 1.25,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.0719,
+     "qb": 1.49,
+     "weather": 1.31,
+     "efficiency": -0.476
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0,
+     "qb": -0.5,
+     "efficiency": -1.264
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039163",
+     "name": "C.J. Stroud",
+     "epa_db": -0.0014,
+     "vs_team": 0.0213,
+     "known": true
+    },
+    "away": {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "epa_db": 0.0498,
+     "vs_team": 0.0081,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0093,
+    "away_epa": 0.023,
+    "home_sr": 0.447,
+    "away_sr": 0.498
+   }
+  },
+  {
+   "game_id": "2026_01_CHI_CAR",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "CAR",
+   "away": "CHI",
+   "total": 37.3,
+   "margin": -0.89,
+   "home_pts": 17.1,
+   "away_pts": 24.7,
+   "points_total": 29.2,
+   "points_margin": -1.52,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.0464,
+     "qb": -1.124,
+     "weather": 0.669,
+     "efficiency": 0.357
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.454,
+     "qb": -1.135,
+     "efficiency": -0.92
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039150",
+     "name": "Bryce Young",
+     "epa_db": -0.1141,
+     "vs_team": -0.0003,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039918",
+     "name": "Caleb Williams",
+     "epa_db": -0.0166,
+     "vs_team": 0,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 2,
+    "temp": 89
+   },
+   "efficiency": {
+    "home_epa": -0.014,
+    "away_epa": 0.086,
+    "home_sr": 0.625,
+    "away_sr": 0.609
+   }
+  },
+  {
+   "game_id": "2026_01_CLE_JAX",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "JAX",
+   "away": "CLE",
+   "total": 51,
+   "margin": 7.35,
+   "home_pts": 19.9,
+   "away_pts": 20.2,
+   "points_total": 57.3,
+   "points_margin": 8.09,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.291,
+     "qb": -0.656,
+     "weather": 0.616,
+     "efficiency": -3
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.47,
+     "qb": 1.26,
+     "efficiency": 4.02
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036971",
+     "name": "Trevor Lawrence",
+     "epa_db": -0.003,
+     "vs_team": 0.0001,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033537",
+     "name": "Deshaun Watson",
+     "epa_db": -0.108,
+     "vs_team": 0.0101,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 3,
+    "temp": 89
+   },
+   "efficiency": {
+    "home_epa": -0.016,
+    "away_epa": -0.186,
+    "home_sr": 0.598,
+    "away_sr": 0.42
+   }
+  },
+  {
+   "game_id": "2026_01_DAL_NYG",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "NYG",
+   "away": "DAL",
+   "total": 63.2,
+   "margin": 0.414,
+   "home_pts": 18.6,
+   "away_pts": 27,
+   "points_total": 35.4,
+   "points_margin": 2.18,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.962,
+     "qb": 0.876,
+     "weather": -0.434,
+     "efficiency": 1.75
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.097,
+     "qb": -1.41,
+     "efficiency": -0.022
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0040691",
+     "name": "Jaxson Dart",
+     "epa_db": -0.0472,
+     "vs_team": 0.0054,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033077",
+     "name": "Dak Prescott",
+     "epa_db": 0.0698,
+     "vs_team": 0.0221,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 7,
+    "temp": 80
+   },
+   "efficiency": {
+    "home_epa": 0.1116,
+    "away_epa": 0.0672,
+    "home_sr": 0.549,
+    "away_sr": 0.287
+   }
+  },
+  {
+   "game_id": "2026_01_GB_MIN",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "MIN",
+   "away": "GB",
+   "total": 40.7,
+   "margin": 0.951,
+   "home_pts": 18.8,
+   "away_pts": 28,
+   "points_total": 35.9,
+   "points_margin": 1.49,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.598,
+     "qb": 2.2,
+     "weather": 1.25,
+     "efficiency": -0.938
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.0881,
+     "qb": -0.573,
+     "efficiency": -0.505
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0035228",
+     "name": "Kyler Murray",
+     "epa_db": -0.0084,
+     "vs_team": 0.1148,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036264",
+     "name": "Jordan Love",
+     "epa_db": 0.0596,
+     "vs_team": 0.0259,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0413,
+    "away_epa": -0.0053,
+    "home_sr": 0.586,
+    "away_sr": 0.276
+   }
+  },
+  {
+   "game_id": "2026_01_MIA_LV",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "LV",
+   "away": "MIA",
+   "total": 33.2,
+   "margin": 0.352,
+   "home_pts": 16.2,
+   "away_pts": 15.4,
+   "points_total": 26.4,
+   "points_margin": -1.29,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.597,
+     "qb": 0.512,
+     "weather": 1.34,
+     "efficiency": -0.708
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.741,
+     "qb": 0.54,
+     "efficiency": -1.13
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0029604",
+     "name": "Kirk Cousins",
+     "epa_db": -0.0272,
+     "vs_team": 0.0595,
+     "known": true
+    },
+    "away": {
+     "id": "00-0038128",
+     "name": "Malik Willis",
+     "epa_db": 0.0022,
+     "vs_team": -0.0143,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0563,
+    "away_epa": -0.0122,
+    "home_sr": 0.282,
+    "away_sr": 0.336
+   }
+  },
+  {
+   "game_id": "2026_01_NO_DET",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "DET",
+   "away": "NO",
+   "total": 59.7,
+   "margin": 8.54,
+   "home_pts": 19.5,
+   "away_pts": 28,
+   "points_total": 46.7,
+   "points_margin": 4.86,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.123,
+     "qb": 1.19,
+     "weather": 1.39,
+     "efficiency": -0.53
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.01,
+     "qb": 1.58,
+     "efficiency": 1.95
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "epa_db": 0.107,
+     "vs_team": 0,
+     "known": true
+    },
+    "away": {
+     "id": "00-0040743",
+     "name": "Tyler Shough",
+     "epa_db": -0.0548,
+     "vs_team": 0.0175,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0156,
+    "away_epa": -0.0377,
+    "home_sr": 0.264,
+    "away_sr": 0.25
+   }
+  },
+  {
+   "game_id": "2026_01_NYJ_TEN",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "TEN",
+   "away": "NYJ",
+   "total": 40.5,
+   "margin": 0.92,
+   "home_pts": 17.6,
+   "away_pts": 28.2,
+   "points_total": 56.2,
+   "points_margin": 3.31,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.076,
+     "qb": -2.71,
+     "weather": 0.918,
+     "efficiency": -0.943
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.294,
+     "qb": -1.24,
+     "efficiency": 0.518
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0040676",
+     "name": "Cam Ward",
+     "epa_db": -0.15,
+     "vs_team": -0.0144,
+     "known": true
+    },
+    "away": {
+     "id": "00-0030565",
+     "name": "Geno Smith",
+     "epa_db": -0.0841,
+     "vs_team": 0.0076,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 2,
+    "temp": 90
+   },
+   "efficiency": {
+    "home_epa": 0.0085,
+    "away_epa": -0.016,
+    "home_sr": 0.471,
+    "away_sr": 0.499
+   }
+  },
+  {
+   "game_id": "2026_01_TB_CIN",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "CIN",
+   "away": "TB",
+   "total": 63,
+   "margin": 2.48,
+   "home_pts": 34.8,
+   "away_pts": 22,
+   "points_total": 48.4,
+   "points_margin": 1.229,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.952,
+     "qb": 1.32,
+     "weather": -0.212,
+     "efficiency": 0.638
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.209,
+     "qb": 1.46,
+     "efficiency": -0.976
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036442",
+     "name": "Joe Burrow",
+     "epa_db": 0.0653,
+     "vs_team": 0.0786,
+     "known": true
+    },
+    "away": {
+     "id": "00-0034855",
+     "name": "Baker Mayfield",
+     "epa_db": 0.0065,
+     "vs_team": 0,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 7,
+    "temp": 85
+   },
+   "efficiency": {
+    "home_epa": 0.0213,
+    "away_epa": 0.0795,
+    "home_sr": 0.317,
+    "away_sr": 0.603
+   }
+  },
+  {
+   "game_id": "2026_01_WAS_PHI",
+   "week": 1,
+   "gameday": "2026-09-13",
+   "played": true,
+   "home": "PHI",
+   "away": "WAS",
+   "total": 46,
+   "margin": 7.63,
+   "home_pts": 28.9,
+   "away_pts": 23.3,
+   "points_total": 46.2,
+   "points_margin": 6.04,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.195,
+     "qb": 0.389,
+     "weather": -0.416,
+     "efficiency": 0.425
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.25,
+     "qb": 0.407,
+     "efficiency": 2.7
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036389",
+     "name": "Jalen Hurts",
+     "epa_db": 0.0151,
+     "vs_team": 0.0091,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039910",
+     "name": "Jayden Daniels",
+     "epa_db": -0.007,
+     "vs_team": 0.0018,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 7,
+    "temp": 82
+   },
+   "efficiency": {
+    "home_epa": 0.1118,
+    "away_epa": -0.0178,
+    "home_sr": 0.526,
+    "away_sr": 0.565
+   }
+  },
+  {
+   "game_id": "2026_01_DEN_KC",
+   "week": 1,
+   "gameday": "2026-09-14",
+   "played": true,
+   "home": "KC",
+   "away": "DEN",
+   "total": 29.5,
+   "margin": 0.778,
+   "home_pts": 29,
+   "away_pts": 12.5,
+   "points_total": 30.2,
+   "points_margin": 0.285,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.364,
+     "qb": 1.3,
+     "weather": -1.99,
+     "efficiency": -1.54
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.231,
+     "qb": 0.842,
+     "efficiency": -1.24
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "epa_db": 0.0302,
+     "vs_team": 0.0227,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039732",
+     "name": "Bo Nix",
+     "epa_db": 0.0249,
+     "vs_team": 0,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 13,
+    "temp": 91
+   },
+   "efficiency": {
+    "home_epa": -0.0158,
+    "away_epa": 0.0019,
+    "home_sr": 0.442,
+    "away_sr": 0.517
+   }
+  },
+  {
+   "game_id": "2026_02_DET_BUF",
+   "week": 2,
+   "gameday": "2026-09-17",
+   "played": true,
+   "home": "BUF",
+   "away": "DET",
+   "total": 36,
+   "margin": 2.94,
+   "home_pts": 32.1,
+   "away_pts": 32.7,
+   "points_total": 54.3,
+   "points_margin": 3.58,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.7,
+     "qb": 2.29,
+     "weather": 0.32,
+     "efficiency": 2.26
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.272,
+     "qb": -0.0509,
+     "efficiency": 1.54
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "epa_db": 0.0733,
+     "vs_team": 0.0061,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "epa_db": 0.086,
+     "vs_team": 0,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 4,
+    "temp": 67
+   },
+   "efficiency": {
+    "home_epa": 0.081,
+    "away_epa": 0.0437,
+    "home_sr": 0.504,
+    "away_sr": 0.559
+   }
+  },
+  {
+   "game_id": "2026_02_CAR_ATL",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "ATL",
+   "away": "CAR",
+   "total": 38.3,
+   "margin": 8.91,
+   "home_pts": 17.7,
+   "away_pts": 24,
+   "points_total": 43.7,
+   "points_margin": 5.35,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.383,
+     "qb": 1.07,
+     "weather": 1.29,
+     "efficiency": -0.374
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.63,
+     "qb": 2.79,
+     "efficiency": 2.07
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036212",
+     "name": "Tua Tagovailoa",
+     "epa_db": 0.0423,
+     "vs_team": 0.0981,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039150",
+     "name": "Bryce Young",
+     "epa_db": -0.0885,
+     "vs_team": 0.002,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0354,
+    "away_epa": -0.0207,
+    "home_sr": 0.531,
+    "away_sr": 0.309
+   }
+  },
+  {
+   "game_id": "2026_02_CIN_HOU",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "HOU",
+   "away": "CIN",
+   "total": 34.4,
+   "margin": 4.81,
+   "home_pts": 35.9,
+   "away_pts": 14.7,
+   "points_total": 32.8,
+   "points_margin": 3.89,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.109,
+     "qb": 1.65,
+     "weather": 2.58,
+     "efficiency": -0.362
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.561,
+     "qb": -0.561,
+     "efficiency": 1.98
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039163",
+     "name": "C.J. Stroud",
+     "epa_db": -0.0024,
+     "vs_team": 0.0091,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036442",
+     "name": "Joe Burrow",
+     "epa_db": 0.0324,
+     "vs_team": 0.0474,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.03,
+    "away_epa": -0.0101,
+    "home_sr": 0.289,
+    "away_sr": 0.289
+   }
+  },
+  {
+   "game_id": "2026_02_CLE_TB",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "TB",
+   "away": "CLE",
+   "total": 47.7,
+   "margin": 7.29,
+   "home_pts": 31.6,
+   "away_pts": 21.1,
+   "points_total": 45.1,
+   "points_margin": 6.18,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.173,
+     "qb": -1.025,
+     "weather": 0.37,
+     "efficiency": -1.86
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.178,
+     "qb": 1.68,
+     "efficiency": 3.8
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034855",
+     "name": "Baker Mayfield",
+     "epa_db": -0.0014,
+     "vs_team": 0,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033537",
+     "name": "Deshaun Watson",
+     "epa_db": -0.093,
+     "vs_team": 0.0014,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 4,
+    "temp": 86
+   },
+   "efficiency": {
+    "home_epa": -0.0089,
+    "away_epa": -0.1076,
+    "home_sr": 0.426,
+    "away_sr": 0.416
+   }
+  },
+  {
+   "game_id": "2026_02_GB_NYJ",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "NYJ",
+   "away": "GB",
+   "total": 42.1,
+   "margin": -4.39,
+   "home_pts": 14.6,
+   "away_pts": 16.6,
+   "points_total": 30.4,
+   "points_margin": -2.3,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.0525,
+     "qb": 0.547,
+     "weather": -0.356,
+     "efficiency": 0.196
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.622,
+     "qb": -1.06,
+     "efficiency": -4.24
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0030565",
+     "name": "Geno Smith",
+     "epa_db": -0.0915,
+     "vs_team": 0.0118,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036264",
+     "name": "Jordan Love",
+     "epa_db": 0.0996,
+     "vs_team": 0.0149,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 7,
+    "temp": 69
+   },
+   "efficiency": {
+    "home_epa": -0.0315,
+    "away_epa": 0.1258,
+    "home_sr": 0.528,
+    "away_sr": 0.282
+   }
+  },
+  {
+   "game_id": "2026_02_IND_KC",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "KC",
+   "away": "IND",
+   "total": 62.4,
+   "margin": 4.14,
+   "home_pts": 27.9,
+   "away_pts": 18.5,
+   "points_total": 29.6,
+   "points_margin": 3.86,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.397,
+     "qb": 0.842,
+     "weather": -0.735,
+     "efficiency": -1.235
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.051,
+     "qb": 0.76,
+     "efficiency": 2
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "epa_db": 0.0326,
+     "vs_team": 0.0211,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035710",
+     "name": "Daniel Jones",
+     "epa_db": -0.0265,
+     "vs_team": 0.0213,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 10,
+    "temp": 71
+   },
+   "efficiency": {
+    "home_epa": 0.0634,
+    "away_epa": -0.0438,
+    "home_sr": 0.451,
+    "away_sr": 0.561
+   }
+  },
+  {
+   "game_id": "2026_02_JAX_DEN",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "DEN",
+   "away": "JAX",
+   "total": 54.1,
+   "margin": -1.113,
+   "home_pts": 25.5,
+   "away_pts": 30.3,
+   "points_total": 52.4,
+   "points_margin": -2.2,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.0468,
+     "qb": 0.292,
+     "weather": -1.7,
+     "efficiency": -1.08
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.251,
+     "qb": -0.293,
+     "efficiency": -1.65
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039732",
+     "name": "Bo Nix",
+     "epa_db": -0.0003,
+     "vs_team": 0,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036971",
+     "name": "Trevor Lawrence",
+     "epa_db": 0.0257,
+     "vs_team": 0.0021,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 12,
+    "temp": 73
+   },
+   "efficiency": {
+    "home_epa": -0.037,
+    "away_epa": 0.0202,
+    "home_sr": 0.324,
+    "away_sr": 0.261
+   }
+  },
+  {
+   "game_id": "2026_02_LV_LAC",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "LAC",
+   "away": "LV",
+   "total": 47.6,
+   "margin": 5.46,
+   "home_pts": 27.1,
+   "away_pts": 25.9,
+   "points_total": 54.7,
+   "points_margin": 6.02,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.536,
+     "qb": 0.609,
+     "weather": 1.83,
+     "efficiency": -2.31
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.763,
+     "qb": -0.276,
+     "efficiency": 2.22
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "epa_db": -0.0034,
+     "vs_team": 0.0068,
+     "known": true
+    },
+    "away": {
+     "id": "00-0029604",
+     "name": "Kirk Cousins",
+     "epa_db": -0.0166,
+     "vs_team": 0.0491,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.05,
+    "away_epa": -0.095,
+    "home_sr": 0.343,
+    "away_sr": 0.444
+   }
+  },
+  {
+   "game_id": "2026_02_MIA_SF",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "SF",
+   "away": "MIA",
+   "total": 48.8,
+   "margin": 13.2,
+   "home_pts": 29.9,
+   "away_pts": 15.8,
+   "points_total": 48.8,
+   "points_margin": 9.93,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.0998,
+     "qb": 0.793,
+     "weather": 0.051,
+     "efficiency": 0.437
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.25,
+     "qb": 1.85,
+     "efficiency": 4.62
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0037834",
+     "name": "Brock Purdy",
+     "epa_db": 0.1183,
+     "vs_team": 0.036,
+     "known": true
+    },
+    "away": {
+     "id": "00-0038128",
+     "name": "Malik Willis",
+     "epa_db": -0.0226,
+     "vs_team": -0.0265,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 5,
+    "temp": 69
+   },
+   "efficiency": {
+    "home_epa": 0.0865,
+    "away_epa": -0.0275,
+    "home_sr": 0.355,
+    "away_sr": 0.278
+   }
+  },
+  {
+   "game_id": "2026_02_MIN_CHI",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "CHI",
+   "away": "MIN",
+   "total": 45.2,
+   "margin": 1.17,
+   "home_pts": 16,
+   "away_pts": 24.8,
+   "points_total": 45.6,
+   "points_margin": 1.65,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.544,
+     "qb": 0.572,
+     "weather": -0.426,
+     "efficiency": -0.177
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.0139,
+     "qb": -0.16,
+     "efficiency": -0.171
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039918",
+     "name": "Caleb Williams",
+     "epa_db": -0.0021,
+     "vs_team": 0,
+     "known": true
+    },
+    "away": {
+     "id": "00-0032950",
+     "name": "Carson Wentz",
+     "epa_db": -0.0345,
+     "vs_team": 0.0484,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 8,
+    "temp": 68
+   },
+   "efficiency": {
+    "home_epa": -0.0224,
+    "away_epa": -0.0173,
+    "home_sr": 0.432,
+    "away_sr": 0.571
+   }
+  },
+  {
+   "game_id": "2026_02_NO_BAL",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "BAL",
+   "away": "NO",
+   "total": 52.6,
+   "margin": 4.98,
+   "home_pts": 29.1,
+   "away_pts": 23,
+   "points_total": 61.9,
+   "points_margin": 7.37,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.44,
+     "qb": 0.92,
+     "weather": -1.284,
+     "efficiency": -0.176
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.84,
+     "qb": 1.24,
+     "efficiency": 3.57
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034796",
+     "name": "Lamar Jackson",
+     "epa_db": 0.095,
+     "vs_team": 0.0369,
+     "known": true
+    },
+    "away": {
+     "id": "00-0040743",
+     "name": "Tyler Shough",
+     "epa_db": -0.0434,
+     "vs_team": 0.0163,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 10,
+    "temp": 79
+   },
+   "efficiency": {
+    "home_epa": 0.026,
+    "away_epa": -0.0692,
+    "home_sr": 0.328,
+    "away_sr": 0.527
+   }
+  },
+  {
+   "game_id": "2026_02_PHI_TEN",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "TEN",
+   "away": "PHI",
+   "total": 48.9,
+   "margin": -7.61,
+   "home_pts": 24.2,
+   "away_pts": 21,
+   "points_total": 27,
+   "points_margin": -7.89,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.465,
+     "qb": -1.35,
+     "weather": 0.0808,
+     "efficiency": -1.48
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.22,
+     "qb": -2.81,
+     "efficiency": -6.23
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0040676",
+     "name": "Cam Ward",
+     "epa_db": -0.214,
+     "vs_team": -0.0144,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036389",
+     "name": "Jalen Hurts",
+     "epa_db": 0.0194,
+     "vs_team": 0.0053,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 5,
+    "temp": 92
+   },
+   "efficiency": {
+    "home_epa": -0.128,
+    "away_epa": 0.0776,
+    "home_sr": 0.38,
+    "away_sr": 0.267
+   }
+  },
+  {
+   "game_id": "2026_02_PIT_NE",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "NE",
+   "away": "PIT",
+   "total": 58,
+   "margin": 5.86,
+   "home_pts": 34.6,
+   "away_pts": 16.8,
+   "points_total": 52.3,
+   "points_margin": 5.73,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.423,
+     "qb": 0.878,
+     "weather": -0.243,
+     "efficiency": -0.579
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.584,
+     "qb": 1.31,
+     "efficiency": 1
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039851",
+     "name": "Drake Maye",
+     "epa_db": 0.0923,
+     "vs_team": 0.0076,
+     "known": true
+    },
+    "away": {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "epa_db": -0.0369,
+     "vs_team": 0.0035,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 7,
+    "temp": 63
+   },
+   "efficiency": {
+    "home_epa": 0.023,
+    "away_epa": -0.0302,
+    "home_sr": 0.42,
+    "away_sr": 0.361
+   }
+  },
+  {
+   "game_id": "2026_02_SEA_ARI",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "ARI",
+   "away": "SEA",
+   "total": 37.1,
+   "margin": -1.84,
+   "home_pts": 18.7,
+   "away_pts": 22.4,
+   "points_total": 49.8,
+   "points_margin": -5.08,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.155,
+     "qb": -1.85,
+     "weather": 2.08,
+     "efficiency": -1.041
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -2.09,
+     "qb": 0.883,
+     "efficiency": -4.85
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033119",
+     "name": "Jacoby Brissett",
+     "epa_db": -0.0676,
+     "vs_team": -0.013,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035704",
+     "name": "Drew Lock",
+     "epa_db": -0.0593,
+     "vs_team": -0.0778,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0383,
+    "away_epa": 0.0355,
+    "home_sr": 0.261,
+    "away_sr": 0.582
+   }
+  },
+  {
+   "game_id": "2026_02_WAS_DAL",
+   "week": 2,
+   "gameday": "2026-09-20",
+   "played": true,
+   "home": "DAL",
+   "away": "WAS",
+   "total": 35.6,
+   "margin": 1.25,
+   "home_pts": 30.2,
+   "away_pts": 19.5,
+   "points_total": 41.2,
+   "points_margin": 0.677,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.196,
+     "qb": 0.92,
+     "weather": 2.08,
+     "efficiency": 2.55
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.092,
+     "qb": 1.44,
+     "efficiency": -1.44
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033077",
+     "name": "Dak Prescott",
+     "epa_db": 0.0904,
+     "vs_team": 0.0293,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039910",
+     "name": "Jayden Daniels",
+     "epa_db": -0.0026,
+     "vs_team": 0.0028,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.075,
+    "away_epa": 0.185,
+    "home_sr": 0.457,
+    "away_sr": 0.397
+   }
+  },
+  {
+   "game_id": "2026_02_NYG_LA",
+   "week": 2,
+   "gameday": "2026-09-21",
+   "played": true,
+   "home": "LA",
+   "away": "NYG",
+   "total": 51.1,
+   "margin": 7.76,
+   "home_pts": 32.8,
+   "away_pts": 27.1,
+   "points_total": 28.6,
+   "points_margin": 3.59,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.328,
+     "qb": 1.39,
+     "weather": 1.27,
+     "efficiency": 1.01
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.767,
+     "qb": 0.742,
+     "efficiency": 3
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0026498",
+     "name": "Matthew Stafford",
+     "epa_db": 0.0889,
+     "vs_team": 0.0013,
+     "known": true
+    },
+    "away": {
+     "id": "00-0040691",
+     "name": "Jaxson Dart",
+     "epa_db": 0.0052,
+     "vs_team": 0.0261,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.1362,
+    "away_epa": 0.0332,
+    "home_sr": 0.579,
+    "away_sr": 0.324
+   }
+  },
+  {
+   "game_id": "2026_03_ATL_GB",
+   "week": 3,
+   "gameday": "2026-09-24",
+   "played": true,
+   "home": "GB",
+   "away": "ATL",
+   "total": 59.3,
+   "margin": 4.11,
+   "home_pts": 22.3,
+   "away_pts": 22.9,
+   "points_total": 41.5,
+   "points_margin": 5.73,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.375,
+     "qb": 1.03,
+     "weather": 0.0729,
+     "efficiency": -1.37
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.675,
+     "qb": 0.707,
+     "efficiency": 1.52
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036264",
+     "name": "Jordan Love",
+     "epa_db": 0.0883,
+     "vs_team": 0.011,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039917",
+     "name": "Michael Penix Jr.",
+     "epa_db": -0.0485,
+     "vs_team": 0.0355,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 5,
+    "temp": 61
+   },
+   "efficiency": {
+    "home_epa": 0.002,
+    "away_epa": -0.069,
+    "home_sr": 0.44,
+    "away_sr": 0.256
+   }
+  },
+  {
+   "game_id": "2026_03_ARI_SF",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "SF",
+   "away": "ARI",
+   "total": 49,
+   "margin": 13.4,
+   "home_pts": 27.6,
+   "away_pts": 14.1,
+   "points_total": 30.2,
+   "points_margin": 10.73,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.133,
+     "qb": 0.669,
+     "weather": 0.342,
+     "efficiency": 0.308
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 2.49,
+     "qb": 3.25,
+     "efficiency": 5.77
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0037834",
+     "name": "Brock Purdy",
+     "epa_db": 0.138,
+     "vs_team": 0.0406,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033119",
+     "name": "Jacoby Brissett",
+     "epa_db": -0.0812,
+     "vs_team": -0.0104,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 4,
+    "temp": 70
+   },
+   "efficiency": {
+    "home_epa": 0.134,
+    "away_epa": 0.002,
+    "home_sr": 0.299,
+    "away_sr": 0.309
+   }
+  },
+  {
+   "game_id": "2026_03_BAL_DAL",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "DAL",
+   "away": "BAL",
+   "total": 34.2,
+   "margin": -1.75,
+   "home_pts": 24.4,
+   "away_pts": 18.7,
+   "points_total": 39.8,
+   "points_margin": -2.12,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.3,
+     "qb": 1.7,
+     "weather": -0.255,
+     "efficiency": 2.77
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.104,
+     "qb": 0.137,
+     "efficiency": -4.62
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033077",
+     "name": "Dak Prescott",
+     "epa_db": 0.0641,
+     "vs_team": 0.0171,
+     "known": true
+    },
+    "away": {
+     "id": "00-0034796",
+     "name": "Lamar Jackson",
+     "epa_db": 0.0714,
+     "vs_team": 0.0255,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 7,
+    "temp": 77
+   },
+   "efficiency": {
+    "home_epa": 0.0624,
+    "away_epa": 0.148,
+    "home_sr": 0.483,
+    "away_sr": 0.647
+   }
+  },
+  {
+   "game_id": "2026_03_CAR_CLE",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "CLE",
+   "away": "CAR",
+   "total": 53.2,
+   "margin": -0.259,
+   "home_pts": 18.3,
+   "away_pts": 28.8,
+   "points_total": 53.6,
+   "points_margin": -1.88,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.111,
+     "qb": -1.026,
+     "weather": -1.77,
+     "efficiency": -2.19
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.727,
+     "qb": 0.0112,
+     "efficiency": -1.68
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033537",
+     "name": "Deshaun Watson",
+     "epa_db": -0.0656,
+     "vs_team": 0.0284,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039150",
+     "name": "Bryce Young",
+     "epa_db": -0.0578,
+     "vs_team": 0.0026,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 12,
+    "temp": 68
+   },
+   "efficiency": {
+    "home_epa": -0.088,
+    "away_epa": -0.0277,
+    "home_sr": 0.448,
+    "away_sr": 0.255
+   }
+  },
+  {
+   "game_id": "2026_03_CIN_PIT",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "PIT",
+   "away": "CIN",
+   "total": 36.4,
+   "margin": -0.266,
+   "home_pts": 22.7,
+   "away_pts": 13.7,
+   "points_total": 47,
+   "points_margin": -0.309,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.067,
+     "qb": 0.531,
+     "weather": -1.5,
+     "efficiency": -1.12
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.541,
+     "qb": -2.03,
+     "efficiency": 0.08
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "epa_db": -0.0391,
+     "vs_team": 0.0004,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036442",
+     "name": "Joe Burrow",
+     "epa_db": 0.0268,
+     "vs_team": 0.0444,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 12,
+    "temp": 70
+   },
+   "efficiency": {
+    "home_epa": -0.0219,
+    "away_epa": -0.0243,
+    "home_sr": 0.291,
+    "away_sr": 0.363
+   }
+  },
+  {
+   "game_id": "2026_03_HOU_IND",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "IND",
+   "away": "HOU",
+   "total": 40.7,
+   "margin": 1.01,
+   "home_pts": 21.3,
+   "away_pts": 13.5,
+   "points_total": 44.4,
+   "points_margin": -0.644,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.732,
+     "qb": 0.151,
+     "weather": -0.083,
+     "efficiency": -0.639
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.56,
+     "qb": -0.0332,
+     "efficiency": 0.0496
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0035710",
+     "name": "Daniel Jones",
+     "epa_db": -0.0178,
+     "vs_team": 0.0149,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039163",
+     "name": "C.J. Stroud",
+     "epa_db": -0.0097,
+     "vs_team": 0.0073,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0184,
+    "away_epa": 0.01,
+    "home_sr": 0.571,
+    "away_sr": 0.564
+   }
+  },
+  {
+   "game_id": "2026_03_KC_MIA",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "MIA",
+   "away": "KC",
+   "total": 47.8,
+   "margin": -3.59,
+   "home_pts": 19.1,
+   "away_pts": 29.3,
+   "points_total": 36.7,
+   "points_margin": -5.7,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.22,
+     "qb": 0.465,
+     "weather": 0.053,
+     "efficiency": -0.17
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.37,
+     "qb": -1.2,
+     "efficiency": -4.22
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0038128",
+     "name": "Malik Willis",
+     "epa_db": -0.0074,
+     "vs_team": -0.0201,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "epa_db": 0.0287,
+     "vs_team": 0.0152,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 5,
+    "temp": 86
+   },
+   "efficiency": {
+    "home_epa": -0.0691,
+    "away_epa": 0.1096,
+    "home_sr": 0.481,
+    "away_sr": 0.493
+   }
+  },
+  {
+   "game_id": "2026_03_LAC_BUF",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "BUF",
+   "away": "LAC",
+   "total": 63.4,
+   "margin": 5.55,
+   "home_pts": 22.1,
+   "away_pts": 14,
+   "points_total": 43.3,
+   "points_margin": 6.88,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.449,
+     "qb": 0.71,
+     "weather": -0.95,
+     "efficiency": 0.887
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 2.04,
+     "qb": 0.96,
+     "efficiency": 4.15
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "epa_db": 0.116,
+     "vs_team": 0.0038,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "epa_db": -0.0113,
+     "vs_team": 0.0063,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 12,
+    "temp": 68
+   },
+   "efficiency": {
+    "home_epa": 0.137,
+    "away_epa": -0.029,
+    "home_sr": 0.543,
+    "away_sr": 0.306
+   }
+  },
+  {
+   "game_id": "2026_03_LA_DEN",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "DEN",
+   "away": "LA",
+   "total": 40.3,
+   "margin": -2.15,
+   "home_pts": 17.3,
+   "away_pts": 16.8,
+   "points_total": 40.1,
+   "points_margin": -2.29,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.512,
+     "qb": 1.17,
+     "weather": -1.15,
+     "efficiency": -1.064
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.824,
+     "qb": -0.61,
+     "efficiency": -1.83
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039732",
+     "name": "Bo Nix",
+     "epa_db": 0.0088,
+     "vs_team": 0,
+     "known": true
+    },
+    "away": {
+     "id": "00-0026498",
+     "name": "Matthew Stafford",
+     "epa_db": 0.1055,
+     "vs_team": 0.0013,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 10,
+    "temp": 83
+   },
+   "efficiency": {
+    "home_epa": -0.0741,
+    "away_epa": 0.0212,
+    "home_sr": 0.516,
+    "away_sr": 0.393
+   }
+  },
+  {
+   "game_id": "2026_03_LV_NO",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "NO",
+   "away": "LV",
+   "total": 45.8,
+   "margin": 2.1,
+   "home_pts": 25.1,
+   "away_pts": 12.4,
+   "points_total": 42.8,
+   "points_margin": 3.15,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.628,
+     "qb": 0.471,
+     "weather": 1.89,
+     "efficiency": -2.18
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.369,
+     "qb": -0.177,
+     "efficiency": 1.03
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0040743",
+     "name": "Tyler Shough",
+     "epa_db": -0.0266,
+     "vs_team": 0.0249,
+     "known": true
+    },
+    "away": {
+     "id": "00-0029604",
+     "name": "Kirk Cousins",
+     "epa_db": -0.0172,
+     "vs_team": 0.0486,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0661,
+    "away_epa": -0.14,
+    "home_sr": 0.534,
+    "away_sr": 0.37
+   }
+  },
+  {
+   "game_id": "2026_03_MIN_TB",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "TB",
+   "away": "MIN",
+   "total": 57.5,
+   "margin": -1.07,
+   "home_pts": 19,
+   "away_pts": 13.9,
+   "points_total": 28.9,
+   "points_margin": -2.41,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.287,
+     "qb": 0.701,
+     "weather": -0.365,
+     "efficiency": -1.6
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.72,
+     "qb": -0.545,
+     "efficiency": -0.922
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034855",
+     "name": "Baker Mayfield",
+     "epa_db": -0.0297,
+     "vs_team": 0,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035228",
+     "name": "Kyler Murray",
+     "epa_db": -0.0139,
+     "vs_team": 0.0754,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 7,
+    "temp": 84
+   },
+   "efficiency": {
+    "home_epa": -0.1342,
+    "away_epa": -0.0301,
+    "home_sr": 0.433,
+    "away_sr": 0.469
+   }
+  },
+  {
+   "game_id": "2026_03_NE_JAX",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "JAX",
+   "away": "NE",
+   "total": 30.3,
+   "margin": 0.763,
+   "home_pts": 23.1,
+   "away_pts": 23.2,
+   "points_total": 43.5,
+   "points_margin": 0.494,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.601,
+     "qb": 0.993,
+     "weather": -0.378,
+     "efficiency": 0.549
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.334,
+     "qb": -0.514,
+     "efficiency": 0.183
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036971",
+     "name": "Trevor Lawrence",
+     "epa_db": 0.0115,
+     "vs_team": 0.0014,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039851",
+     "name": "Drake Maye",
+     "epa_db": 0.0594,
+     "vs_team": 0.0032,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 7,
+    "temp": 80
+   },
+   "efficiency": {
+    "home_epa": 0.0068,
+    "away_epa": 0.019,
+    "home_sr": 0.441,
+    "away_sr": 0.513
+   }
+  },
+  {
+   "game_id": "2026_03_NYJ_DET",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "DET",
+   "away": "NYJ",
+   "total": 54.1,
+   "margin": 6.96,
+   "home_pts": 36.4,
+   "away_pts": 21,
+   "points_total": 30.9,
+   "points_margin": 9.03,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.947,
+     "qb": 0.858,
+     "weather": 1.65,
+     "efficiency": 0.298
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.42,
+     "qb": 1.27,
+     "efficiency": 2.22
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "epa_db": 0.134,
+     "vs_team": 0,
+     "known": true
+    },
+    "away": {
+     "id": "00-0030565",
+     "name": "Geno Smith",
+     "epa_db": -0.0437,
+     "vs_team": 0.0238,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.1148,
+    "away_epa": -0.0126,
+    "home_sr": 0.602,
+    "away_sr": 0.336
+   }
+  },
+  {
+   "game_id": "2026_03_SEA_WAS",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "WAS",
+   "away": "SEA",
+   "total": 46.8,
+   "margin": -3.54,
+   "home_pts": 24.8,
+   "away_pts": 26.9,
+   "points_total": 36,
+   "points_margin": -9.99,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.15,
+     "qb": -0.304,
+     "weather": -1.41,
+     "efficiency": -0.425
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -3.13,
+     "qb": 0.506,
+     "efficiency": -6.77
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039910",
+     "name": "Jayden Daniels",
+     "epa_db": -0.0046,
+     "vs_team": 0.0021,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035704",
+     "name": "Drew Lock",
+     "epa_db": -0.0121,
+     "vs_team": -0.0232,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 13,
+    "temp": 63
+   },
+   "efficiency": {
+    "home_epa": -0.0561,
+    "away_epa": 0.12,
+    "home_sr": 0.336,
+    "away_sr": 0.424
+   }
+  },
+  {
+   "game_id": "2026_03_TEN_NYG",
+   "week": 3,
+   "gameday": "2026-09-27",
+   "played": true,
+   "home": "NYG",
+   "away": "TEN",
+   "total": 44.9,
+   "margin": 4.29,
+   "home_pts": 19.7,
+   "away_pts": 13.1,
+   "points_total": 32.7,
+   "points_margin": 3.83,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.173,
+     "qb": -4.33,
+     "weather": -1.091,
+     "efficiency": 0.1013
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.95,
+     "qb": 0.0131,
+     "efficiency": 1.012
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0031503",
+     "name": "Jameis Winston",
+     "epa_db": -0.1293,
+     "vs_team": -0.0496,
+     "known": true
+    },
+    "away": {
+     "id": "00-0040676",
+     "name": "Cam Ward",
+     "epa_db": -0.158,
+     "vs_team": -0.0089,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 10,
+    "temp": 62
+   },
+   "efficiency": {
+    "home_epa": 0.0732,
+    "away_epa": 0.0108,
+    "home_sr": 0.605,
+    "away_sr": 0.272
+   }
+  },
+  {
+   "game_id": "2026_03_PHI_CHI",
+   "week": 3,
+   "gameday": "2026-09-28",
+   "played": true,
+   "home": "CHI",
+   "away": "PHI",
+   "total": 32.3,
+   "margin": 0.837,
+   "home_pts": 29.5,
+   "away_pts": 24.7,
+   "points_total": 31.8,
+   "points_margin": 2.18,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.0766,
+     "qb": -0.968,
+     "weather": 0.526,
+     "efficiency": 0.316
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.087,
+     "qb": -1.17,
+     "efficiency": 0.536
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0028986",
+     "name": "Case Keenum",
+     "epa_db": -0.0827,
+     "vs_team": -0.06,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036389",
+     "name": "Jalen Hurts",
+     "epa_db": 0.0313,
+     "vs_team": 0.0081,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 3,
+    "temp": 64
+   },
+   "efficiency": {
+    "home_epa": 0.0385,
+    "away_epa": 0.0263,
+    "home_sr": 0.374,
+    "away_sr": 0.482
+   }
+  },
+  {
+   "game_id": "2026_04_PIT_CLE",
+   "week": 4,
+   "gameday": "2026-10-01",
+   "played": true,
+   "home": "CLE",
+   "away": "PIT",
+   "total": 48.9,
+   "margin": -0.626,
+   "home_pts": 20.2,
+   "away_pts": 22.9,
+   "points_total": 47.9,
+   "points_margin": -1.74,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.682,
+     "qb": -0.705,
+     "weather": -1.33,
+     "efficiency": -1.78
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.674,
+     "qb": 0.0285,
+     "efficiency": -1.92
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033537",
+     "name": "Deshaun Watson",
+     "epa_db": -0.0598,
+     "vs_team": 0.0275,
+     "known": true
+    },
+    "away": {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "epa_db": -0.0643,
+     "vs_team": 0.0019,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 11,
+    "temp": 77
+   },
+   "efficiency": {
+    "home_epa": -0.1076,
+    "away_epa": -0.0416,
+    "home_sr": 0.457,
+    "away_sr": 0.516
+   }
+  },
+  {
+   "game_id": "2026_04_ARI_NYG",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "NYG",
+   "away": "ARI",
+   "total": 25.8,
+   "margin": -0.178,
+   "home_pts": 19.7,
+   "away_pts": 16.1,
+   "points_total": 27.7,
+   "points_margin": 1.37,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.126,
+     "qb": -3.01,
+     "weather": -0.775,
+     "efficiency": 0.453
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.0251,
+     "qb": -1.47,
+     "efficiency": -0.223
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0031503",
+     "name": "Jameis Winston",
+     "epa_db": -0.153,
+     "vs_team": -0.0455,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033119",
+     "name": "Jacoby Brissett",
+     "epa_db": -0.0362,
+     "vs_team": -0.002,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 9,
+    "temp": 63
+   },
+   "efficiency": {
+    "home_epa": 0.0339,
+    "away_epa": 0.0924,
+    "home_sr": 0.327,
+    "away_sr": 0.36
+   }
+  },
+  {
+   "game_id": "2026_04_DAL_HOU",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "HOU",
+   "away": "DAL",
+   "total": 62.3,
+   "margin": 3.05,
+   "home_pts": 36.4,
+   "away_pts": 18.7,
+   "points_total": 30.6,
+   "points_margin": 4.03,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.525,
+     "qb": 1.01,
+     "weather": 2.51,
+     "efficiency": -0.0662
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.432,
+     "qb": -1.7,
+     "efficiency": 2.39
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039163",
+     "name": "C.J. Stroud",
+     "epa_db": -0.0278,
+     "vs_team": 0.0082,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033077",
+     "name": "Dak Prescott",
+     "epa_db": 0.0568,
+     "vs_team": 0.0188,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.045,
+    "away_epa": 0.0146,
+    "home_sr": 0.407,
+    "away_sr": 0.491
+   }
+  },
+  {
+   "game_id": "2026_04_DEN_SF",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "SF",
+   "away": "DEN",
+   "total": 47.2,
+   "margin": 3.93,
+   "home_pts": 27,
+   "away_pts": 28.1,
+   "points_total": 60.8,
+   "points_margin": 5.04,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.0707,
+     "qb": 2.08,
+     "weather": 0.278,
+     "efficiency": -0.333
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.745,
+     "qb": 1.86,
+     "efficiency": 2
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0037834",
+     "name": "Brock Purdy",
+     "epa_db": 0.17,
+     "vs_team": 0.0496,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039732",
+     "name": "Bo Nix",
+     "epa_db": 0.002,
+     "vs_team": 0,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 4,
+    "temp": 87
+   },
+   "efficiency": {
+    "home_epa": 0.0993,
+    "away_epa": 0.0223,
+    "home_sr": 0.525,
+    "away_sr": 0.577
+   }
+  },
+  {
+   "game_id": "2026_04_DET_CAR",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "CAR",
+   "away": "DET",
+   "total": 33.7,
+   "margin": -2.4,
+   "home_pts": 21.9,
+   "away_pts": 26,
+   "points_total": 70.3,
+   "points_margin": -1.26,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.58,
+     "qb": 0.554,
+     "weather": 0.684,
+     "efficiency": 1.38
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.483,
+     "qb": -2.51,
+     "efficiency": -0.66
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039150",
+     "name": "Bryce Young",
+     "epa_db": -0.0653,
+     "vs_team": 0.001,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "epa_db": 0.079,
+     "vs_team": 0,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 2,
+    "temp": 66
+   },
+   "efficiency": {
+    "home_epa": 0.0316,
+    "away_epa": 0.0913,
+    "home_sr": 0.511,
+    "away_sr": 0.583
+   }
+  },
+  {
+   "game_id": "2026_04_GB_TB",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "TB",
+   "away": "GB",
+   "total": 35,
+   "margin": 0.74,
+   "home_pts": 21.5,
+   "away_pts": 14.5,
+   "points_total": 62,
+   "points_margin": 2.06,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.3,
+     "qb": 0.0135,
+     "weather": 0.649,
+     "efficiency": -0.667
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0,
+     "qb": -1.42,
+     "efficiency": 1.62
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0041251",
+     "name": "Jalon Daniels",
+     "epa_db": -0.0606,
+     "vs_team": -0.0334,
+     "known": false
+    },
+    "away": {
+     "id": "00-0036264",
+     "name": "Jordan Love",
+     "epa_db": 0.0521,
+     "vs_team": 0.0144,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 3,
+    "temp": 86
+   },
+   "efficiency": {
+    "home_epa": 0.0093,
+    "away_epa": 0.0173,
+    "home_sr": 0.415,
+    "away_sr": 0.427
+   }
+  },
+  {
+   "game_id": "2026_04_IND_WAS",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "WAS",
+   "away": "IND",
+   "total": 29.9,
+   "margin": 0.393,
+   "home_pts": 24.1,
+   "away_pts": 28.1,
+   "points_total": 66.8,
+   "points_margin": -0.693,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.34,
+     "qb": 0,
+     "weather": -0.397,
+     "efficiency": 0.968
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.76,
+     "qb": 0.43,
+     "efficiency": -1
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0032268",
+     "name": "Marcus Mariota",
+     "epa_db": -0.0016,
+     "vs_team": 0.0057,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035710",
+     "name": "Daniel Jones",
+     "epa_db": -0.0338,
+     "vs_team": 0.009,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 7,
+    "temp": 70
+   },
+   "efficiency": {
+    "home_epa": 0.0325,
+    "away_epa": 0.0858,
+    "home_sr": 0.406,
+    "away_sr": 0.429
+   }
+  },
+  {
+   "game_id": "2026_04_JAX_CIN",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "CIN",
+   "away": "JAX",
+   "total": 60.4,
+   "margin": -1.41,
+   "home_pts": 31,
+   "away_pts": 17.6,
+   "points_total": 37.9,
+   "points_margin": -5.78,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.414,
+     "qb": 1.28,
+     "weather": 0.253,
+     "efficiency": 1.35
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.46,
+     "qb": 0.676,
+     "efficiency": -1.67
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036442",
+     "name": "Joe Burrow",
+     "epa_db": 0.0422,
+     "vs_team": 0.037,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036971",
+     "name": "Trevor Lawrence",
+     "epa_db": 0.0205,
+     "vs_team": 0.0008,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 4,
+    "temp": 70
+   },
+   "efficiency": {
+    "home_epa": -0.0176,
+    "away_epa": 0.0679,
+    "home_sr": 0.599,
+    "away_sr": 0.442
+   }
+  },
+  {
+   "game_id": "2026_04_KC_LV",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "LV",
+   "away": "KC",
+   "total": 49.5,
+   "margin": -3.78,
+   "home_pts": 20.6,
+   "away_pts": 26.1,
+   "points_total": 26.2,
+   "points_margin": -3.49,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.597,
+     "qb": 1.27,
+     "weather": 2.22,
+     "efficiency": -2.34
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.78,
+     "qb": -0.477,
+     "efficiency": -3.48
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0029604",
+     "name": "Kirk Cousins",
+     "epa_db": -0.0026,
+     "vs_team": 0.0317,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "epa_db": 0.0496,
+     "vs_team": 0.0155,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0674,
+    "away_epa": 0.005,
+    "home_sr": 0.485,
+    "away_sr": 0.37
+   }
+  },
+  {
+   "game_id": "2026_04_LAC_SEA",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "SEA",
+   "away": "LAC",
+   "total": 58.6,
+   "margin": 6.35,
+   "home_pts": 20.4,
+   "away_pts": 22.2,
+   "points_total": 46.2,
+   "points_margin": 12.35,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.887,
+     "qb": -0.601,
+     "weather": 0.44,
+     "efficiency": -2.07
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.75,
+     "qb": -0.246,
+     "efficiency": 6.25
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0035704",
+     "name": "Drew Lock",
+     "epa_db": -0.0144,
+     "vs_team": -0.0252,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "epa_db": -0.0232,
+     "vs_team": 0.0045,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 3,
+    "temp": 63
+   },
+   "efficiency": {
+    "home_epa": -0.0179,
+    "away_epa": -0.096,
+    "home_sr": 0.569,
+    "away_sr": 0.435
+   }
+  },
+  {
+   "game_id": "2026_04_LA_PHI",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "PHI",
+   "away": "LA",
+   "total": 48.9,
+   "margin": -2.74,
+   "home_pts": 19.6,
+   "away_pts": 30,
+   "points_total": 61.2,
+   "points_margin": -2.62,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.376,
+     "qb": 1.211,
+     "weather": -0.544,
+     "efficiency": -0.545
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.838,
+     "qb": -1.099,
+     "efficiency": -3.57
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036389",
+     "name": "Jalen Hurts",
+     "epa_db": 0.0083,
+     "vs_team": 0.0033,
+     "known": true
+    },
+    "away": {
+     "id": "00-0026498",
+     "name": "Matthew Stafford",
+     "epa_db": 0.0983,
+     "vs_team": 0.0011,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 9,
+    "temp": 62
+   },
+   "efficiency": {
+    "home_epa": -0.0384,
+    "away_epa": 0.0412,
+    "home_sr": 0.513,
+    "away_sr": 0.526
+   }
+  },
+  {
+   "game_id": "2026_04_MIA_MIN",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "MIN",
+   "away": "MIA",
+   "total": 27.1,
+   "margin": 6.31,
+   "home_pts": 27.7,
+   "away_pts": 18.8,
+   "points_total": 24.9,
+   "points_margin": 7.03,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -1.282,
+     "qb": -0.338,
+     "weather": 1.37,
+     "efficiency": -2.29
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 2.14,
+     "qb": 0.331,
+     "efficiency": 5.07
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0035228",
+     "name": "Kyler Murray",
+     "epa_db": -0.0299,
+     "vs_team": 0.0251,
+     "known": true
+    },
+    "away": {
+     "id": "00-0038128",
+     "name": "Malik Willis",
+     "epa_db": -0.0255,
+     "vs_team": -0.0231,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0025,
+    "away_epa": -0.178,
+    "home_sr": 0.322,
+    "away_sr": 0.481
+   }
+  },
+  {
+   "game_id": "2026_04_NE_BUF",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "BUF",
+   "away": "NE",
+   "total": 46.4,
+   "margin": 4.46,
+   "home_pts": 35.2,
+   "away_pts": 24.3,
+   "points_total": 60.1,
+   "points_margin": 2.4,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.411,
+     "qb": 1.04,
+     "weather": -1.39,
+     "efficiency": 1.66
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.314,
+     "qb": 0.602,
+     "efficiency": 1.89
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "epa_db": 0.1134,
+     "vs_team": 0.0029,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039851",
+     "name": "Drake Maye",
+     "epa_db": 0.0666,
+     "vs_team": 0.0029,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 11,
+    "temp": 69
+   },
+   "efficiency": {
+    "home_epa": 0.1165,
+    "away_epa": 0.0598,
+    "home_sr": 0.548,
+    "away_sr": 0.485
+   }
+  },
+  {
+   "game_id": "2026_04_NYJ_CHI",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "CHI",
+   "away": "NYJ",
+   "total": 60,
+   "margin": 5.03,
+   "home_pts": 26.4,
+   "away_pts": 25.1,
+   "points_total": 53.9,
+   "points_margin": 7.68,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.097,
+     "qb": -0.537,
+     "weather": 0.475,
+     "efficiency": 0.278
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 2,
+     "qb": -0.264,
+     "efficiency": 4.12
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0028986",
+     "name": "Case Keenum",
+     "epa_db": -0.0238,
+     "vs_team": -0.0218,
+     "known": true
+    },
+    "away": {
+     "id": "00-0030565",
+     "name": "Geno Smith",
+     "epa_db": -0.0711,
+     "vs_team": 0.0203,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 3,
+    "temp": 72
+   },
+   "efficiency": {
+    "home_epa": 0.1252,
+    "away_epa": -0.0723,
+    "home_sr": 0.601,
+    "away_sr": 0.317
+   }
+  },
+  {
+   "game_id": "2026_04_TEN_BAL",
+   "week": 4,
+   "gameday": "2026-10-04",
+   "played": true,
+   "home": "BAL",
+   "away": "TEN",
+   "total": 35.3,
+   "margin": 8.7,
+   "home_pts": 25.4,
+   "away_pts": 19.1,
+   "points_total": 61.3,
+   "points_margin": 5.92,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.0386,
+     "qb": -0.389,
+     "weather": -0.084,
+     "efficiency": 0.265
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.74,
+     "qb": 3.6,
+     "efficiency": 3.31
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034796",
+     "name": "Lamar Jackson",
+     "epa_db": 0.0754,
+     "vs_team": 0.0242,
+     "known": true
+    },
+    "away": {
+     "id": "00-0040676",
+     "name": "Cam Ward",
+     "epa_db": -0.142,
+     "vs_team": -0.0086,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": 6,
+    "temp": 62
+   },
+   "efficiency": {
+    "home_epa": 0.121,
+    "away_epa": -0.0572,
+    "home_sr": 0.283,
+    "away_sr": 0.56
+   }
+  },
+  {
+   "game_id": "2026_04_ATL_NO",
+   "week": 4,
+   "gameday": "2026-10-05",
+   "played": true,
+   "home": "NO",
+   "away": "ATL",
+   "total": 56.7,
+   "margin": 0.77,
+   "home_pts": 31.2,
+   "away_pts": 20.7,
+   "points_total": 33.7,
+   "points_margin": 2.13,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.166,
+     "qb": 0.617,
+     "weather": 2.65,
+     "efficiency": -2.54
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.136,
+     "qb": -0.451,
+     "efficiency": -0.774
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0040743",
+     "name": "Tyler Shough",
+     "epa_db": -0.0284,
+     "vs_team": 0.0138,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039917",
+     "name": "Michael Penix Jr.",
+     "epa_db": -0.0157,
+     "vs_team": 0.0469,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0292,
+    "away_epa": -0.0327,
+    "home_sr": 0.467,
+    "away_sr": 0.354
+   }
+  },
+  {
+   "game_id": "2026_05_TB_DAL",
+   "week": 5,
+   "gameday": "2026-10-08",
+   "played": true,
+   "home": "DAL",
+   "away": "TB",
+   "total": 40,
+   "margin": 3.95,
+   "home_pts": 28.2,
+   "away_pts": 30.6,
+   "points_total": 31.8,
+   "points_margin": 2.87,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.33,
+     "qb": 0.0825,
+     "weather": 1.14,
+     "efficiency": 1
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.157,
+     "qb": 3.18,
+     "efficiency": -1.55
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033077",
+     "name": "Dak Prescott",
+     "epa_db": 0.1287,
+     "vs_team": 0.0115,
+     "known": true
+    },
+    "away": {
+     "id": "00-0041251",
+     "name": "Jalon Daniels",
+     "epa_db": -0.0658,
+     "vs_team": -0.021,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0579,
+    "away_epa": 0.0862,
+    "home_sr": 0.579,
+    "away_sr": 0.316
+   }
+  },
+  {
+   "game_id": "2026_05_BAL_ATL",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "ATL",
+   "away": "BAL",
+   "total": 59.8,
+   "margin": 3.35,
+   "home_pts": 20.6,
+   "away_pts": 20.6,
+   "points_total": 40.2,
+   "points_margin": -2.22,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.403,
+     "qb": -1.12,
+     "weather": -0.12,
+     "efficiency": 0.691
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.6,
+     "qb": 2.24,
+     "efficiency": -0.22
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039917",
+     "name": "Michael Penix Jr.",
+     "epa_db": 0.0136,
+     "vs_team": 0.0294,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035993",
+     "name": "Tyler Huntley",
+     "epa_db": -0.0557,
+     "vs_team": -0.127,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0126,
+    "away_epa": 0.0513,
+    "home_sr": 0.302,
+    "away_sr": 0.593
+   }
+  },
+  {
+   "game_id": "2026_05_CHI_GB",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "GB",
+   "away": "CHI",
+   "total": 57.4,
+   "margin": -0.279,
+   "home_pts": 28.9,
+   "away_pts": 32.2,
+   "points_total": 31.4,
+   "points_margin": -5.5,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.0754,
+     "qb": 0.234,
+     "weather": -0.112,
+     "efficiency": 1.55
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.97,
+     "qb": 2.13,
+     "efficiency": -2.94
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036264",
+     "name": "Jordan Love",
+     "epa_db": 0.0893,
+     "vs_team": 0.01,
+     "known": true
+    },
+    "away": {
+     "id": "00-0038416",
+     "name": "Tyson Bagent",
+     "epa_db": -0.0363,
+     "vs_team": -0.0154,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.008,
+    "away_epa": 0.066,
+    "home_sr": 0.272,
+    "away_sr": 0.656
+   }
+  },
+  {
+   "game_id": "2026_05_CIN_MIA",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "MIA",
+   "away": "CIN",
+   "total": 59,
+   "margin": -6.6,
+   "home_pts": 27.5,
+   "away_pts": 22.2,
+   "points_total": 51,
+   "points_margin": -4.6,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.025,
+     "qb": -0.0686,
+     "weather": -0.09,
+     "efficiency": 1.186
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.89,
+     "qb": -2.75,
+     "efficiency": -2.4
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0038128",
+     "name": "Malik Willis",
+     "epa_db": -0.0915,
+     "vs_team": -0.0358,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036442",
+     "name": "Joe Burrow",
+     "epa_db": 0.0468,
+     "vs_team": 0.0367,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0153,
+    "away_epa": 0.1236,
+    "home_sr": 0.326,
+    "away_sr": 0.292
+   }
+  },
+  {
+   "game_id": "2026_05_CLE_NYJ",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "NYJ",
+   "away": "CLE",
+   "total": 27.9,
+   "margin": 0.292,
+   "home_pts": 24.9,
+   "away_pts": 18.1,
+   "points_total": 49.1,
+   "points_margin": -0.77,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.436,
+     "qb": -0.0736,
+     "weather": -0.099,
+     "efficiency": -1.39
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.652,
+     "qb": -0.287,
+     "efficiency": -0.386
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0030565",
+     "name": "Geno Smith",
+     "epa_db": -0.0366,
+     "vs_team": 0.0153,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033537",
+     "name": "Deshaun Watson",
+     "epa_db": -0.0419,
+     "vs_team": 0.035,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0854,
+    "away_epa": -0.0305,
+    "home_sr": 0.457,
+    "away_sr": 0.347
+   }
+  },
+  {
+   "game_id": "2026_05_DEN_LAC",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "LAC",
+   "away": "DEN",
+   "total": 36,
+   "margin": -0.613,
+   "home_pts": 24.4,
+   "away_pts": 15.2,
+   "points_total": 29.3,
+   "points_margin": -1.7,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.747,
+     "qb": -0.0538,
+     "weather": 1.4,
+     "efficiency": -2.81
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1,
+     "qb": -0.339,
+     "efficiency": -0.81
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "epa_db": -0.0213,
+     "vs_team": 0.0024,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039732",
+     "name": "Bo Nix",
+     "epa_db": 0.0045,
+     "vs_team": 0,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0841,
+    "away_epa": -0.0424,
+    "home_sr": 0.48,
+    "away_sr": 0.489
+   }
+  },
+  {
+   "game_id": "2026_05_DET_ARI",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "ARI",
+   "away": "DET",
+   "total": 37.8,
+   "margin": -2.57,
+   "home_pts": 18.4,
+   "away_pts": 20.9,
+   "points_total": 48.8,
+   "points_margin": -4.45,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.25,
+     "qb": 0.482,
+     "weather": 2.19,
+     "efficiency": 1.99
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.78,
+     "qb": -3.06,
+     "efficiency": -1.2
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033119",
+     "name": "Jacoby Brissett",
+     "epa_db": -0.0598,
+     "vs_team": -0.0052,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "epa_db": 0.097,
+     "vs_team": 0,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0618,
+    "away_epa": 0.132,
+    "home_sr": 0.57,
+    "away_sr": 0.573
+   }
+  },
+  {
+   "game_id": "2026_05_HOU_TEN",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "TEN",
+   "away": "HOU",
+   "total": 26,
+   "margin": -5,
+   "home_pts": 12.5,
+   "away_pts": 17.3,
+   "points_total": 33.1,
+   "points_margin": -6.63,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.914,
+     "qb": -0.93,
+     "weather": -0.169,
+     "efficiency": -2.67
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -2.09,
+     "qb": -2.56,
+     "efficiency": -3.6
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0040676",
+     "name": "Cam Ward",
+     "epa_db": -0.185,
+     "vs_team": -0.008,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039163",
+     "name": "C.J. Stroud",
+     "epa_db": -0.0062,
+     "vs_team": 0.0076,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.136,
+    "away_epa": 0.0184,
+    "home_sr": 0.314,
+    "away_sr": 0.354
+   }
+  },
+  {
+   "game_id": "2026_05_IND_PIT",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "PIT",
+   "away": "IND",
+   "total": 39.1,
+   "margin": 0.101,
+   "home_pts": 18.6,
+   "away_pts": 14.8,
+   "points_total": 39.5,
+   "points_margin": -0.232,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.451,
+     "qb": -0.511,
+     "weather": -0.128,
+     "efficiency": -0.62
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.341,
+     "qb": 0.088,
+     "efficiency": -1.71
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "epa_db": -0.0626,
+     "vs_team": 0.0024,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035710",
+     "name": "Daniel Jones",
+     "epa_db": -0.0523,
+     "vs_team": 0.0032,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0099,
+    "away_epa": 0.0082,
+    "home_sr": 0.351,
+    "away_sr": 0.505
+   }
+  },
+  {
+   "game_id": "2026_05_LV_NE",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "NE",
+   "away": "LV",
+   "total": 44.5,
+   "margin": 4.28,
+   "home_pts": 20.5,
+   "away_pts": 17.3,
+   "points_total": 45.3,
+   "points_margin": 6.36,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.39,
+     "qb": 0.78,
+     "weather": -0.158,
+     "efficiency": -0.94
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.881,
+     "qb": 0.156,
+     "efficiency": 1.75
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039851",
+     "name": "Drake Maye",
+     "epa_db": 0.0742,
+     "vs_team": 0.0042,
+     "known": true
+    },
+    "away": {
+     "id": "00-0029604",
+     "name": "Kirk Cousins",
+     "epa_db": 0.0067,
+     "vs_team": 0.0426,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.003,
+    "away_epa": -0.054,
+    "home_sr": 0.59,
+    "away_sr": 0.514
+   }
+  },
+  {
+   "game_id": "2026_05_MIN_NO",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "NO",
+   "away": "MIN",
+   "total": 36.4,
+   "margin": -3.7,
+   "home_pts": 20.2,
+   "away_pts": 24.1,
+   "points_total": 50.2,
+   "points_margin": -6.52,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.364,
+     "qb": 0.058,
+     "weather": 2.61,
+     "efficiency": -4.32
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.19,
+     "qb": -0.0274,
+     "efficiency": -3.68
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0040743",
+     "name": "Tyler Shough",
+     "epa_db": -0.0425,
+     "vs_team": 0.0131,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035228",
+     "name": "Kyler Murray",
+     "epa_db": -0.0337,
+     "vs_team": 0.0339,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.111,
+    "away_epa": -0.0321,
+    "home_sr": 0.543,
+    "away_sr": 0.528
+   }
+  },
+  {
+   "game_id": "2026_05_NYG_WAS",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "WAS",
+   "away": "NYG",
+   "total": 48.3,
+   "margin": 2.54,
+   "home_pts": 18.5,
+   "away_pts": 27.2,
+   "points_total": 41.2,
+   "points_margin": -0.76,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.129,
+     "qb": -1.04,
+     "weather": -0.153,
+     "efficiency": -0.319
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.419,
+     "qb": 1.8,
+     "efficiency": 0.983
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039910",
+     "name": "Jayden Daniels",
+     "epa_db": -0.0077,
+     "vs_team": 0.0071,
+     "known": true
+    },
+    "away": {
+     "id": "00-0031503",
+     "name": "Jameis Winston",
+     "epa_db": -0.0898,
+     "vs_team": -0.0615,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0354,
+    "away_epa": 0.0333,
+    "home_sr": 0.404,
+    "away_sr": 0.375
+   }
+  },
+  {
+   "game_id": "2026_05_PHI_JAX",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "JAX",
+   "away": "PHI",
+   "total": 55.6,
+   "margin": 6.44,
+   "home_pts": 17.2,
+   "away_pts": 14.4,
+   "points_total": 47.2,
+   "points_margin": 8.44,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.75,
+     "qb": 0.309,
+     "weather": -0.14,
+     "efficiency": -0.83
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.15,
+     "qb": 0.473,
+     "efficiency": 4.11
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036971",
+     "name": "Trevor Lawrence",
+     "epa_db": 0.024,
+     "vs_team": 0.0013,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036389",
+     "name": "Jalen Hurts",
+     "epa_db": -0.0108,
+     "vs_team": 0.0027,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0382,
+    "away_epa": -0.0727,
+    "home_sr": 0.628,
+    "away_sr": 0.529
+   }
+  },
+  {
+   "game_id": "2026_05_SF_SEA",
+   "week": 5,
+   "gameday": "2026-10-11",
+   "played": true,
+   "home": "SEA",
+   "away": "SF",
+   "total": 47.1,
+   "margin": -0.612,
+   "home_pts": 18.5,
+   "away_pts": 26,
+   "points_total": 58.4,
+   "points_margin": 0.91,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.099,
+     "qb": 1.7,
+     "weather": -0.18,
+     "efficiency": 0.099
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.126,
+     "qb": -3.48,
+     "efficiency": 0.705
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0035704",
+     "name": "Drew Lock",
+     "epa_db": -0.0103,
+     "vs_team": -0.0194,
+     "known": true
+    },
+    "away": {
+     "id": "00-0037834",
+     "name": "Brock Purdy",
+     "epa_db": 0.147,
+     "vs_team": 0.0413,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.04,
+    "away_epa": 0.0557,
+    "home_sr": 0.519,
+    "away_sr": 0.503
+   }
+  },
+  {
+   "game_id": "2026_05_BUF_LA",
+   "week": 5,
+   "gameday": "2026-10-12",
+   "played": true,
+   "home": "LA",
+   "away": "BUF",
+   "total": 57,
+   "margin": 2.85,
+   "home_pts": 31.2,
+   "away_pts": 18.1,
+   "points_total": 40.4,
+   "points_margin": 1.18,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.75,
+     "qb": 2,
+     "weather": 2.1,
+     "efficiency": 2.64
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.16,
+     "qb": -0.218,
+     "efficiency": 2.06
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0026498",
+     "name": "Matthew Stafford",
+     "epa_db": 0.0628,
+     "vs_team": 0.0005,
+     "known": true
+    },
+    "away": {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "epa_db": 0.122,
+     "vs_team": 0.0044,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.1049,
+    "away_epa": 0.0525,
+    "home_sr": 0.541,
+    "away_sr": 0.569
+   }
+  },
+  {
+   "game_id": "2026_06_SEA_DEN",
+   "week": 6,
+   "gameday": "2026-10-15",
+   "played": true,
+   "home": "DEN",
+   "away": "SEA",
+   "total": 55.9,
+   "margin": -0.452,
+   "home_pts": 14.1,
+   "away_pts": 21,
+   "points_total": 55.6,
+   "points_margin": -2.7,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.268,
+     "qb": -0.145,
+     "weather": -0.094,
+     "efficiency": -4.41
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.829,
+     "qb": 0.285,
+     "efficiency": -1.05
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039732",
+     "name": "Bo Nix",
+     "epa_db": -0.0067,
+     "vs_team": 0,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035704",
+     "name": "Drew Lock",
+     "epa_db": -0.0097,
+     "vs_team": -0.0072,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0958,
+    "away_epa": -0.0835,
+    "home_sr": 0.487,
+    "away_sr": 0.404
+   }
+  },
+  {
+   "game_id": "2026_06_ARI_LA",
+   "week": 6,
+   "gameday": "2026-10-18",
+   "played": true,
+   "home": "LA",
+   "away": "ARI",
+   "total": 65.2,
+   "margin": 13.1,
+   "home_pts": 27.3,
+   "away_pts": 22.6,
+   "points_total": 65,
+   "points_margin": 12.78,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.08,
+     "qb": 0.289,
+     "weather": 1.33,
+     "efficiency": 0.537
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 2.56,
+     "qb": 2.2,
+     "efficiency": 4.67
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0026498",
+     "name": "Matthew Stafford",
+     "epa_db": 0.1168,
+     "vs_team": 0.0009,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033119",
+     "name": "Jacoby Brissett",
+     "epa_db": -0.0879,
+     "vs_team": -0.0082,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.092,
+    "away_epa": -0.0442,
+    "home_sr": 0.554,
+    "away_sr": 0.557
+   }
+  },
+  {
+   "game_id": "2026_06_BAL_CLE",
+   "week": 6,
+   "gameday": "2026-10-18",
+   "played": true,
+   "home": "CLE",
+   "away": "BAL",
+   "total": 37.6,
+   "margin": -5.72,
+   "home_pts": 19.9,
+   "away_pts": 27.6,
+   "points_total": 45.8,
+   "points_margin": -3.58,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.0561,
+     "qb": -2.23,
+     "weather": -0.125,
+     "efficiency": -0.564
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.39,
+     "qb": 0.641,
+     "efficiency": -5.49
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033537",
+     "name": "Deshaun Watson",
+     "epa_db": -0.1096,
+     "vs_team": 0.0169,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035993",
+     "name": "Tyler Huntley",
+     "epa_db": -0.0381,
+     "vs_team": -0.0639,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0891,
+    "away_epa": 0.0382,
+    "home_sr": 0.266,
+    "away_sr": 0.285
+   }
+  },
+  {
+   "game_id": "2026_06_BUF_LV",
+   "week": 6,
+   "gameday": "2026-10-18",
+   "played": true,
+   "home": "LV",
+   "away": "BUF",
+   "total": 68.3,
+   "margin": -3.43,
+   "home_pts": 24.5,
+   "away_pts": 29.3,
+   "points_total": 35.9,
+   "points_margin": -7.25,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.42,
+     "qb": 1.38,
+     "weather": 2.19,
+     "efficiency": 2.44
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -2.5,
+     "qb": -0.354,
+     "efficiency": -6.9
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0029604",
+     "name": "Kirk Cousins",
+     "epa_db": 0.022,
+     "vs_team": 0.0334,
+     "known": true
+    },
+    "away": {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "epa_db": 0.104,
+     "vs_team": 0.0042,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0088,
+    "away_epa": 0.186,
+    "home_sr": 0.556,
+    "away_sr": 0.3
+   }
+  },
+  {
+   "game_id": "2026_06_CAR_PHI",
+   "week": 6,
+   "gameday": "2026-10-18",
+   "played": true,
+   "home": "PHI",
+   "away": "CAR",
+   "total": 45.8,
+   "margin": -0.0092,
+   "home_pts": 20.4,
+   "away_pts": 12.8,
+   "points_total": 58.6,
+   "points_margin": 1.03,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.158,
+     "qb": -1.68,
+     "weather": -0.18,
+     "efficiency": -2.37
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.0497,
+     "qb": -0.601,
+     "efficiency": -0.87
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0038400",
+     "name": "Tanner McKee",
+     "epa_db": -0.0815,
+     "vs_team": -0.0418,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039150",
+     "name": "Bryce Young",
+     "epa_db": -0.0544,
+     "vs_team": 0.0031,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0098,
+    "away_epa": 0,
+    "home_sr": 0.496,
+    "away_sr": 0.513
+   }
+  },
+  {
+   "game_id": "2026_06_CHI_ATL",
+   "week": 6,
+   "gameday": "2026-10-18",
+   "played": true,
+   "home": "ATL",
+   "away": "CHI",
+   "total": 47.3,
+   "margin": 3.49,
+   "home_pts": 32.4,
+   "away_pts": 14.9,
+   "points_total": 33.1,
+   "points_margin": -2.53,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.224,
+     "qb": 1,
+     "weather": 1.26,
+     "efficiency": 0.493
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.93,
+     "qb": 0.722,
+     "efficiency": 1.18
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039917",
+     "name": "Michael Penix Jr.",
+     "epa_db": 0.0263,
+     "vs_team": 0.0295,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039918",
+     "name": "Caleb Williams",
+     "epa_db": -0.0108,
+     "vs_team": 0.0157,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0033,
+    "away_epa": 0.0261,
+    "home_sr": 0.411,
+    "away_sr": 0.459
+   }
+  },
+  {
+   "game_id": "2026_06_DAL_GB",
+   "week": 6,
+   "gameday": "2026-10-18",
+   "played": true,
+   "home": "GB",
+   "away": "DAL",
+   "total": 34.7,
+   "margin": 3.64,
+   "home_pts": 30.2,
+   "away_pts": 16.5,
+   "points_total": 59.2,
+   "points_margin": 2.41,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.019,
+     "qb": 2.34,
+     "weather": -0.086,
+     "efficiency": 2.21
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.2,
+     "qb": -0.0388,
+     "efficiency": 2.2
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036264",
+     "name": "Jordan Love",
+     "epa_db": 0.0949,
+     "vs_team": 0.0149,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033077",
+     "name": "Dak Prescott",
+     "epa_db": 0.0811,
+     "vs_team": 0.0169,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.21,
+    "away_epa": 0.083,
+    "home_sr": 0.437,
+    "away_sr": 0.585
+   }
+  },
+  {
+   "game_id": "2026_06_HOU_JAX",
+   "week": 6,
+   "gameday": "2026-10-18",
+   "played": true,
+   "home": "JAX",
+   "away": "HOU",
+   "total": 29.7,
+   "margin": 6.63,
+   "home_pts": 26.5,
+   "away_pts": 17.1,
+   "points_total": 54,
+   "points_margin": 6.39,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.822,
+     "qb": 0.391,
+     "weather": -0.089,
+     "efficiency": -1.34
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.757,
+     "qb": 0.157,
+     "efficiency": 2.6
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036971",
+     "name": "Trevor Lawrence",
+     "epa_db": 0.0265,
+     "vs_team": 0.001,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039163",
+     "name": "C.J. Stroud",
+     "epa_db": 0.0056,
+     "vs_team": 0.0088,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0059,
+    "away_epa": -0.0735,
+    "home_sr": 0.473,
+    "away_sr": 0.319
+   }
+  },
+  {
+   "game_id": "2026_06_LAC_KC",
+   "week": 6,
+   "gameday": "2026-10-18",
+   "played": true,
+   "home": "KC",
+   "away": "LAC",
+   "total": 45.8,
+   "margin": 9.12,
+   "home_pts": 34.5,
+   "away_pts": 17.9,
+   "points_total": 27.1,
+   "points_margin": 7.16,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.503,
+     "qb": 0.455,
+     "weather": -0.13,
+     "efficiency": -1.83
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.4,
+     "qb": 0.78,
+     "efficiency": 2.14
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "epa_db": 0.0331,
+     "vs_team": 0.0145,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "epa_db": -0.0394,
+     "vs_team": 0.0025,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0008,
+    "away_epa": -0.106,
+    "home_sr": 0.357,
+    "away_sr": 0.512
+   }
+  },
+  {
+   "game_id": "2026_06_NO_NYG",
+   "week": 6,
+   "gameday": "2026-10-18",
+   "played": true,
+   "home": "NYG",
+   "away": "NO",
+   "total": 43,
+   "margin": 0.698,
+   "home_pts": 18.7,
+   "away_pts": 20.4,
+   "points_total": 47.4,
+   "points_margin": 2.2,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.0383,
+     "qb": -1.37,
+     "weather": -0.162,
+     "efficiency": -1.24
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.152,
+     "qb": -0.814,
+     "efficiency": -0.513
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0031503",
+     "name": "Jameis Winston",
+     "epa_db": -0.0631,
+     "vs_team": -0.0258,
+     "known": true
+    },
+    "away": {
+     "id": "00-0040743",
+     "name": "Tyler Shough",
+     "epa_db": -0.0499,
+     "vs_team": 0.0072,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.002,
+    "away_epa": -0.0021,
+    "home_sr": 0.453,
+    "away_sr": 0.339
+   }
+  },
+  {
+   "game_id": "2026_06_NYJ_NE",
+   "week": 6,
+   "gameday": "2026-10-18",
+   "played": true,
+   "home": "NE",
+   "away": "NYJ",
+   "total": 55.8,
+   "margin": 12.51,
+   "home_pts": 26.3,
+   "away_pts": 14.3,
+   "points_total": 54.2,
+   "points_margin": 9.24,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.853,
+     "qb": 0.537,
+     "weather": -0.179,
+     "efficiency": -0.734
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.65,
+     "qb": 2.03,
+     "efficiency": 2.55
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039851",
+     "name": "Drake Maye",
+     "epa_db": 0.1026,
+     "vs_team": 0.0042,
+     "known": true
+    },
+    "away": {
+     "id": "00-0030565",
+     "name": "Geno Smith",
+     "epa_db": -0.0803,
+     "vs_team": 0.0129,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0972,
+    "away_epa": -0.064,
+    "home_sr": 0.501,
+    "away_sr": 0.464
+   }
+  },
+  {
+   "game_id": "2026_06_PIT_TB",
+   "week": 6,
+   "gameday": "2026-10-18",
+   "played": true,
+   "home": "TB",
+   "away": "PIT",
+   "total": 27,
+   "margin": 0.776,
+   "home_pts": 25.3,
+   "away_pts": 25.7,
+   "points_total": 29.5,
+   "points_margin": -0.747,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.224,
+     "qb": -1.085,
+     "weather": -0.174,
+     "efficiency": -1.19
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.668,
+     "qb": -0.266,
+     "efficiency": 0.0103
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0041251",
+     "name": "Jalon Daniels",
+     "epa_db": -0.0577,
+     "vs_team": -0.009,
+     "known": true
+    },
+    "away": {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "epa_db": -0.0502,
+     "vs_team": 0.0023,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0222,
+    "away_epa": -0.0179,
+    "home_sr": 0.506,
+    "away_sr": 0.576
+   }
+  },
+  {
+   "game_id": "2026_06_TEN_IND",
+   "week": 6,
+   "gameday": "2026-10-18",
+   "played": true,
+   "home": "IND",
+   "away": "TEN",
+   "total": 50,
+   "margin": 5.65,
+   "home_pts": 19.6,
+   "away_pts": 22.4,
+   "points_total": 33,
+   "points_margin": 6.04,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.0455,
+     "qb": -2.69,
+     "weather": -0.096,
+     "efficiency": -0.66
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.28,
+     "qb": 2.07,
+     "efficiency": 3.2
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0035710",
+     "name": "Daniel Jones",
+     "epa_db": -0.0716,
+     "vs_team": 0.0033,
+     "known": true
+    },
+    "away": {
+     "id": "00-0040676",
+     "name": "Cam Ward",
+     "epa_db": -0.203,
+     "vs_team": -0.0059,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0733,
+    "away_epa": -0.0793,
+    "home_sr": 0.276,
+    "away_sr": 0.554
+   }
+  },
+  {
+   "game_id": "2026_06_WAS_SF",
+   "week": 6,
+   "gameday": "2026-10-19",
+   "played": true,
+   "home": "SF",
+   "away": "WAS",
+   "total": 37,
+   "margin": 14.5,
+   "home_pts": 30.6,
+   "away_pts": 13.6,
+   "points_total": 46.6,
+   "points_margin": 10.3,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.611,
+     "qb": 1.63,
+     "weather": -0.152,
+     "efficiency": 0.67
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.48,
+     "qb": 1.83,
+     "efficiency": 5.79
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0037834",
+     "name": "Brock Purdy",
+     "epa_db": 0.098,
+     "vs_team": 0.0343,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039910",
+     "name": "Jayden Daniels",
+     "epa_db": -0.0145,
+     "vs_team": 0.0068,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.223,
+    "away_epa": -0.0095,
+    "home_sr": 0.606,
+    "away_sr": 0.55
+   }
+  },
+  {
+   "game_id": "2026_07_NE_CHI",
+   "week": 7,
+   "gameday": "2026-10-22",
+   "played": true,
+   "home": "CHI",
+   "away": "NE",
+   "total": 42.3,
+   "margin": -0.391,
+   "home_pts": 22.5,
+   "away_pts": 18.4,
+   "points_total": 54.9,
+   "points_margin": -0.655,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.0558,
+     "qb": 1.82,
+     "weather": -0.158,
+     "efficiency": 1.3
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.592,
+     "qb": -0.65,
+     "efficiency": -0.378
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039918",
+     "name": "Caleb Williams",
+     "epa_db": 0.0029,
+     "vs_team": 0.0164,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039851",
+     "name": "Drake Maye",
+     "epa_db": 0.099,
+     "vs_team": 0.0041,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.018,
+    "away_epa": 0.0398,
+    "home_sr": 0.477,
+    "away_sr": 0.394
+   }
+  },
+  {
+   "game_id": "2026_07_CIN_BAL",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "played": true,
+   "home": "BAL",
+   "away": "CIN",
+   "total": 41.5,
+   "margin": 1.08,
+   "home_pts": 20.4,
+   "away_pts": 30.1,
+   "points_total": 44.2,
+   "points_margin": 1.66,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.091,
+     "qb": -0.151,
+     "weather": -0.177,
+     "efficiency": 1.87
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.0134,
+     "qb": -1.96,
+     "efficiency": 1.35
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0035993",
+     "name": "Tyler Huntley",
+     "epa_db": -0.0337,
+     "vs_team": -0.0634,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036442",
+     "name": "Joe Burrow",
+     "epa_db": 0.0816,
+     "vs_team": 0.0373,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0725,
+    "away_epa": 0.0286,
+    "home_sr": 0.58,
+    "away_sr": 0.509
+   }
+  },
+  {
+   "game_id": "2026_07_CLE_TEN",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "played": true,
+   "home": "TEN",
+   "away": "CLE",
+   "total": 53.7,
+   "margin": -1.86,
+   "home_pts": 20.2,
+   "away_pts": 24.3,
+   "points_total": 47.9,
+   "points_margin": -1.93,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -1.17,
+     "qb": -1.72,
+     "weather": -0.108,
+     "efficiency": -2.96
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.34,
+     "qb": -1.28,
+     "efficiency": -0.667
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0040676",
+     "name": "Cam Ward",
+     "epa_db": -0.129,
+     "vs_team": -0.0052,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033537",
+     "name": "Deshaun Watson",
+     "epa_db": -0.067,
+     "vs_team": 0.0178,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.083,
+    "away_epa": -0.0229,
+    "home_sr": 0.349,
+    "away_sr": 0.292
+   }
+  },
+  {
+   "game_id": "2026_07_DEN_ARI",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "played": true,
+   "home": "ARI",
+   "away": "DEN",
+   "total": 31.8,
+   "margin": -4.14,
+   "home_pts": 25.3,
+   "away_pts": 33.4,
+   "points_total": 44.7,
+   "points_margin": -4.47,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.0264,
+     "qb": -0.576,
+     "weather": 1.26,
+     "efficiency": -2.27
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.23,
+     "qb": -0.388,
+     "efficiency": -3.33
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033119",
+     "name": "Jacoby Brissett",
+     "epa_db": -0.0602,
+     "vs_team": -0.0042,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039732",
+     "name": "Bo Nix",
+     "epa_db": -0.0105,
+     "vs_team": 0,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0598,
+    "away_epa": 0.064,
+    "home_sr": 0.376,
+    "away_sr": 0.474
+   }
+  },
+  {
+   "game_id": "2026_07_GB_DET",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "played": true,
+   "home": "DET",
+   "away": "GB",
+   "total": 36.4,
+   "margin": 2.94,
+   "home_pts": 33.6,
+   "away_pts": 21.8,
+   "points_total": 65.5,
+   "points_margin": 2.14,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.625,
+     "qb": 2.44,
+     "weather": 2.58,
+     "efficiency": 2.16
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.189,
+     "qb": 0.55,
+     "efficiency": 0.516
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "epa_db": 0.1,
+     "vs_team": 0,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036264",
+     "name": "Jordan Love",
+     "epa_db": 0.0601,
+     "vs_team": 0.0092,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0526,
+    "away_epa": 0.067,
+    "home_sr": 0.52,
+    "away_sr": 0.458
+   }
+  },
+  {
+   "game_id": "2026_07_IND_MIN",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "played": true,
+   "home": "MIN",
+   "away": "IND",
+   "total": 58.7,
+   "margin": 5.96,
+   "home_pts": 14.9,
+   "away_pts": 26,
+   "points_total": 30.2,
+   "points_margin": 6.43,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.255,
+     "qb": -0.096,
+     "weather": 1.62,
+     "efficiency": -4.74
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.575,
+     "qb": 0.518,
+     "efficiency": 1
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0035228",
+     "name": "Kyler Murray",
+     "epa_db": -0.0162,
+     "vs_team": 0.0377,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035710",
+     "name": "Daniel Jones",
+     "epa_db": -0.0582,
+     "vs_team": 0.002,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.045,
+    "away_epa": -0.11,
+    "home_sr": 0.338,
+    "away_sr": 0.408
+   }
+  },
+  {
+   "game_id": "2026_07_KC_SEA",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "played": true,
+   "home": "SEA",
+   "away": "KC",
+   "total": 56.5,
+   "margin": 0.484,
+   "home_pts": 15.8,
+   "away_pts": 27.7,
+   "points_total": 34.9,
+   "points_margin": 1.96,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.274,
+     "qb": 0.963,
+     "weather": -0.143,
+     "efficiency": -1.62
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.0239,
+     "qb": -0.5,
+     "efficiency": -0.207
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034869",
+     "name": "Sam Darnold",
+     "epa_db": -0.007,
+     "vs_team": 0.006,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "epa_db": 0.0717,
+     "vs_team": 0.0101,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0324,
+    "away_epa": -0.0321,
+    "home_sr": 0.486,
+    "away_sr": 0.416
+   }
+  },
+  {
+   "game_id": "2026_07_LA_LV",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "played": true,
+   "home": "LV",
+   "away": "LA",
+   "total": 54.4,
+   "margin": -5.01,
+   "home_pts": 16.2,
+   "away_pts": 34.3,
+   "points_total": 51.9,
+   "points_margin": -5.05,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.557,
+     "qb": 2.16,
+     "weather": 2.51,
+     "efficiency": -0.346
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.13,
+     "qb": -0.0736,
+     "efficiency": -6.62
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0029604",
+     "name": "Kirk Cousins",
+     "epa_db": 0.0231,
+     "vs_team": 0.0374,
+     "known": true
+    },
+    "away": {
+     "id": "00-0026498",
+     "name": "Matthew Stafford",
+     "epa_db": 0.1019,
+     "vs_team": 0.0006,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.11,
+    "away_epa": 0.0598,
+    "home_sr": 0.264,
+    "away_sr": 0.607
+   }
+  },
+  {
+   "game_id": "2026_07_MIA_NYJ",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "played": true,
+   "home": "NYJ",
+   "away": "MIA",
+   "total": 57.6,
+   "margin": 4.56,
+   "home_pts": 26.7,
+   "away_pts": 17.9,
+   "points_total": 35.1,
+   "points_margin": 1.95,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.506,
+     "qb": -2.07,
+     "weather": -0.172,
+     "efficiency": -0.516
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.104,
+     "qb": 1.2,
+     "efficiency": 1
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0030565",
+     "name": "Geno Smith",
+     "epa_db": -0.0448,
+     "vs_team": 0.0155,
+     "known": true
+    },
+    "away": {
+     "id": "00-0038128",
+     "name": "Malik Willis",
+     "epa_db": -0.0686,
+     "vs_team": -0.0531,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0017,
+    "away_epa": -0.0249,
+    "home_sr": 0.35,
+    "away_sr": 0.492
+   }
+  },
+  {
+   "game_id": "2026_07_NYG_HOU",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "played": true,
+   "home": "HOU",
+   "away": "NYG",
+   "total": 37.9,
+   "margin": 6.6,
+   "home_pts": 26.7,
+   "away_pts": 21.3,
+   "points_total": 61.8,
+   "points_margin": 4.63,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.133,
+     "qb": -2.31,
+     "weather": 1.84,
+     "efficiency": -1.62
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.99,
+     "qb": 2,
+     "efficiency": 4.57
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039163",
+     "name": "C.J. Stroud",
+     "epa_db": 0.0285,
+     "vs_team": 0.006,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039923",
+     "name": "J.J. McCarthy",
+     "epa_db": -0.148,
+     "vs_team": -0.0915,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0397,
+    "away_epa": -0.0401,
+    "home_sr": 0.468,
+    "away_sr": 0.311
+   }
+  },
+  {
+   "game_id": "2026_07_PIT_NO",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "played": true,
+   "home": "NO",
+   "away": "PIT",
+   "total": 31.7,
+   "margin": -3.26,
+   "home_pts": 19.5,
+   "away_pts": 18.3,
+   "points_total": 35.1,
+   "points_margin": -1.99,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.223,
+     "qb": -0.713,
+     "weather": 2.19,
+     "efficiency": -1.13
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.8,
+     "qb": 0.212,
+     "efficiency": -4.4
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0040743",
+     "name": "Tyler Shough",
+     "epa_db": -0.0423,
+     "vs_team": 0.0066,
+     "known": true
+    },
+    "away": {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "epa_db": -0.035,
+     "vs_team": 0.0006,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0846,
+    "away_epa": 0.0169,
+    "home_sr": 0.411,
+    "away_sr": 0.386
+   }
+  },
+  {
+   "game_id": "2026_07_SF_ATL",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "played": true,
+   "home": "ATL",
+   "away": "SF",
+   "total": 55.2,
+   "margin": -3.33,
+   "home_pts": 23.8,
+   "away_pts": 29.3,
+   "points_total": 34.7,
+   "points_margin": -6.11,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.568,
+     "qb": 1.96,
+     "weather": -0.139,
+     "efficiency": 0.191
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -2.13,
+     "qb": -1.15,
+     "efficiency": -3.6
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039917",
+     "name": "Michael Penix Jr.",
+     "epa_db": -0.0021,
+     "vs_team": 0.0144,
+     "known": true
+    },
+    "away": {
+     "id": "00-0037834",
+     "name": "Brock Purdy",
+     "epa_db": 0.163,
+     "vs_team": 0.0197,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0237,
+    "away_epa": 0.0628,
+    "home_sr": 0.268,
+    "away_sr": 0.392
+   }
+  },
+  {
+   "game_id": "2026_07_TB_CAR",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "played": true,
+   "home": "CAR",
+   "away": "TB",
+   "total": 43.8,
+   "margin": 2.03,
+   "home_pts": 19.2,
+   "away_pts": 17.3,
+   "points_total": 52.4,
+   "points_margin": 3.07,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.123,
+     "qb": -0.115,
+     "weather": -0.121,
+     "efficiency": -2.44
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.163,
+     "qb": -0.218,
+     "efficiency": 0.516
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039150",
+     "name": "Bryce Young",
+     "epa_db": -0.0396,
+     "vs_team": 0.0025,
+     "known": true
+    },
+    "away": {
+     "id": "00-0034855",
+     "name": "Baker Mayfield",
+     "epa_db": -0.0374,
+     "vs_team": 0.0263,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0077,
+    "away_epa": -0.022,
+    "home_sr": 0.264,
+    "away_sr": 0.44
+   }
+  },
+  {
+   "game_id": "2026_07_DAL_PHI",
+   "week": 7,
+   "gameday": "2026-10-26",
+   "played": true,
+   "home": "PHI",
+   "away": "DAL",
+   "total": 53.8,
+   "margin": 0.57,
+   "home_pts": 17.7,
+   "away_pts": 28.5,
+   "points_total": 55.9,
+   "points_margin": 1.21,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.4,
+     "qb": 0.882,
+     "weather": -0.135,
+     "efficiency": -0.1097
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.0069,
+     "qb": -0.698,
+     "efficiency": -0.0655
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036389",
+     "name": "Jalen Hurts",
+     "epa_db": -0.0063,
+     "vs_team": 0.0074,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033077",
+     "name": "Dak Prescott",
+     "epa_db": 0.0612,
+     "vs_team": 0.0083,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0628,
+    "away_epa": 0.0667,
+    "home_sr": 0.519,
+    "away_sr": 0.47
+   }
+  },
+  {
+   "game_id": "2026_08_CAR_GB",
+   "week": 8,
+   "gameday": "2026-10-29",
+   "played": true,
+   "home": "GB",
+   "away": "CAR",
+   "total": 56.5,
+   "margin": 3.62,
+   "home_pts": 20.4,
+   "away_pts": 20.8,
+   "points_total": 36.3,
+   "points_margin": 3.19,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.137,
+     "qb": 0.634,
+     "weather": -0.126,
+     "efficiency": -0.34
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.5,
+     "qb": 1.92,
+     "efficiency": 0.227
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036264",
+     "name": "Jordan Love",
+     "epa_db": 0.0851,
+     "vs_team": 0.0104,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039150",
+     "name": "Bryce Young",
+     "epa_db": -0.0414,
+     "vs_team": 0.0015,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0646,
+    "away_epa": -0.0021,
+    "home_sr": 0.281,
+    "away_sr": 0.276
+   }
+  },
+  {
+   "game_id": "2026_08_ARI_DAL",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "played": true,
+   "home": "DAL",
+   "away": "ARI",
+   "total": 48.5,
+   "margin": 3.8,
+   "home_pts": 22,
+   "away_pts": 25.8,
+   "points_total": 55,
+   "points_margin": 4.74,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.59,
+     "qb": 0.252,
+     "weather": 2.14,
+     "efficiency": 1.55
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.439,
+     "qb": 1.58,
+     "efficiency": 0.534
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033077",
+     "name": "Dak Prescott",
+     "epa_db": 0.0715,
+     "vs_team": 0.0132,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033119",
+     "name": "Jacoby Brissett",
+     "epa_db": -0.0646,
+     "vs_team": -0.0036,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.144,
+    "away_epa": 0.088,
+    "home_sr": 0.591,
+    "away_sr": 0.63
+   }
+  },
+  {
+   "game_id": "2026_08_ATL_TB",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "played": true,
+   "home": "TB",
+   "away": "ATL",
+   "total": 36.9,
+   "margin": 0.511,
+   "home_pts": 29.4,
+   "away_pts": 25.2,
+   "points_total": 46.9,
+   "points_margin": 1.42,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.209,
+     "qb": 0.936,
+     "weather": -0.099,
+     "efficiency": -1.25
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.01,
+     "qb": -0.328,
+     "efficiency": -0.392
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034855",
+     "name": "Baker Mayfield",
+     "epa_db": -0.0221,
+     "vs_team": 0.0223,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039917",
+     "name": "Michael Penix Jr.",
+     "epa_db": 0.0087,
+     "vs_team": 0.0312,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0358,
+    "away_epa": -0.066,
+    "home_sr": 0.357,
+    "away_sr": 0.609
+   }
+  },
+  {
+   "game_id": "2026_08_BAL_BUF",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "played": true,
+   "home": "BUF",
+   "away": "BAL",
+   "total": 41.2,
+   "margin": 2.88,
+   "home_pts": 31,
+   "away_pts": 30.5,
+   "points_total": 70.3,
+   "points_margin": 2.93,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.18,
+     "qb": 2.78,
+     "weather": -0.133,
+     "efficiency": 3.73
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.424,
+     "qb": -0.282,
+     "efficiency": 0.641
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "epa_db": 0.138,
+     "vs_team": 0.0043,
+     "known": true
+    },
+    "away": {
+     "id": "00-0034796",
+     "name": "Lamar Jackson",
+     "epa_db": 0.0682,
+     "vs_team": 0.0539,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.16,
+    "away_epa": 0.091,
+    "home_sr": 0.366,
+    "away_sr": 0.575
+   }
+  },
+  {
+   "game_id": "2026_08_CLE_PIT",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "played": true,
+   "home": "PIT",
+   "away": "CLE",
+   "total": 45.2,
+   "margin": 3.71,
+   "home_pts": 16.9,
+   "away_pts": 23.2,
+   "points_total": 31.1,
+   "points_margin": 5.33,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.96,
+     "qb": -0.915,
+     "weather": -0.155,
+     "efficiency": -2.63
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.671,
+     "qb": 0.1075,
+     "efficiency": 2.25
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "epa_db": -0.0561,
+     "vs_team": 0.0006,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033537",
+     "name": "Deshaun Watson",
+     "epa_db": -0.0773,
+     "vs_team": 0.0196,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0398,
+    "away_epa": -0.0993,
+    "home_sr": 0.482,
+    "away_sr": 0.461
+   }
+  },
+  {
+   "game_id": "2026_08_IND_JAX",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "played": true,
+   "home": "JAX",
+   "away": "IND",
+   "total": 33.7,
+   "margin": 8.24,
+   "home_pts": 35,
+   "away_pts": 27.4,
+   "points_total": 52.7,
+   "points_margin": 4.45,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.517,
+     "qb": -0.076,
+     "weather": -0.091,
+     "efficiency": -0.192
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.77,
+     "qb": 1.33,
+     "efficiency": 2.89
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036971",
+     "name": "Trevor Lawrence",
+     "epa_db": 0.0464,
+     "vs_team": 0.0021,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035710",
+     "name": "Daniel Jones",
+     "epa_db": -0.0842,
+     "vs_team": 0.0009,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0999,
+    "away_epa": -0.0373,
+    "home_sr": 0.615,
+    "away_sr": 0.371
+   }
+  },
+  {
+   "game_id": "2026_08_KC_DEN",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "played": true,
+   "home": "DEN",
+   "away": "KC",
+   "total": 42.2,
+   "margin": -0.583,
+   "home_pts": 22.3,
+   "away_pts": 26,
+   "points_total": 39.4,
+   "points_margin": 0.0665,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.74,
+     "qb": 0.569,
+     "weather": -0.099,
+     "efficiency": -3.45
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.327,
+     "qb": -0.844,
+     "efficiency": -1.7
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039732",
+     "name": "Bo Nix",
+     "epa_db": -0.0082,
+     "vs_team": 0,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "epa_db": 0.0504,
+     "vs_team": 0.0078,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0292,
+    "away_epa": 0.0039,
+    "home_sr": 0.548,
+    "away_sr": 0.454
+   }
+  },
+  {
+   "game_id": "2026_08_LAC_LA",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "played": true,
+   "home": "LA",
+   "away": "LAC",
+   "total": 62.3,
+   "margin": 10.75,
+   "home_pts": 34.2,
+   "away_pts": 15.6,
+   "points_total": 61.4,
+   "points_margin": 6.26,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.263,
+     "qb": 0.364,
+     "weather": 1.26,
+     "efficiency": -1.62
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.86,
+     "qb": 1.48,
+     "efficiency": 5.46
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0026498",
+     "name": "Matthew Stafford",
+     "epa_db": 0.0607,
+     "vs_team": 0.0005,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "epa_db": -0.0598,
+     "vs_team": 0.0018,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0054,
+    "away_epa": -0.124,
+    "home_sr": 0.611,
+    "away_sr": 0.474
+   }
+  },
+  {
+   "game_id": "2026_08_LV_NYJ",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "played": true,
+   "home": "NYJ",
+   "away": "LV",
+   "total": 57.8,
+   "margin": 1.048,
+   "home_pts": 32.2,
+   "away_pts": 15.2,
+   "points_total": 33.6,
+   "points_margin": 0.126,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.254,
+     "qb": 0.459,
+     "weather": -0.157,
+     "efficiency": -1.002
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.451,
+     "qb": -1.021,
+     "efficiency": 0.438
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0030565",
+     "name": "Geno Smith",
+     "epa_db": -0.0449,
+     "vs_team": 0.0224,
+     "known": true
+    },
+    "away": {
+     "id": "00-0029604",
+     "name": "Kirk Cousins",
+     "epa_db": 0.0211,
+     "vs_team": 0.0162,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0436,
+    "away_epa": -0.0014,
+    "home_sr": 0.561,
+    "away_sr": 0.392
+   }
+  },
+  {
+   "game_id": "2026_08_MIN_DET",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "played": true,
+   "home": "DET",
+   "away": "MIN",
+   "total": 59.8,
+   "margin": 2.08,
+   "home_pts": 21.9,
+   "away_pts": 29.5,
+   "points_total": 39.3,
+   "points_margin": -0.79,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.0419,
+     "qb": 1.33,
+     "weather": 2.59,
+     "efficiency": -1.68
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.651,
+     "qb": 2.2,
+     "efficiency": -0.941
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "epa_db": 0.176,
+     "vs_team": 0,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035228",
+     "name": "Kyler Murray",
+     "epa_db": -0.0187,
+     "vs_team": 0.0322,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0714,
+    "away_epa": -0.0063,
+    "home_sr": 0.259,
+    "away_sr": 0.527
+   }
+  },
+  {
+   "game_id": "2026_08_NE_MIA",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "played": true,
+   "home": "MIA",
+   "away": "NE",
+   "total": 56.3,
+   "margin": -6.82,
+   "home_pts": 24.3,
+   "away_pts": 19.8,
+   "points_total": 47,
+   "points_margin": -8.94,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.235,
+     "qb": 0.219,
+     "weather": -0.171,
+     "efficiency": 1.63
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -2.36,
+     "qb": -1.96,
+     "efficiency": -6.32
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0038128",
+     "name": "Malik Willis",
+     "epa_db": -0.0525,
+     "vs_team": -0.0309,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039851",
+     "name": "Drake Maye",
+     "epa_db": 0.15,
+     "vs_team": 0.0022,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0248,
+    "away_epa": 0.15,
+    "home_sr": 0.366,
+    "away_sr": 0.452
+   }
+  },
+  {
+   "game_id": "2026_08_PHI_WAS",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "played": true,
+   "home": "WAS",
+   "away": "PHI",
+   "total": 47.8,
+   "margin": 3.94,
+   "home_pts": 19.2,
+   "away_pts": 17.2,
+   "points_total": 48.7,
+   "points_margin": -0.82,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.0595,
+     "qb": -1.78,
+     "weather": -0.078,
+     "efficiency": -1.11
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.62,
+     "qb": 1.3,
+     "efficiency": 0.266
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039910",
+     "name": "Jayden Daniels",
+     "epa_db": -0.0129,
+     "vs_team": 0.01,
+     "known": true
+    },
+    "away": {
+     "id": "00-0038400",
+     "name": "Tanner McKee",
+     "epa_db": -0.0998,
+     "vs_team": -0.066,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0088,
+    "away_epa": 0.0219,
+    "home_sr": 0.346,
+    "away_sr": 0.524
+   }
+  },
+  {
+   "game_id": "2026_08_TEN_CIN",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "played": true,
+   "home": "CIN",
+   "away": "TEN",
+   "total": 35.2,
+   "margin": 13.7,
+   "home_pts": 20,
+   "away_pts": 10.6,
+   "points_total": 60.1,
+   "points_margin": 6.38,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.0201,
+     "qb": -0.297,
+     "weather": -0.137,
+     "efficiency": -0.221
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.65,
+     "qb": 2.89,
+     "efficiency": 3.17
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036442",
+     "name": "Joe Burrow",
+     "epa_db": 0.077,
+     "vs_team": 0.0421,
+     "known": true
+    },
+    "away": {
+     "id": "00-0040676",
+     "name": "Cam Ward",
+     "epa_db": -0.164,
+     "vs_team": -0.005,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.12,
+    "away_epa": -0.0699,
+    "home_sr": 0.443,
+    "away_sr": 0.281
+   }
+  },
+  {
+   "game_id": "2026_08_CHI_SEA",
+   "week": 8,
+   "gameday": "2026-11-02",
+   "played": true,
+   "home": "SEA",
+   "away": "CHI",
+   "total": 46.9,
+   "margin": 3.43,
+   "home_pts": 14.8,
+   "away_pts": 13.5,
+   "points_total": 46.9,
+   "points_margin": 3.98,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.036,
+     "qb": 0.727,
+     "weather": -0.158,
+     "efficiency": -0.876
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.35,
+     "qb": -0.246,
+     "efficiency": 2
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034869",
+     "name": "Sam Darnold",
+     "epa_db": 0.0052,
+     "vs_team": 0.0058,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039918",
+     "name": "Caleb Williams",
+     "epa_db": 0.0132,
+     "vs_team": 0.0268,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0166,
+    "away_epa": -0.0529,
+    "home_sr": 0.485,
+    "away_sr": 0.559
+   }
+  },
+  {
+   "game_id": "2026_09_JAX_BAL",
+   "week": 9,
+   "gameday": "2026-11-05",
+   "played": false,
+   "home": "BAL",
+   "away": "JAX",
+   "total": 40.4,
+   "margin": -3.68,
+   "home_pts": 18.7,
+   "away_pts": 35.4,
+   "points_total": 39.4,
+   "points_margin": -4.72,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.085,
+     "qb": -0.211,
+     "weather": -0.116,
+     "efficiency": 0.135
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.73,
+     "qb": -1.82,
+     "efficiency": -3.3
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0035993",
+     "name": "Tyler Huntley",
+     "epa_db": -0.0266,
+     "vs_team": -0.0455,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036971",
+     "name": "Trevor Lawrence",
+     "epa_db": 0.0321,
+     "vs_team": 0.0016,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.042,
+    "away_epa": 0.0586,
+    "home_sr": 0.348,
+    "away_sr": 0.542
+   }
+  },
+  {
+   "game_id": "2026_09_ARI_SEA",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "SEA",
+   "away": "ARI",
+   "total": 56.9,
+   "margin": 5.71,
+   "home_pts": 25.7,
+   "away_pts": 18.2,
+   "points_total": 60.5,
+   "points_margin": 6.77,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.302,
+     "qb": -0.342,
+     "weather": -0.153,
+     "efficiency": -1.97
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.46,
+     "qb": 0.846,
+     "efficiency": 5.05
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0034869",
+     "name": "Sam Darnold",
+     "epa_db": -0.0024,
+     "vs_team": 0.0027,
+     "known": true
+    },
+    "away": {
+     "id": "00-0035289",
+     "name": "Gardner Minshew",
+     "epa_db": -0.0527,
+     "vs_team": 0.0009,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0233,
+    "away_epa": -0.09,
+    "home_sr": 0.371,
+    "away_sr": 0.258
+   }
+  },
+  {
+   "game_id": "2026_09_CIN_ATL",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "ATL",
+   "away": "CIN",
+   "total": 57.5,
+   "margin": -1.96,
+   "home_pts": 30.1,
+   "away_pts": 25.2,
+   "points_total": 41.9,
+   "points_margin": -2.98,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.503,
+     "qb": 1.52,
+     "weather": -0.182,
+     "efficiency": 0.301
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.81,
+     "qb": -1.54,
+     "efficiency": -0.565
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039917",
+     "name": "Michael Penix Jr.",
+     "epa_db": -0.0301,
+     "vs_team": 0.0043,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036442",
+     "name": "Joe Burrow",
+     "epa_db": 0.1106,
+     "vs_team": 0.0322,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0072,
+    "away_epa": 0.0285,
+    "home_sr": 0.474,
+    "away_sr": 0.533
+   }
+  },
+  {
+   "game_id": "2026_09_CLE_NO",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "NO",
+   "away": "CLE",
+   "total": 51.9,
+   "margin": 0.604,
+   "home_pts": 24.6,
+   "away_pts": 15.2,
+   "points_total": 28.5,
+   "points_margin": 1.2,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.679,
+     "qb": -0.636,
+     "weather": 2.05,
+     "efficiency": -2.7
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.146,
+     "qb": 0.77,
+     "efficiency": -1.06
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0040743",
+     "name": "Tyler Shough",
+     "epa_db": -0.0394,
+     "vs_team": 0.0119,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033537",
+     "name": "Deshaun Watson",
+     "epa_db": -0.1018,
+     "vs_team": 0.0085,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.077,
+    "away_epa": -0.0436,
+    "home_sr": 0.495,
+    "away_sr": 0.51
+   }
+  },
+  {
+   "game_id": "2026_09_DAL_IND",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "IND",
+   "away": "DAL",
+   "total": 45.3,
+   "margin": -0.542,
+   "home_pts": 27,
+   "away_pts": 18.1,
+   "points_total": 58.5,
+   "points_margin": -0.86,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.71,
+     "qb": 0.115,
+     "weather": -0.162,
+     "efficiency": 0.82
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.476,
+     "qb": -2.16,
+     "efficiency": 0.509
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0035710",
+     "name": "Daniel Jones",
+     "epa_db": -0.0873,
+     "vs_team": -0.0013,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033077",
+     "name": "Dak Prescott",
+     "epa_db": 0.0798,
+     "vs_team": 0.0115,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0492,
+    "away_epa": 0.117,
+    "home_sr": 0.596,
+    "away_sr": 0.399
+   }
+  },
+  {
+   "game_id": "2026_09_DEN_CAR",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "CAR",
+   "away": "DEN",
+   "total": 58.2,
+   "margin": -2.64,
+   "home_pts": 17.8,
+   "away_pts": 31,
+   "points_total": 60.6,
+   "points_margin": -4.93,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.0924,
+     "qb": -0.439,
+     "weather": -0.079,
+     "efficiency": -2.03
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.27,
+     "qb": -1.002,
+     "efficiency": -1.6
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039150",
+     "name": "Bryce Young",
+     "epa_db": -0.0811,
+     "vs_team": 0.001,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039732",
+     "name": "Bo Nix",
+     "epa_db": -0.0037,
+     "vs_team": 0,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0347,
+    "away_epa": 0.0484,
+    "home_sr": 0.299,
+    "away_sr": 0.333
+   }
+  },
+  {
+   "game_id": "2026_09_DET_MIA",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "MIA",
+   "away": "DET",
+   "total": 54.6,
+   "margin": -6.21,
+   "home_pts": 22.6,
+   "away_pts": 36,
+   "points_total": 63.2,
+   "points_margin": -5.44,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.625,
+     "qb": 0.586,
+     "weather": -0.132,
+     "efficiency": 3.93
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.3,
+     "qb": -2.76,
+     "efficiency": -2.94
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0038128",
+     "name": "Malik Willis",
+     "epa_db": -0.0667,
+     "vs_team": -0.0217,
+     "known": true
+    },
+    "away": {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "epa_db": 0.17,
+     "vs_team": 0,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0198,
+    "away_epa": 0.109,
+    "home_sr": 0.417,
+    "away_sr": 0.444
+   }
+  },
+  {
+   "game_id": "2026_09_GB_NE",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "NE",
+   "away": "GB",
+   "total": 63.2,
+   "margin": 3.83,
+   "home_pts": 25.9,
+   "away_pts": 29.6,
+   "points_total": 58.5,
+   "points_margin": 4,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.721,
+     "qb": 1.33,
+     "weather": -0.082,
+     "efficiency": -0.109
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.376,
+     "qb": 0.333,
+     "efficiency": 1.135
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039851",
+     "name": "Drake Maye",
+     "epa_db": 0.08,
+     "vs_team": 0.0032,
+     "known": true
+    },
+    "away": {
+     "id": "00-0036264",
+     "name": "Jordan Love",
+     "epa_db": 0.1158,
+     "vs_team": 0.0055,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.0385,
+    "away_epa": 0.026,
+    "home_sr": 0.617,
+    "away_sr": 0.373
+   }
+  },
+  {
+   "game_id": "2026_09_HOU_LAC",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "LAC",
+   "away": "HOU",
+   "total": 29.5,
+   "margin": -3.37,
+   "home_pts": 22.8,
+   "away_pts": 23.7,
+   "points_total": 39.9,
+   "points_margin": -2.7,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -1.126,
+     "qb": -0.29,
+     "weather": 1.2,
+     "efficiency": -1.81
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.97,
+     "qb": -1.32,
+     "efficiency": -1.73
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "epa_db": -0.0467,
+     "vs_team": 0.0014,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039163",
+     "name": "C.J. Stroud",
+     "epa_db": 0.0153,
+     "vs_team": 0.0089,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.145,
+    "away_epa": -0.0509,
+    "home_sr": 0.32,
+    "away_sr": 0.524
+   }
+  },
+  {
+   "game_id": "2026_09_LA_WAS",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "WAS",
+   "away": "LA",
+   "total": 49.3,
+   "margin": -6.95,
+   "home_pts": 13.9,
+   "away_pts": 34.7,
+   "points_total": 39.7,
+   "points_margin": -7.59,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 0.273,
+     "qb": 0.957,
+     "weather": -0.131,
+     "efficiency": -0.0833
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -1.13,
+     "qb": -1.056,
+     "efficiency": -5.19
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039910",
+     "name": "Jayden Daniels",
+     "epa_db": -0.0114,
+     "vs_team": 0.0107,
+     "known": true
+    },
+    "away": {
+     "id": "00-0026498",
+     "name": "Matthew Stafford",
+     "epa_db": 0.0969,
+     "vs_team": 0.0007,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0548,
+    "away_epa": 0.0602,
+    "home_sr": 0.563,
+    "away_sr": 0.463
+   }
+  },
+  {
+   "game_id": "2026_09_LV_SF",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "SF",
+   "away": "LV",
+   "total": 33.3,
+   "margin": 7.2,
+   "home_pts": 38.2,
+   "away_pts": 15.8,
+   "points_total": 37.2,
+   "points_margin": 9.45,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": 1.22,
+     "qb": 2.31,
+     "weather": -0.133,
+     "efficiency": 0.985
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.81,
+     "qb": 0.638,
+     "efficiency": 4.76
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0037834",
+     "name": "Brock Purdy",
+     "epa_db": 0.08,
+     "vs_team": 0.0149,
+     "known": true
+    },
+    "away": {
+     "id": "00-0029604",
+     "name": "Kirk Cousins",
+     "epa_db": 0.0306,
+     "vs_team": 0.0208,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.116,
+    "away_epa": -0.0329,
+    "home_sr": 0.643,
+    "away_sr": 0.377
+   }
+  },
+  {
+   "game_id": "2026_09_NYG_PHI",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "PHI",
+   "away": "NYG",
+   "total": 29.7,
+   "margin": -0.543,
+   "home_pts": 17.2,
+   "away_pts": 25.2,
+   "points_total": 39.6,
+   "points_margin": -0.956,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.506,
+     "qb": -4.72,
+     "weather": -0.099,
+     "efficiency": -1.67
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.333,
+     "qb": -0.515,
+     "efficiency": -0.85
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0038400",
+     "name": "Tanner McKee",
+     "epa_db": -0.121,
+     "vs_team": -0.065,
+     "known": true
+    },
+    "away": {
+     "id": "00-0039923",
+     "name": "J.J. McCarthy",
+     "epa_db": -0.1,
+     "vs_team": -0.0518,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0372,
+    "away_epa": 0.0215,
+    "home_sr": 0.382,
+    "away_sr": 0.493
+   }
+  },
+  {
+   "game_id": "2026_09_NYJ_KC",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "KC",
+   "away": "NYJ",
+   "total": 40.7,
+   "margin": 6.61,
+   "home_pts": 30,
+   "away_pts": 21.1,
+   "points_total": 47.2,
+   "points_margin": 6.49,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.363,
+     "qb": 0.65,
+     "weather": -0.131,
+     "efficiency": 0.207
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 1.24,
+     "qb": 1.027,
+     "efficiency": 3.57
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "epa_db": 0.0502,
+     "vs_team": 0.0097,
+     "known": true
+    },
+    "away": {
+     "id": "00-0030565",
+     "name": "Geno Smith",
+     "epa_db": -0.0486,
+     "vs_team": 0.0166,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": 0.075,
+    "away_epa": -0.0255,
+    "home_sr": 0.46,
+    "away_sr": 0.291
+   }
+  },
+  {
+   "game_id": "2026_09_TB_CHI",
+   "week": 9,
+   "gameday": "2026-11-08",
+   "played": false,
+   "home": "CHI",
+   "away": "TB",
+   "total": 46.2,
+   "margin": 3.95,
+   "home_pts": 16.8,
+   "away_pts": 17.1,
+   "points_total": 59.9,
+   "points_margin": 3.94,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.0064,
+     "qb": 0.666,
+     "weather": -0.085,
+     "efficiency": -0.767
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": 0.313,
+     "qb": 0.844,
+     "efficiency": 0.538
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0039918",
+     "name": "Caleb Williams",
+     "epa_db": 0.0257,
+     "vs_team": 0.0166,
+     "known": true
+    },
+    "away": {
+     "id": "00-0034855",
+     "name": "Baker Mayfield",
+     "epa_db": -0.0435,
+     "vs_team": 0.0159,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": false,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0316,
+    "away_epa": -0.056,
+    "home_sr": 0.273,
+    "away_sr": 0.527
+   }
+  },
+  {
+   "game_id": "2026_09_BUF_MIN",
+   "week": 9,
+   "gameday": "2026-11-09",
+   "played": false,
+   "home": "MIN",
+   "away": "BUF",
+   "total": 52.4,
+   "margin": -1.51,
+   "home_pts": 31.4,
+   "away_pts": 19.6,
+   "points_total": 54.8,
+   "points_margin": -0.94,
+   "parts": {
+    "total": {
+     "baseline": 45.59,
+     "points": -0.0632,
+     "qb": 0.73,
+     "weather": 1.3,
+     "efficiency": -0.549
+    },
+    "margin": {
+     "baseline": 1.67,
+     "points": -0.804,
+     "qb": -1.61,
+     "efficiency": -1.54
+    }
+   },
+   "qb": {
+    "home": {
+     "id": "00-0035228",
+     "name": "Kyler Murray",
+     "epa_db": -0.0219,
+     "vs_team": 0.0248,
+     "known": true
+    },
+    "away": {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "epa_db": 0.075,
+     "vs_team": 0.0022,
+     "known": true
+    }
+   },
+   "weather": {
+    "dome": true,
+    "wind": null,
+    "temp": null
+   },
+   "efficiency": {
+    "home_epa": -0.0832,
+    "away_epa": -0.0028,
+    "home_sr": 0.497,
+    "away_sr": 0.401
+   }
+  }
+ ]
+}

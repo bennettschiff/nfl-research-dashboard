@@ -1,0 +1,331 @@
+{
+ "season": 2026,
+ "through_week": 8,
+ "league": {
+  "def_pass_epa": 0.0435,
+  "def_rush_epa": -0.1262,
+  "pressure_proxy": 0.165
+ },
+ "teams": {
+  "ARI": {
+   "games": 8,
+   "def_pass_epa": 0.207,
+   "def_rush_epa": -0.181,
+   "pass_plays": 282,
+   "rush_plays": 219,
+   "dropbacks": 263,
+   "pfr_pressures": 44,
+   "pressure_proxy": 0.172
+  },
+  "ATL": {
+   "games": 8,
+   "def_pass_epa": 0.003,
+   "def_rush_epa": -0.122,
+   "pass_plays": 333,
+   "rush_plays": 212,
+   "dropbacks": 313,
+   "pfr_pressures": 73,
+   "pressure_proxy": 0.281
+  },
+  "BAL": {
+   "games": 8,
+   "def_pass_epa": 0.082,
+   "def_rush_epa": -0.0832,
+   "pass_plays": 319,
+   "rush_plays": 199,
+   "dropbacks": 303,
+   "pfr_pressures": 54,
+   "pressure_proxy": 0.198
+  },
+  "BUF": {
+   "games": 7,
+   "def_pass_epa": 0.217,
+   "def_rush_epa": -0.0657,
+   "pass_plays": 318,
+   "rush_plays": 167,
+   "dropbacks": 295,
+   "pfr_pressures": 58,
+   "pressure_proxy": 0.177
+  },
+  "CAR": {
+   "games": 7,
+   "def_pass_epa": 0.1032,
+   "def_rush_epa": -0.0594,
+   "pass_plays": 286,
+   "rush_plays": 191,
+   "dropbacks": 269,
+   "pfr_pressures": 52,
+   "pressure_proxy": 0.124
+  },
+  "CHI": {
+   "games": 8,
+   "def_pass_epa": 0.0241,
+   "def_rush_epa": -0.103,
+   "pass_plays": 286,
+   "rush_plays": 146,
+   "dropbacks": 267,
+   "pfr_pressures": 62,
+   "pressure_proxy": 0.311
+  },
+  "CIN": {
+   "games": 7,
+   "def_pass_epa": 0.0473,
+   "def_rush_epa": -0.0518,
+   "pass_plays": 300,
+   "rush_plays": 162,
+   "dropbacks": 282,
+   "pfr_pressures": 57,
+   "pressure_proxy": 0.204
+  },
+  "CLE": {
+   "games": 8,
+   "def_pass_epa": -0.0137,
+   "def_rush_epa": -0.0386,
+   "pass_plays": 303,
+   "rush_plays": 209,
+   "dropbacks": 291,
+   "pfr_pressures": 58,
+   "pressure_proxy": 0.222
+  },
+  "DAL": {
+   "games": 8,
+   "def_pass_epa": 0.254,
+   "def_rush_epa": -0.0264,
+   "pass_plays": 320,
+   "rush_plays": 221,
+   "dropbacks": 293,
+   "pfr_pressures": 54,
+   "pressure_proxy": 0.245
+  },
+  "DEN": {
+   "games": 8,
+   "def_pass_epa": -0.0091,
+   "def_rush_epa": -0.0409,
+   "pass_plays": 359,
+   "rush_plays": 212,
+   "dropbacks": 340,
+   "pfr_pressures": 74,
+   "pressure_proxy": 0.276
+  },
+  "DET": {
+   "games": 7,
+   "def_pass_epa": 0.187,
+   "def_rush_epa": -0.0692,
+   "pass_plays": 342,
+   "rush_plays": 148,
+   "dropbacks": 325,
+   "pfr_pressures": 70,
+   "pressure_proxy": 0.181
+  },
+  "GB": {
+   "games": 8,
+   "def_pass_epa": -0.0036,
+   "def_rush_epa": -0.09,
+   "pass_plays": 344,
+   "rush_plays": 208,
+   "dropbacks": 325,
+   "pfr_pressures": 67,
+   "pressure_proxy": 0.278
+  },
+  "HOU": {
+   "games": 7,
+   "def_pass_epa": 0.107,
+   "def_rush_epa": -0.0535,
+   "pass_plays": 287,
+   "rush_plays": 174,
+   "dropbacks": 274,
+   "pfr_pressures": 64,
+   "pressure_proxy": 0.304
+  },
+  "IND": {
+   "games": 8,
+   "def_pass_epa": 0.0628,
+   "def_rush_epa": -0.0164,
+   "pass_plays": 276,
+   "rush_plays": 200,
+   "dropbacks": 259,
+   "pfr_pressures": 41,
+   "pressure_proxy": 0.166
+  },
+  "JAX": {
+   "games": 7,
+   "def_pass_epa": -0.0231,
+   "def_rush_epa": -0.186,
+   "pass_plays": 290,
+   "rush_plays": 143,
+   "dropbacks": 270,
+   "pfr_pressures": 54,
+   "pressure_proxy": 0.151
+  },
+  "KC": {
+   "games": 7,
+   "def_pass_epa": 0.0851,
+   "def_rush_epa": -0.098,
+   "pass_plays": 289,
+   "rush_plays": 178,
+   "dropbacks": 267,
+   "pfr_pressures": 47,
+   "pressure_proxy": 0.157
+  },
+  "LA": {
+   "games": 8,
+   "def_pass_epa": -0.0177,
+   "def_rush_epa": -0.186,
+   "pass_plays": 308,
+   "rush_plays": 207,
+   "dropbacks": 290,
+   "pfr_pressures": 48,
+   "pressure_proxy": 0.222
+  },
+  "LAC": {
+   "games": 7,
+   "def_pass_epa": -0.0088,
+   "def_rush_epa": -0.0529,
+   "pass_plays": 231,
+   "rush_plays": 199,
+   "dropbacks": 215,
+   "pfr_pressures": 42,
+   "pressure_proxy": 0.181
+  },
+  "LV": {
+   "games": 8,
+   "def_pass_epa": 0.131,
+   "def_rush_epa": -0.0684,
+   "pass_plays": 311,
+   "rush_plays": 215,
+   "dropbacks": 286,
+   "pfr_pressures": 69,
+   "pressure_proxy": 0.227
+  },
+  "MIA": {
+   "games": 7,
+   "def_pass_epa": 0.25,
+   "def_rush_epa": -0.0802,
+   "pass_plays": 232,
+   "rush_plays": 187,
+   "dropbacks": 217,
+   "pfr_pressures": 39,
+   "pressure_proxy": 0.196
+  },
+  "MIN": {
+   "games": 7,
+   "def_pass_epa": -0.165,
+   "def_rush_epa": -0.22,
+   "pass_plays": 245,
+   "rush_plays": 180,
+   "dropbacks": 235,
+   "pfr_pressures": 72,
+   "pressure_proxy": 0.296
+  },
+  "NE": {
+   "games": 8,
+   "def_pass_epa": 0.096,
+   "def_rush_epa": -0.116,
+   "pass_plays": 307,
+   "rush_plays": 186,
+   "dropbacks": 290,
+   "pfr_pressures": 53,
+   "pressure_proxy": 0.202
+  },
+  "NO": {
+   "games": 7,
+   "def_pass_epa": 0.115,
+   "def_rush_epa": 0.0195,
+   "pass_plays": 275,
+   "rush_plays": 183,
+   "dropbacks": 261,
+   "pfr_pressures": 43,
+   "pressure_proxy": 0.19
+  },
+  "NYG": {
+   "games": 7,
+   "def_pass_epa": 0.1211,
+   "def_rush_epa": -0.0848,
+   "pass_plays": 264,
+   "rush_plays": 171,
+   "dropbacks": 244,
+   "pfr_pressures": 43,
+   "pressure_proxy": 0.206
+  },
+  "NYJ": {
+   "games": 8,
+   "def_pass_epa": 0.154,
+   "def_rush_epa": -0.164,
+   "pass_plays": 297,
+   "rush_plays": 225,
+   "dropbacks": 277,
+   "pfr_pressures": 56,
+   "pressure_proxy": 0.178
+  },
+  "PHI": {
+   "games": 8,
+   "def_pass_epa": 0.129,
+   "def_rush_epa": 0.0166,
+   "pass_plays": 319,
+   "rush_plays": 234,
+   "dropbacks": 300,
+   "pfr_pressures": 44,
+   "pressure_proxy": 0.181
+  },
+  "PIT": {
+   "games": 8,
+   "def_pass_epa": -0.0227,
+   "def_rush_epa": -0.115,
+   "pass_plays": 332,
+   "rush_plays": 171,
+   "dropbacks": 318,
+   "pfr_pressures": 47,
+   "pressure_proxy": 0.186
+  },
+  "SEA": {
+   "games": 8,
+   "def_pass_epa": -0.0271,
+   "def_rush_epa": -0.117,
+   "pass_plays": 303,
+   "rush_plays": 195,
+   "dropbacks": 286,
+   "pfr_pressures": 72,
+   "pressure_proxy": 0.182
+  },
+  "SF": {
+   "games": 7,
+   "def_pass_epa": 0.0437,
+   "def_rush_epa": -0.286,
+   "pass_plays": 285,
+   "rush_plays": 177,
+   "dropbacks": 268,
+   "pfr_pressures": 64,
+   "pressure_proxy": 0.185
+  },
+  "TB": {
+   "games": 8,
+   "def_pass_epa": -0.153,
+   "def_rush_epa": -0.123,
+   "pass_plays": 309,
+   "rush_plays": 171,
+   "dropbacks": 294,
+   "pfr_pressures": 51,
+   "pressure_proxy": 0.168
+  },
+  "TEN": {
+   "games": 8,
+   "def_pass_epa": 0.187,
+   "def_rush_epa": -0.0692,
+   "pass_plays": 320,
+   "rush_plays": 235,
+   "dropbacks": 305,
+   "pfr_pressures": 55,
+   "pressure_proxy": 0.241
+  },
+  "WAS": {
+   "games": 7,
+   "def_pass_epa": 0.131,
+   "def_rush_epa": -0.1259,
+   "pass_plays": 301,
+   "rush_plays": 157,
+   "dropbacks": 289,
+   "pfr_pressures": 56,
+   "pressure_proxy": 0.253
+  }
+ }
+}

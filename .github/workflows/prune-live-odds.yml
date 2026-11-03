@@ -1,0 +1,130 @@
+name: Prune played-week live odds
+
+# ── WHY ──────────────────────────────────────────────────────────────────────
+# db/schema.sql says the 'live' surface "stays the size of one slate however
+# often we refresh it". True WITHIN a slate, false ACROSS them: row_key carries
+# the line, so a line move writes a new row rather than updating one, and every
+# finished week stays forever. Two weeks into 2026 that was 48,379 live rows,
+# 11,656 of them in the three books the board reads — and the board pages every
+# one of them on every load, for games that finished days ago, to render one
+# upcoming week. Left alone it grows ~11k board-book rows a week all season.
+#
+# Nothing reads a live row once its game has kicked off: the grader takes CLV
+# from the kept 'close' snapshots, --backfill replaces d.odds with those same
+# close rows, and the board hides a finished game outright.
+#
+# ── THE ORDER OF THE STEPS IS THE SAFETY ─────────────────────────────────────
+# Dump, upload, THEN delete. The delete step has no `if: always()` and no
+# `continue-on-error` — if Drive is unreachable, nothing is removed and the job
+# goes red with the data still in the table. scripts/prune_live_odds.mjs
+# addresses the delete by the primary keys of exactly the rows it dumped, so the
+# file on Drive and the rows that went away can never describe different sets,
+# and a restore is a plain upsert on row_key.
+#
+# It also refuses to delete a live row unless a 'close' row exists for the same
+# (game_id, book, prop_type, player_name, name). On 2026-09-22, 777 outcomes
+# across all 17 books existed ONLY in live because a close pull never reached
+# them — deleting those would destroy the only record of a market this project
+# paid Odds API credits for. They are kept, and the run says how many.
+#
+# ── GRADED GAMES GO TO DRIVE WHOLE ───────────────────────────────────────────
+# Since 2026-10-13 the same run also archives EVERY row (close and live) of a
+# game that is over with no pending pick — the grader has already stamped its
+# close onto the pick and nothing reads those odds again (its 10-day
+# stat-correction regrade needs box scores, not odds). Kept
+# close rows grew ~20k a week; on the shared free Nano that was the road to the
+# 500 MB cap, and the biggest table the nightly backup walks. Same dump →
+# upload → delete order; the dump is live_odds_archived_<season>_<date>.json.gz.
+#
+# ── SCHEDULE ─────────────────────────────────────────────────────────────────
+# Tue 16:00 UTC (12 PM ET). After Monday night is comfortably over, and after
+# odds-pull.yml's 11:00 UTC daily close has had its last go at the week — the
+# close rows have to be on file before anything leans on them. --hours 6 means a
+# game still in progress is out of scope whatever the clock says.
+on:
+  # Production runs this on a cron schedule. The public copy is manual-only,
+  # so a fork without secrets never fires it.
+  workflow_dispatch:
+    inputs:
+      season:
+        description: 'Season to prune'
+        required: false
+        default: '2026'
+      dry_run:
+        description: 'Dump and report, delete nothing'
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nfl-prune-live-odds
+  cancel-in-progress: false
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SEASON: ${{ github.event.inputs.season || '2026' }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          check-latest: true   # runner cache lags security releases
+
+      # Same shape as backup-to-drive.yml, and for the same reason: `apt-get
+      # update` refreshes every source on the runner image, and one broken
+      # third-party source fails the whole command.
+      - name: Install rclone
+        run: |
+          sudo rm -f /etc/apt/sources.list.d/microsoft-prod.list \
+                     /etc/apt/sources.list.d/microsoft.list
+          if sudo apt-get update -qq && sudo apt-get install -y -qq rclone; then
+            rclone version
+          else
+            echo "apt unusable — falling back to rclone.org's .deb"
+            curl -fsSL https://downloads.rclone.org/rclone-current-linux-amd64.deb -o /tmp/rclone.deb
+            sudo dpkg -i /tmp/rclone.deb
+            rclone version
+          fi
+
+      # Dry run: writes the gzipped dump, deletes nothing. This is the file that
+      # has to reach Drive before the delete step is allowed to run.
+      - name: Dump the rows that would go
+        run: node scripts/prune_live_odds.mjs --season "$SEASON" --out-dir prune-out
+
+      - name: Upload the dump to Google Drive
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          if [ ! -d prune-out ] || [ -z "$(ls -A prune-out 2>/dev/null)" ]; then
+            echo "nothing was dumped — no rows are eligible, so there is nothing to delete either"
+            exit 0
+          fi
+          mkdir -p ~/.config/rclone
+          printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          DATE=$(date -u +%F)
+          rclone copy prune-out "gdrive:nfl-research-dashboard-backups/$DATE/pruned" --transfers 4 -v
+          # Prove it landed rather than trusting the exit code alone.
+          rclone lsl "gdrive:nfl-research-dashboard-backups/$DATE/pruned"
+
+      # No `if: always()`. A failed upload leaves the table untouched.
+      - name: Delete them
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: node scripts/prune_live_odds.mjs --season "$SEASON" --out-dir prune-out --write
+
+      - name: Keep the dump as a run artifact too
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-odds-pruned-${{ env.SEASON }}
+          path: prune-out/
+          if-no-files-found: ignore
+          retention-days: 90

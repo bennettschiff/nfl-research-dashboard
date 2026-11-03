@@ -1,0 +1,110 @@
+name: NFL injury report refresh
+
+# Keeps nfl.player_injuries current, which is what the board reads to decide
+# whether a man is playing.
+#
+# ── WHY THIS EXISTS ──────────────────────────────────────────────────────────
+# pull_injuries.mjs was written to run on a fast clock — its own header says so:
+# "each of those changes who is on the board TODAY ... can sit on the same cron
+# as pull_live_odds.mjs." It never got one. It was a script somebody remembered
+# to run, and the 2026 week-1 opener is what that costs.
+#
+# The board's snapshot for NE at SEA was pulled 2026-09-09T01:08Z. At that hour
+# TreVeyon Henderson carried no game-status designation and a Did Not Participate
+# practice line, so availabilityOf() returned LIMITED and he sat on the board
+# with a projection, a market line and an amber DNP chip. New England filed him
+# OUT (ankle) later that day. Nothing re-read the report, so the last thing the
+# board knew was the Monday practice line, and it showed a bettable row for a
+# back who did not dress. Tory Horton was the same story one designation softer:
+# stored Limited, filed Questionable, did not play.
+#
+# ── WHY DAILY, AND WHY ONE SLOT IS ENOUGH ────────────────────────────────────
+# The designation that matters is the club's LAST filing before kickoff, and the
+# league's calendar puts that on a different day for every game slot: Friday for
+# the Sunday slate, Wednesday for Thursday night, Saturday for Monday night.
+# There is no cheap way to be clever about which day matters, and no reason to
+# be: this is a static nflverse release download plus a small upsert, a few
+# seconds and no metered API. So it runs every day.
+#
+# It runs ONCE because the final designation is always filed the day BEFORE the
+# game, so a single morning pass sees it with a day of margin:
+#
+#   Thursday night   filed Wed PM   → caught Thu 11 AM, ~9h before kickoff
+#   Sunday slate     filed Fri PM   → caught Sat 11 AM, ~26h before
+#   Monday night     filed Sat PM   → caught Sun 11 AM, ~33h before
+#
+# THE HOUR IS SET BY nflverse's BUILD, NOT BY KICKOFF. We download a release
+# asset, so the binding constraint is when that asset is rebuilt — fire before
+# it and the margins above are worthless, because we read yesterday's file. The
+# `update-injuries` job in nflverse/nflverse-rosters runs ONCE a day and drifts:
+#
+#   2026-09-10 12:00Z   2026-09-09 12:06Z   2026-09-08 16:04Z   2026-09-07 12:59Z
+#
+# Nominally ~12:00 UTC, observed as late as 16:04 UTC. 18:00 UTC clears the
+# nominal build by six hours and the observed worst case by two.
+#
+#   18:00 UTC = 2 PM ET during DST, 1 PM ET once the clocks go back. Late enough
+#               to be behind the build, early enough that even a badly delayed
+#               GitHub cron lands hours before a Thursday-night kickoff — which
+#               is the tightest slot this job serves, since Thursday's run is
+#               the only one that sees Wednesday's final TNF designations.
+#
+# WHAT THE SINGLE SLOT GIVES UP: a designation CHANGED on the day it was filed
+# (a Saturday downgrade of a Questionable to Out) waits for the next morning's
+# run. The thing that actually settles those cases is the 90-minute inactives
+# list, which this feed does not carry at all — see the script header. If that
+# window starts costing real rows, add back a 21:00 UTC slot rather than moving
+# this one closer to kickoff.
+#
+# ── WHY IT WRITES TO SUPABASE AND THE ROSTER JOB COMMITS ─────────────────────
+# Different shapes of data. The roster overlay is one small artifact describing
+# every player, so it ships in the Vite bundle. The injury report is per (player,
+# week) and grows all season; it already has a table, and loadInjuries() already
+# reads it with a graceful empty fallback. Nothing here changes that contract.
+#
+# The script is a no-op upsert when nothing has been filed, so a run on a dark
+# day is free.
+
+on:
+  # Production runs this on a cron schedule. The public copy is manual-only,
+  # so a fork without secrets never fires it.
+  workflow_dispatch:
+    inputs:
+      season:
+        description: 'Season to pull'
+        required: false
+        default: '2026'
+
+# A permissions block REPLACES the default token scopes rather than adding to
+# them, so contents: read must be listed or actions/checkout gets "Repository
+# not found" on a private repo — a 403 masked as a 404.
+permissions:
+  contents: read
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          check-latest: true   # runner cache lags security releases
+
+      # Dry run first, unconditionally. It downloads the same file the live pass
+      # will and prints what it would write, so a season with no rows yet or a
+      # changed nflverse column shows up in the log beside the run that acted on
+      # it — the same discipline odds-pull.yml uses.
+      - name: Plan (dry run, no write)
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/pull_injuries.mjs --season "${{ github.event.inputs.season || '2026' }}"
+
+      - name: Pull
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/pull_injuries.mjs --season "${{ github.event.inputs.season || '2026' }}" --live

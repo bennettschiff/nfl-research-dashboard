@@ -1,0 +1,7434 @@
+[
+ {
+  "player_id": "00-0022942",
+  "season": 2025,
+  "prior_depth_rank": 1.91,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "IND",
+  "snapshots": 86
+ },
+ {
+  "player_id": "00-0023459",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "PIT",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0023500",
+  "season": 2025,
+  "prior_depth_rank": 5.61,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "BUF",
+  "snapshots": 81
+ },
+ {
+  "player_id": "00-0024243",
+  "season": 2025,
+  "prior_depth_rank": 2.93,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DEN",
+  "snapshots": 21
+ },
+ {
+  "player_id": "00-0026158",
+  "season": 2025,
+  "prior_depth_rank": 1.16,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CLE",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0026300",
+  "season": 2025,
+  "prior_depth_rank": 3.25,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "WAS",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0026498",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0027973",
+  "season": 2025,
+  "prior_depth_rank": 2.07,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0028118",
+  "season": 2025,
+  "prior_depth_rank": 1.61,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NYJ",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0028986",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0029263",
+  "season": 2025,
+  "prior_depth_rank": 2.76,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NYG",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0029604",
+  "season": 2025,
+  "prior_depth_rank": 1.94,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "ATL",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0029892",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0030035",
+  "season": 2025,
+  "prior_depth_rank": 3.41,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CAR",
+  "snapshots": 162
+ },
+ {
+  "player_id": "00-0030061",
+  "season": 2025,
+  "prior_depth_rank": 2.36,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "WAS",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0030279",
+  "season": 2025,
+  "prior_depth_rank": 3.18,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 215
+ },
+ {
+  "player_id": "00-0030431",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PIT",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0030506",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0030564",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BAL",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0030565",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "LV",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0031236",
+  "season": 2025,
+  "prior_depth_rank": 4.16,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NO",
+  "snapshots": 211
+ },
+ {
+  "player_id": "00-0031237",
+  "season": 2025,
+  "prior_depth_rank": 1.67,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "TB",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0031345",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "LA",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0031381",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0031408",
+  "season": 2025,
+  "prior_depth_rank": 2.29,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0031503",
+  "season": 2025,
+  "prior_depth_rank": 2.8,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0031544",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 10
+ },
+ {
+  "player_id": "00-0031588",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NE",
+  "snapshots": 211
+ },
+ {
+  "player_id": "00-0031595",
+  "season": 2025,
+  "prior_depth_rank": 1.92,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "DEN",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0031610",
+  "season": 2025,
+  "prior_depth_rank": 1.34,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIA",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0031687",
+  "season": 2025,
+  "prior_depth_rank": 2.52,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LV",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0031763",
+  "season": 2025,
+  "prior_depth_rank": 6.42,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0031800",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "LAC",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0032104",
+  "season": 2025,
+  "prior_depth_rank": 3.55,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SF",
+  "snapshots": 161
+ },
+ {
+  "player_id": "00-0032156",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "TEN",
+  "snapshots": 15
+ },
+ {
+  "player_id": "00-0032208",
+  "season": 2025,
+  "prior_depth_rank": 9.02,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 91
+ },
+ {
+  "player_id": "00-0032211",
+  "season": 2025,
+  "prior_depth_rank": 2.2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 209
+ },
+ {
+  "player_id": "00-0032268",
+  "season": 2025,
+  "prior_depth_rank": 1.78,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "WAS",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0032385",
+  "season": 2025,
+  "prior_depth_rank": 7.44,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0032392",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0032394",
+  "season": 2025,
+  "prior_depth_rank": 5.56,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIN",
+  "snapshots": 151
+ },
+ {
+  "player_id": "00-0032398",
+  "season": 2025,
+  "prior_depth_rank": 6.08,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 190
+ },
+ {
+  "player_id": "00-0032434",
+  "season": 2025,
+  "prior_depth_rank": 2.25,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "TEN",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0032436",
+  "season": 2025,
+  "prior_depth_rank": 4.63,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "WAS",
+  "snapshots": 77
+ },
+ {
+  "player_id": "00-0032464",
+  "season": 2025,
+  "prior_depth_rank": 4.78,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0032688",
+  "season": 2025,
+  "prior_depth_rank": 7.87,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 43
+ },
+ {
+  "player_id": "00-0032764",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0032775",
+  "season": 2025,
+  "prior_depth_rank": 3.39,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0032792",
+  "season": 2025,
+  "prior_depth_rank": 5,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "SF",
+  "snapshots": 2
+ },
+ {
+  "player_id": "00-0032918",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "MIN",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0032950",
+  "season": 2025,
+  "prior_depth_rank": 3.99,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "MIN",
+  "snapshots": 196
+ },
+ {
+  "player_id": "00-0032951",
+  "season": 2025,
+  "prior_depth_rank": 4.74,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "IND",
+  "snapshots": 148
+ },
+ {
+  "player_id": "00-0033040",
+  "season": 2025,
+  "prior_depth_rank": 3.86,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIA",
+  "snapshots": 195
+ },
+ {
+  "player_id": "00-0033077",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033090",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033106",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033110",
+  "season": 2025,
+  "prior_depth_rank": 1.74,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033119",
+  "season": 2025,
+  "prior_depth_rank": 1.35,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "ARI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033217",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "IND",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0033246",
+  "season": 2025,
+  "prior_depth_rank": 1.92,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "JAX",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0033251",
+  "season": 2025,
+  "prior_depth_rank": 9.8,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 19
+ },
+ {
+  "player_id": "00-0033280",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033282",
+  "season": 2025,
+  "prior_depth_rank": 5.9,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 213
+ },
+ {
+  "player_id": "00-0033288",
+  "season": 2025,
+  "prior_depth_rank": 2.33,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033292",
+  "season": 2025,
+  "prior_depth_rank": 12.93,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0033293",
+  "season": 2025,
+  "prior_depth_rank": 0.93,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033307",
+  "season": 2025,
+  "prior_depth_rank": 3.14,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NE",
+  "snapshots": 209
+ },
+ {
+  "player_id": "00-0033319",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "JAX",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033357",
+  "season": 2025,
+  "prior_depth_rank": 2.82,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NO",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0033375",
+  "season": 2025,
+  "prior_depth_rank": 4.4,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DET",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0033376",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033439",
+  "season": 2025,
+  "prior_depth_rank": 3.85,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIA",
+  "snapshots": 123
+ },
+ {
+  "player_id": "00-0033455",
+  "season": 2025,
+  "prior_depth_rank": 1.55,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DET",
+  "snapshots": 104
+ },
+ {
+  "player_id": "00-0033526",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033537",
+  "season": 2025,
+  "prior_depth_rank": 4.66,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CLE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033553",
+  "season": 2025,
+  "prior_depth_rank": 2.12,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "ARI",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0033555",
+  "season": 2025,
+  "prior_depth_rank": 3.27,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033572",
+  "season": 2025,
+  "prior_depth_rank": 5.51,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 139
+ },
+ {
+  "player_id": "00-0033576",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "SEA",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0033589",
+  "season": 2025,
+  "prior_depth_rank": 6.96,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033591",
+  "season": 2025,
+  "prior_depth_rank": 7.13,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0033662",
+  "season": 2025,
+  "prior_depth_rank": 2.66,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "BAL",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0033699",
+  "season": 2025,
+  "prior_depth_rank": 2.71,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "WAS",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0033757",
+  "season": 2025,
+  "prior_depth_rank": 2.81,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "KC",
+  "snapshots": 215
+ },
+ {
+  "player_id": "00-0033854",
+  "season": 2025,
+  "prior_depth_rank": 3.25,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "HOU",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0033857",
+  "season": 2025,
+  "prior_depth_rank": 3.23,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "KC",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0033858",
+  "season": 2025,
+  "prior_depth_rank": 1.68,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PIT",
+  "snapshots": 211
+ },
+ {
+  "player_id": "00-0033869",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033873",
+  "season": 2025,
+  "prior_depth_rank": 1.19,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033881",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033885",
+  "season": 2025,
+  "prior_depth_rank": 1.55,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CLE",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0033891",
+  "season": 2025,
+  "prior_depth_rank": 5.4,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ARI",
+  "snapshots": 216
+ },
+ {
+  "player_id": "00-0033897",
+  "season": 2025,
+  "prior_depth_rank": 3.9,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "HOU",
+  "snapshots": 213
+ },
+ {
+  "player_id": "00-0033906",
+  "season": 2025,
+  "prior_depth_rank": 1.35,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NO",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033908",
+  "season": 2025,
+  "prior_depth_rank": 1.96,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033921",
+  "season": 2025,
+  "prior_depth_rank": 2.67,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033923",
+  "season": 2025,
+  "prior_depth_rank": 2.14,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "KC",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0033943",
+  "season": 2025,
+  "prior_depth_rank": 5.75,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYJ",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0033949",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0033955",
+  "season": 2025,
+  "prior_depth_rank": 3.03,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "WAS",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0034054",
+  "season": 2025,
+  "prior_depth_rank": 8.72,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 16
+ },
+ {
+  "player_id": "00-0034073",
+  "season": 2025,
+  "prior_depth_rank": 3.22,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "SF",
+  "snapshots": 89
+ },
+ {
+  "player_id": "00-0034115",
+  "season": 2025,
+  "prior_depth_rank": 7.99,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SF",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0034159",
+  "season": 2025,
+  "prior_depth_rank": 2.17,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LAC",
+  "snapshots": 210
+ },
+ {
+  "player_id": "00-0034177",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "TEN",
+  "snapshots": 8
+ },
+ {
+  "player_id": "00-0034208",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "MIA",
+  "snapshots": 14
+ },
+ {
+  "player_id": "00-0034270",
+  "season": 2025,
+  "prior_depth_rank": 3.57,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LAC",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0034272",
+  "season": 2025,
+  "prior_depth_rank": 3.1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SEA",
+  "snapshots": 156
+ },
+ {
+  "player_id": "00-0034279",
+  "season": 2025,
+  "prior_depth_rank": 13.1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 15
+ },
+ {
+  "player_id": "00-0034317",
+  "season": 2025,
+  "prior_depth_rank": 7.01,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BAL",
+  "snapshots": 25
+ },
+ {
+  "player_id": "00-0034348",
+  "season": 2025,
+  "prior_depth_rank": 0.92,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034351",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PHI",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0034353",
+  "season": 2025,
+  "prior_depth_rank": 7,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BAL",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0034365",
+  "season": 2025,
+  "prior_depth_rank": 2.53,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LV",
+  "snapshots": 216
+ },
+ {
+  "player_id": "00-0034367",
+  "season": 2025,
+  "prior_depth_rank": 6.55,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LAC",
+  "snapshots": 30
+ },
+ {
+  "player_id": "00-0034383",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "HOU",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0034386",
+  "season": 2025,
+  "prior_depth_rank": 9.15,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0034401",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "BUF",
+  "snapshots": 31
+ },
+ {
+  "player_id": "00-0034406",
+  "season": 2025,
+  "prior_depth_rank": 7.7,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0034407",
+  "season": 2025,
+  "prior_depth_rank": 4.1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 83
+ },
+ {
+  "player_id": "00-0034411",
+  "season": 2025,
+  "prior_depth_rank": 4.32,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 30
+ },
+ {
+  "player_id": "00-0034418",
+  "season": 2025,
+  "prior_depth_rank": 3.73,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NO",
+  "snapshots": 183
+ },
+ {
+  "player_id": "00-0034419",
+  "season": 2025,
+  "prior_depth_rank": 4.93,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 215
+ },
+ {
+  "player_id": "00-0034438",
+  "season": 2025,
+  "prior_depth_rank": 5,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "PIT",
+  "snapshots": 17
+ },
+ {
+  "player_id": "00-0034487",
+  "season": 2025,
+  "prior_depth_rank": 3.36,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DEN",
+  "snapshots": 108
+ },
+ {
+  "player_id": "00-0034521",
+  "season": 2025,
+  "prior_depth_rank": 5.6,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYJ",
+  "snapshots": 134
+ },
+ {
+  "player_id": "00-0034577",
+  "season": 2025,
+  "prior_depth_rank": 1.63,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034613",
+  "season": 2025,
+  "prior_depth_rank": 4.51,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034681",
+  "season": 2025,
+  "prior_depth_rank": 3.07,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "WAS",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0034753",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034764",
+  "season": 2025,
+  "prior_depth_rank": 6.67,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0034771",
+  "season": 2025,
+  "prior_depth_rank": 2.13,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "PIT",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034775",
+  "season": 2025,
+  "prior_depth_rank": 1.87,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 215
+ },
+ {
+  "player_id": "00-0034777",
+  "season": 2025,
+  "prior_depth_rank": 9.27,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 15
+ },
+ {
+  "player_id": "00-0034791",
+  "season": 2025,
+  "prior_depth_rank": 2.51,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "HOU",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0034796",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034798",
+  "season": 2025,
+  "prior_depth_rank": 3.92,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CHI",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0034827",
+  "season": 2025,
+  "prior_depth_rank": 2.13,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034829",
+  "season": 2025,
+  "prior_depth_rank": 2.4,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034837",
+  "season": 2025,
+  "prior_depth_rank": 4.11,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0034838",
+  "season": 2025,
+  "prior_depth_rank": 6,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CHI",
+  "snapshots": 5
+ },
+ {
+  "player_id": "00-0034844",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "PHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034854",
+  "season": 2025,
+  "prior_depth_rank": 4.75,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 204
+ },
+ {
+  "player_id": "00-0034855",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "TB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034857",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034860",
+  "season": 2025,
+  "prior_depth_rank": 2.92,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NO",
+  "snapshots": 124
+ },
+ {
+  "player_id": "00-0034867",
+  "season": 2025,
+  "prior_depth_rank": 6.8,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 73
+ },
+ {
+  "player_id": "00-0034869",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034899",
+  "season": 2025,
+  "prior_depth_rank": 2.13,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "JAX",
+  "snapshots": 116
+ },
+ {
+  "player_id": "00-0034928",
+  "season": 2025,
+  "prior_depth_rank": 4.83,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SEA",
+  "snapshots": 29
+ },
+ {
+  "player_id": "00-0034955",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "MIN",
+  "snapshots": 130
+ },
+ {
+  "player_id": "00-0034959",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "NYJ",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034960",
+  "season": 2025,
+  "prior_depth_rank": 1.24,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0034970",
+  "season": 2025,
+  "prior_depth_rank": 5.15,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "HOU",
+  "snapshots": 57
+ },
+ {
+  "player_id": "00-0034972",
+  "season": 2025,
+  "prior_depth_rank": 4.26,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "MIA",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0034975",
+  "season": 2025,
+  "prior_depth_rank": 3.07,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0034981",
+  "season": 2025,
+  "prior_depth_rank": 2.69,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NO",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0034983",
+  "season": 2025,
+  "prior_depth_rank": 6.32,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CAR",
+  "snapshots": 151
+ },
+ {
+  "player_id": "00-0035021",
+  "season": 2025,
+  "prior_depth_rank": 3.6,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035039",
+  "season": 2025,
+  "prior_depth_rank": 3.55,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CHI",
+  "snapshots": 82
+ },
+ {
+  "player_id": "00-0035045",
+  "season": 2025,
+  "prior_depth_rank": 10.3,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "IND",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0035100",
+  "season": 2025,
+  "prior_depth_rank": 1.65,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CIN",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0035125",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "MIA",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0035140",
+  "season": 2025,
+  "prior_depth_rank": 6.81,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "GB",
+  "snapshots": 120
+ },
+ {
+  "player_id": "00-0035208",
+  "season": 2025,
+  "prior_depth_rank": 2.19,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035216",
+  "season": 2025,
+  "prior_depth_rank": 5.27,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0035228",
+  "season": 2025,
+  "prior_depth_rank": 2.23,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "ARI",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0035229",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035243",
+  "season": 2025,
+  "prior_depth_rank": 5.2,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DAL",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0035249",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035250",
+  "season": 2025,
+  "prior_depth_rank": 1.44,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035251",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "DAL",
+  "snapshots": 61
+ },
+ {
+  "player_id": "00-0035261",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035264",
+  "season": 2025,
+  "prior_depth_rank": 1.42,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035282",
+  "season": 2025,
+  "prior_depth_rank": 3.29,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "ATL",
+  "snapshots": 134
+ },
+ {
+  "player_id": "00-0035289",
+  "season": 2025,
+  "prior_depth_rank": 2.42,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035291",
+  "season": 2025,
+  "prior_depth_rank": 4.47,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CLE",
+  "snapshots": 117
+ },
+ {
+  "player_id": "00-0035298",
+  "season": 2025,
+  "prior_depth_rank": 3.5,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PIT",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0035311",
+  "season": 2025,
+  "prior_depth_rank": 4.44,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "BAL",
+  "snapshots": 21
+ },
+ {
+  "player_id": "00-0035329",
+  "season": 2025,
+  "prior_depth_rank": 3.77,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PIT",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0035341",
+  "season": 2025,
+  "prior_depth_rank": 6.08,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "JAX",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0035345",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "MIA",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0035356",
+  "season": 2025,
+  "prior_depth_rank": 3.45,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "WAS",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0035359",
+  "season": 2025,
+  "prior_depth_rank": 4.97,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 212
+ },
+ {
+  "player_id": "00-0035406",
+  "season": 2025,
+  "prior_depth_rank": 5.77,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 146
+ },
+ {
+  "player_id": "00-0035436",
+  "season": 2025,
+  "prior_depth_rank": 6.97,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "BUF",
+  "snapshots": 19
+ },
+ {
+  "player_id": "00-0035480",
+  "season": 2025,
+  "prior_depth_rank": 10,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DET",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0035500",
+  "season": 2025,
+  "prior_depth_rank": 4.58,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ARI",
+  "snapshots": 216
+ },
+ {
+  "player_id": "00-0035527",
+  "season": 2025,
+  "prior_depth_rank": 12,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 1
+ },
+ {
+  "player_id": "00-0035535",
+  "season": 2025,
+  "prior_depth_rank": 1.37,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035537",
+  "season": 2025,
+  "prior_depth_rank": 1.65,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035544",
+  "season": 2025,
+  "prior_depth_rank": 7.22,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DET",
+  "snapshots": 130
+ },
+ {
+  "player_id": "00-0035567",
+  "season": 2025,
+  "prior_depth_rank": 2.13,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DET",
+  "snapshots": 115
+ },
+ {
+  "player_id": "00-0035593",
+  "season": 2025,
+  "prior_depth_rank": 10.93,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 12
+ },
+ {
+  "player_id": "00-0035594",
+  "season": 2025,
+  "prior_depth_rank": 4.81,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CHI",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0035602",
+  "season": 2025,
+  "prior_depth_rank": 3.17,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 184
+ },
+ {
+  "player_id": "00-0035628",
+  "season": 2025,
+  "prior_depth_rank": 4.96,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "BAL",
+  "snapshots": 65
+ },
+ {
+  "player_id": "00-0035631",
+  "season": 2025,
+  "prior_depth_rank": 3.75,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035639",
+  "season": 2025,
+  "prior_depth_rank": 7,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DAL",
+  "snapshots": 70
+ },
+ {
+  "player_id": "00-0035640",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PIT",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035644",
+  "season": 2025,
+  "prior_depth_rank": 2.41,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035645",
+  "season": 2025,
+  "prior_depth_rank": 7.61,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0035659",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035662",
+  "season": 2025,
+  "prior_depth_rank": 3.11,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "KC",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0035676",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035685",
+  "season": 2025,
+  "prior_depth_rank": 1.82,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035689",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035700",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035703",
+  "season": 2025,
+  "prior_depth_rank": 4.86,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CHI",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0035704",
+  "season": 2025,
+  "prior_depth_rank": 2.38,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035710",
+  "season": 2025,
+  "prior_depth_rank": 2.57,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0035719",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0035726",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "HOU",
+  "snapshots": 105
+ },
+ {
+  "player_id": "00-0035769",
+  "season": 2025,
+  "prior_depth_rank": 4.63,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "BAL",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0035806",
+  "season": 2025,
+  "prior_depth_rank": 4.12,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NE",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0035876",
+  "season": 2025,
+  "prior_depth_rank": 7,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ARI",
+  "snapshots": 142
+ },
+ {
+  "player_id": "00-0035891",
+  "season": 2025,
+  "prior_depth_rank": 7.9,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SEA",
+  "snapshots": 180
+ },
+ {
+  "player_id": "00-0035924",
+  "season": 2025,
+  "prior_depth_rank": 6,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYG",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0035934",
+  "season": 2025,
+  "prior_depth_rank": 8.64,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ARI",
+  "snapshots": 51
+ },
+ {
+  "player_id": "00-0035939",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CAR",
+  "snapshots": 8
+ },
+ {
+  "player_id": "00-0035956",
+  "season": 2025,
+  "prior_depth_rank": 4.68,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIN",
+  "snapshots": 29
+ },
+ {
+  "player_id": "00-0035973",
+  "season": 2025,
+  "prior_depth_rank": 5.45,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SF",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0035976",
+  "season": 2025,
+  "prior_depth_rank": 8.37,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CAR",
+  "snapshots": 62
+ },
+ {
+  "player_id": "00-0035993",
+  "season": 2025,
+  "prior_depth_rank": 2.07,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CLE",
+  "snapshots": 163
+ },
+ {
+  "player_id": "00-0036020",
+  "season": 2025,
+  "prior_depth_rank": 5.88,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "IND",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0036032",
+  "season": 2025,
+  "prior_depth_rank": 4.47,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "IND",
+  "snapshots": 92
+ },
+ {
+  "player_id": "00-0036040",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NO",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036059",
+  "season": 2025,
+  "prior_depth_rank": 4.8,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CAR",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0036096",
+  "season": 2025,
+  "prior_depth_rank": 5.89,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "HOU",
+  "snapshots": 16
+ },
+ {
+  "player_id": "00-0036133",
+  "season": 2025,
+  "prior_depth_rank": 6.23,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 137
+ },
+ {
+  "player_id": "00-0036139",
+  "season": 2025,
+  "prior_depth_rank": 2.33,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036145",
+  "season": 2025,
+  "prior_depth_rank": 5.39,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "WAS",
+  "snapshots": 91
+ },
+ {
+  "player_id": "00-0036158",
+  "season": 2025,
+  "prior_depth_rank": 3.06,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036165",
+  "season": 2025,
+  "prior_depth_rank": 5.83,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 142
+ },
+ {
+  "player_id": "00-0036176",
+  "season": 2025,
+  "prior_depth_rank": 3.81,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 163
+ },
+ {
+  "player_id": "00-0036182",
+  "season": 2025,
+  "prior_depth_rank": 4.54,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIA",
+  "snapshots": 195
+ },
+ {
+  "player_id": "00-0036183",
+  "season": 2025,
+  "prior_depth_rank": 6.74,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0036187",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036196",
+  "season": 2025,
+  "prior_depth_rank": 6.09,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 110
+ },
+ {
+  "player_id": "00-0036212",
+  "season": 2025,
+  "prior_depth_rank": 1.83,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "MIA",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0036219",
+  "season": 2025,
+  "prior_depth_rank": 11.11,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 15
+ },
+ {
+  "player_id": "00-0036223",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036225",
+  "season": 2025,
+  "prior_depth_rank": 8.94,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "HOU",
+  "snapshots": 17
+ },
+ {
+  "player_id": "00-0036232",
+  "season": 2025,
+  "prior_depth_rank": 2.84,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PHI",
+  "snapshots": 201
+ },
+ {
+  "player_id": "00-0036233",
+  "season": 2025,
+  "prior_depth_rank": 6.46,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NO",
+  "snapshots": 18
+ },
+ {
+  "player_id": "00-0036244",
+  "season": 2025,
+  "prior_depth_rank": 1.89,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036250",
+  "season": 2025,
+  "prior_depth_rank": 6,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NE",
+  "snapshots": 1
+ },
+ {
+  "player_id": "00-0036252",
+  "season": 2025,
+  "prior_depth_rank": 0.75,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036254",
+  "season": 2025,
+  "prior_depth_rank": 6.84,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0036259",
+  "season": 2025,
+  "prior_depth_rank": 1.14,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0036261",
+  "season": 2025,
+  "prior_depth_rank": 8.14,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036264",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036265",
+  "season": 2025,
+  "prior_depth_rank": 3.61,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "PHI",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0036268",
+  "season": 2025,
+  "prior_depth_rank": 8.39,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0036271",
+  "season": 2025,
+  "prior_depth_rank": 6.16,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ARI",
+  "snapshots": 66
+ },
+ {
+  "player_id": "00-0036275",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036277",
+  "season": 2025,
+  "prior_depth_rank": 11.55,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 21
+ },
+ {
+  "player_id": "00-0036290",
+  "season": 2025,
+  "prior_depth_rank": 0.97,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036297",
+  "season": 2025,
+  "prior_depth_rank": 3.78,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "BUF",
+  "snapshots": 24
+ },
+ {
+  "player_id": "00-0036309",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 216
+ },
+ {
+  "player_id": "00-0036322",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036328",
+  "season": 2025,
+  "prior_depth_rank": 3.73,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NE",
+  "snapshots": 202
+ },
+ {
+  "player_id": "00-0036331",
+  "season": 2025,
+  "prior_depth_rank": 4.06,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CHI",
+  "snapshots": 216
+ },
+ {
+  "player_id": "00-0036332",
+  "season": 2025,
+  "prior_depth_rank": 4.38,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "ARI",
+  "snapshots": 167
+ },
+ {
+  "player_id": "00-0036345",
+  "season": 2025,
+  "prior_depth_rank": 4.24,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0036355",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "LAC",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0036358",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036360",
+  "season": 2025,
+  "prior_depth_rank": 3.89,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NO",
+  "snapshots": 27
+ },
+ {
+  "player_id": "00-0036384",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "ATL",
+  "snapshots": 5
+ },
+ {
+  "player_id": "00-0036387",
+  "season": 2025,
+  "prior_depth_rank": 7.16,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0036389",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "PHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036407",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036410",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036412",
+  "season": 2025,
+  "prior_depth_rank": 8,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0036414",
+  "season": 2025,
+  "prior_depth_rank": 2.89,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NO",
+  "snapshots": 83
+ },
+ {
+  "player_id": "00-0036415",
+  "season": 2025,
+  "prior_depth_rank": 5.74,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 216
+ },
+ {
+  "player_id": "00-0036422",
+  "season": 2025,
+  "prior_depth_rank": 2.88,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036423",
+  "season": 2025,
+  "prior_depth_rank": 6.04,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LV",
+  "snapshots": 93
+ },
+ {
+  "player_id": "00-0036425",
+  "season": 2025,
+  "prior_depth_rank": 5.3,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "ARI",
+  "snapshots": 142
+ },
+ {
+  "player_id": "00-0036427",
+  "season": 2025,
+  "prior_depth_rank": 5.03,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYJ",
+  "snapshots": 207
+ },
+ {
+  "player_id": "00-0036429",
+  "season": 2025,
+  "prior_depth_rank": 2.76,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "ATL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036442",
+  "season": 2025,
+  "prior_depth_rank": 1.07,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036450",
+  "season": 2025,
+  "prior_depth_rank": 5.98,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SF",
+  "snapshots": 17
+ },
+ {
+  "player_id": "00-0036456",
+  "season": 2025,
+  "prior_depth_rank": 7.08,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CAR",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0036463",
+  "season": 2025,
+  "prior_depth_rank": 10.01,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 94
+ },
+ {
+  "player_id": "00-0036482",
+  "season": 2025,
+  "prior_depth_rank": 13.07,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 11
+ },
+ {
+  "player_id": "00-0036491",
+  "season": 2025,
+  "prior_depth_rank": 8,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIA",
+  "snapshots": 16
+ },
+ {
+  "player_id": "00-0036493",
+  "season": 2025,
+  "prior_depth_rank": 6,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DET",
+  "snapshots": 17
+ },
+ {
+  "player_id": "00-0036497",
+  "season": 2025,
+  "prior_depth_rank": 4.16,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIN",
+  "snapshots": 103
+ },
+ {
+  "player_id": "00-0036510",
+  "season": 2025,
+  "prior_depth_rank": 5,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DET",
+  "snapshots": 93
+ },
+ {
+  "player_id": "00-0036527",
+  "season": 2025,
+  "prior_depth_rank": 7,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 2
+ },
+ {
+  "player_id": "00-0036534",
+  "season": 2025,
+  "prior_depth_rank": 1.85,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DET",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0036550",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036554",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0036555",
+  "season": 2025,
+  "prior_depth_rank": 0.88,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036556",
+  "season": 2025,
+  "prior_depth_rank": 2.73,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "HOU",
+  "snapshots": 148
+ },
+ {
+  "player_id": "00-0036567",
+  "season": 2025,
+  "prior_depth_rank": 2.81,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "KC",
+  "snapshots": 169
+ },
+ {
+  "player_id": "00-0036569",
+  "season": 2025,
+  "prior_depth_rank": 2.42,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CIN",
+  "snapshots": 93
+ },
+ {
+  "player_id": "00-0036590",
+  "season": 2025,
+  "prior_depth_rank": 3.33,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "JAX",
+  "snapshots": 186
+ },
+ {
+  "player_id": "00-0036613",
+  "season": 2025,
+  "prior_depth_rank": 1.74,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036620",
+  "season": 2025,
+  "prior_depth_rank": 4.08,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIA",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0036626",
+  "season": 2025,
+  "prior_depth_rank": 3.2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "JAX",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0036627",
+  "season": 2025,
+  "prior_depth_rank": 7.48,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 17
+ },
+ {
+  "player_id": "00-0036628",
+  "season": 2025,
+  "prior_depth_rank": 2.34,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "WAS",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036630",
+  "season": 2025,
+  "prior_depth_rank": 3.54,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BAL",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0036635",
+  "season": 2025,
+  "prior_depth_rank": 7.59,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 81
+ },
+ {
+  "player_id": "00-0036637",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036640",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "BUF",
+  "snapshots": 25
+ },
+ {
+  "player_id": "00-0036646",
+  "season": 2025,
+  "prior_depth_rank": 9.4,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ARI",
+  "snapshots": 202
+ },
+ {
+  "player_id": "00-0036647",
+  "season": 2025,
+  "prior_depth_rank": 11,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 6
+ },
+ {
+  "player_id": "00-0036654",
+  "season": 2025,
+  "prior_depth_rank": 6.36,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "WAS",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0036657",
+  "season": 2025,
+  "prior_depth_rank": 13.1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 8
+ },
+ {
+  "player_id": "00-0036670",
+  "season": 2025,
+  "prior_depth_rank": 6.56,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TEN",
+  "snapshots": 32
+ },
+ {
+  "player_id": "00-0036679",
+  "season": 2025,
+  "prior_depth_rank": 2.86,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "BUF",
+  "snapshots": 68
+ },
+ {
+  "player_id": "00-0036727",
+  "season": 2025,
+  "prior_depth_rank": 1.12,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "DEN",
+  "snapshots": 184
+ },
+ {
+  "player_id": "00-0036741",
+  "season": 2025,
+  "prior_depth_rank": 2.63,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NO",
+  "snapshots": 209
+ },
+ {
+  "player_id": "00-0036754",
+  "season": 2025,
+  "prior_depth_rank": 2.51,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036755",
+  "season": 2025,
+  "prior_depth_rank": 5.21,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LAC",
+  "snapshots": 117
+ },
+ {
+  "player_id": "00-0036775",
+  "season": 2025,
+  "prior_depth_rank": 13.35,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYJ",
+  "snapshots": 85
+ },
+ {
+  "player_id": "00-0036825",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "ATL",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0036841",
+  "season": 2025,
+  "prior_depth_rank": 5.07,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "JAX",
+  "snapshots": 119
+ },
+ {
+  "player_id": "00-0036842",
+  "season": 2025,
+  "prior_depth_rank": 5,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYJ",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0036849",
+  "season": 2025,
+  "prior_depth_rank": 4.89,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LA",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0036862",
+  "season": 2025,
+  "prior_depth_rank": 3.46,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PIT",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036875",
+  "season": 2025,
+  "prior_depth_rank": 0.92,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036876",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PHI",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0036879",
+  "season": 2025,
+  "prior_depth_rank": 3.06,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "DEN",
+  "snapshots": 141
+ },
+ {
+  "player_id": "00-0036887",
+  "season": 2025,
+  "prior_depth_rank": 1.61,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036893",
+  "season": 2025,
+  "prior_depth_rank": 2.48,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LAC",
+  "snapshots": 216
+ },
+ {
+  "player_id": "00-0036894",
+  "season": 2025,
+  "prior_depth_rank": 1.33,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PIT",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036898",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "HOU",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036900",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036906",
+  "season": 2025,
+  "prior_depth_rank": 3.69,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "IND",
+  "snapshots": 180
+ },
+ {
+  "player_id": "00-0036912",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036918",
+  "season": 2025,
+  "prior_depth_rank": 10.5,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 21
+ },
+ {
+  "player_id": "00-0036919",
+  "season": 2025,
+  "prior_depth_rank": 2.13,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "PIT",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036924",
+  "season": 2025,
+  "prior_depth_rank": 3.32,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "ARI",
+  "snapshots": 172
+ },
+ {
+  "player_id": "00-0036928",
+  "season": 2025,
+  "prior_depth_rank": 1.35,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "TB",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0036936",
+  "season": 2025,
+  "prior_depth_rank": 7.14,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIN",
+  "snapshots": 200
+ },
+ {
+  "player_id": "00-0036939",
+  "season": 2025,
+  "prior_depth_rank": 9.1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 19
+ },
+ {
+  "player_id": "00-0036945",
+  "season": 2025,
+  "prior_depth_rank": 1.19,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NYJ",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036950",
+  "season": 2025,
+  "prior_depth_rank": 5.32,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PHI",
+  "snapshots": 24
+ },
+ {
+  "player_id": "00-0036955",
+  "season": 2025,
+  "prior_depth_rank": 6.53,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PHI",
+  "snapshots": 60
+ },
+ {
+  "player_id": "00-0036959",
+  "season": 2025,
+  "prior_depth_rank": 4.5,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DEN",
+  "snapshots": 58
+ },
+ {
+  "player_id": "00-0036963",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036970",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "ATL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036971",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "JAX",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036972",
+  "season": 2025,
+  "prior_depth_rank": 1.57,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036973",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "JAX",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036980",
+  "season": 2025,
+  "prior_depth_rank": 6.52,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 119
+ },
+ {
+  "player_id": "00-0036984",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "PIT",
+  "snapshots": 33
+ },
+ {
+  "player_id": "00-0036988",
+  "season": 2025,
+  "prior_depth_rank": 3.97,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0036997",
+  "season": 2025,
+  "prior_depth_rank": 1.82,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037004",
+  "season": 2025,
+  "prior_depth_rank": 2.67,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "JAX",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037005",
+  "season": 2025,
+  "prior_depth_rank": 2.03,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037011",
+  "season": 2025,
+  "prior_depth_rank": 7.44,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "HOU",
+  "snapshots": 7
+ },
+ {
+  "player_id": "00-0037012",
+  "season": 2025,
+  "prior_depth_rank": 2.61,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "LAC",
+  "snapshots": 216
+ },
+ {
+  "player_id": "00-0037013",
+  "season": 2025,
+  "prior_depth_rank": 2.3,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "MIA",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0037015",
+  "season": 2025,
+  "prior_depth_rank": 5.25,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CLE",
+  "snapshots": 92
+ },
+ {
+  "player_id": "00-0037022",
+  "season": 2025,
+  "prior_depth_rank": 4.44,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NO",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0037031",
+  "season": 2025,
+  "prior_depth_rank": 4.49,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "ATL",
+  "snapshots": 81
+ },
+ {
+  "player_id": "00-0037055",
+  "season": 2025,
+  "prior_depth_rank": 8.62,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PIT",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0037077",
+  "season": 2025,
+  "prior_depth_rank": 2.89,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037078",
+  "season": 2025,
+  "prior_depth_rank": 4.68,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "WAS",
+  "snapshots": 88
+ },
+ {
+  "player_id": "00-0037085",
+  "season": 2025,
+  "prior_depth_rank": 3.93,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037086",
+  "season": 2025,
+  "prior_depth_rank": 2.24,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037091",
+  "season": 2025,
+  "prior_depth_rank": 8.24,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "GB",
+  "snapshots": 121
+ },
+ {
+  "player_id": "00-0037093",
+  "season": 2025,
+  "prior_depth_rank": 6.8,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SEA",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0037098",
+  "season": 2025,
+  "prior_depth_rank": 9.82,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CHI",
+  "snapshots": 91
+ },
+ {
+  "player_id": "00-0037112",
+  "season": 2025,
+  "prior_depth_rank": 2.83,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037120",
+  "season": 2025,
+  "prior_depth_rank": 4.06,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "IND",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0037132",
+  "season": 2025,
+  "prior_depth_rank": 5.36,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LA",
+  "snapshots": 129
+ },
+ {
+  "player_id": "00-0037156",
+  "season": 2025,
+  "prior_depth_rank": 8.3,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYJ",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037157",
+  "season": 2025,
+  "prior_depth_rank": 5.22,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "ARI",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0037197",
+  "season": 2025,
+  "prior_depth_rank": 1.52,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037228",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "PIT",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037231",
+  "season": 2025,
+  "prior_depth_rank": 3.54,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NO",
+  "snapshots": 127
+ },
+ {
+  "player_id": "00-0037238",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037239",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NO",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037240",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037247",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037248",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037252",
+  "season": 2025,
+  "prior_depth_rank": 1.39,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NYG",
+  "snapshots": 164
+ },
+ {
+  "player_id": "00-0037256",
+  "season": 2025,
+  "prior_depth_rank": 1.81,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TB",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0037257",
+  "season": 2025,
+  "prior_depth_rank": 8.48,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 72
+ },
+ {
+  "player_id": "00-0037258",
+  "season": 2025,
+  "prior_depth_rank": 4.11,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "HOU",
+  "snapshots": 188
+ },
+ {
+  "player_id": "00-0037261",
+  "season": 2025,
+  "prior_depth_rank": 1.57,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037263",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "ATL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037267",
+  "season": 2025,
+  "prior_depth_rank": 4.35,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CLE",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0037272",
+  "season": 2025,
+  "prior_depth_rank": 10.23,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 19
+ },
+ {
+  "player_id": "00-0037273",
+  "season": 2025,
+  "prior_depth_rank": 8,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 1
+ },
+ {
+  "player_id": "00-0037276",
+  "season": 2025,
+  "prior_depth_rank": 2.75,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "MIN",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0037277",
+  "season": 2025,
+  "prior_depth_rank": 2.38,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "ATL",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0037282",
+  "season": 2025,
+  "prior_depth_rank": 4.72,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037286",
+  "season": 2025,
+  "prior_depth_rank": 5,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "JAX",
+  "snapshots": 7
+ },
+ {
+  "player_id": "00-0037291",
+  "season": 2025,
+  "prior_depth_rank": 2.02,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037292",
+  "season": 2025,
+  "prior_depth_rank": 4.5,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "IND",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0037299",
+  "season": 2025,
+  "prior_depth_rank": 6.59,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "KC",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0037300",
+  "season": 2025,
+  "prior_depth_rank": 14,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 1
+ },
+ {
+  "player_id": "00-0037304",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "PIT",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0037306",
+  "season": 2025,
+  "prior_depth_rank": 3.73,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "GB",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0037311",
+  "season": 2025,
+  "prior_depth_rank": 4.27,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "TB",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0037317",
+  "season": 2025,
+  "prior_depth_rank": 5.84,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PHI",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0037324",
+  "season": 2025,
+  "prior_depth_rank": 2.1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "KC",
+  "snapshots": 106
+ },
+ {
+  "player_id": "00-0037327",
+  "season": 2025,
+  "prior_depth_rank": 5.11,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "PIT",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0037329",
+  "season": 2025,
+  "prior_depth_rank": 5.12,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CHI",
+  "snapshots": 77
+ },
+ {
+  "player_id": "00-0037340",
+  "season": 2025,
+  "prior_depth_rank": 6.65,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "BAL",
+  "snapshots": 193
+ },
+ {
+  "player_id": "00-0037348",
+  "season": 2025,
+  "prior_depth_rank": 2.98,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIA",
+  "snapshots": 164
+ },
+ {
+  "player_id": "00-0037355",
+  "season": 2025,
+  "prior_depth_rank": 13.7,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0037380",
+  "season": 2025,
+  "prior_depth_rank": 6.91,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 31
+ },
+ {
+  "player_id": "00-0037382",
+  "season": 2025,
+  "prior_depth_rank": 6.34,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PIT",
+  "snapshots": 25
+ },
+ {
+  "player_id": "00-0037387",
+  "season": 2025,
+  "prior_depth_rank": 7.32,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 50
+ },
+ {
+  "player_id": "00-0037410",
+  "season": 2025,
+  "prior_depth_rank": 6.25,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "ATL",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0037422",
+  "season": 2025,
+  "prior_depth_rank": 6.7,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CIN",
+  "snapshots": 47
+ },
+ {
+  "player_id": "00-0037429",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CAR",
+  "snapshots": 25
+ },
+ {
+  "player_id": "00-0037455",
+  "season": 2025,
+  "prior_depth_rank": 10.46,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NO",
+  "snapshots": 14
+ },
+ {
+  "player_id": "00-0037456",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "CLE",
+  "snapshots": 1
+ },
+ {
+  "player_id": "00-0037460",
+  "season": 2025,
+  "prior_depth_rank": 16.1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 11
+ },
+ {
+  "player_id": "00-0037475",
+  "season": 2025,
+  "prior_depth_rank": 2.48,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NYJ",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0037487",
+  "season": 2025,
+  "prior_depth_rank": 6.03,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 100
+ },
+ {
+  "player_id": "00-0037506",
+  "season": 2025,
+  "prior_depth_rank": 8.97,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NE",
+  "snapshots": 19
+ },
+ {
+  "player_id": "00-0037509",
+  "season": 2025,
+  "prior_depth_rank": 2.74,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LV",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0037524",
+  "season": 2025,
+  "prior_depth_rank": 9.8,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 29
+ },
+ {
+  "player_id": "00-0037525",
+  "season": 2025,
+  "prior_depth_rank": 2.35,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037539",
+  "season": 2025,
+  "prior_depth_rank": 2.38,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037545",
+  "season": 2025,
+  "prior_depth_rank": 1.8,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NO",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037557",
+  "season": 2025,
+  "prior_depth_rank": 2.95,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LA",
+  "snapshots": 150
+ },
+ {
+  "player_id": "00-0037563",
+  "season": 2025,
+  "prior_depth_rank": 2.12,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DAL",
+  "snapshots": 137
+ },
+ {
+  "player_id": "00-0037570",
+  "season": 2025,
+  "prior_depth_rank": 9.81,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0037594",
+  "season": 2025,
+  "prior_depth_rank": 4.36,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TEN",
+  "snapshots": 216
+ },
+ {
+  "player_id": "00-0037609",
+  "season": 2025,
+  "prior_depth_rank": 5,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "MIA",
+  "snapshots": 14
+ },
+ {
+  "player_id": "00-0037614",
+  "season": 2025,
+  "prior_depth_rank": 2.24,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0037617",
+  "season": 2025,
+  "prior_depth_rank": 2.41,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LAC",
+  "snapshots": 216
+ },
+ {
+  "player_id": "00-0037654",
+  "season": 2025,
+  "prior_depth_rank": 4.06,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LAC",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0037664",
+  "season": 2025,
+  "prior_depth_rank": 2.6,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037666",
+  "season": 2025,
+  "prior_depth_rank": 2.82,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DAL",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0037708",
+  "season": 2025,
+  "prior_depth_rank": 4.94,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CHI",
+  "snapshots": 78
+ },
+ {
+  "player_id": "00-0037740",
+  "season": 2025,
+  "prior_depth_rank": 4.04,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYJ",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037741",
+  "season": 2025,
+  "prior_depth_rank": 1.83,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037742",
+  "season": 2025,
+  "prior_depth_rank": 6.93,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 193
+ },
+ {
+  "player_id": "00-0037744",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "ARI",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0037745",
+  "season": 2025,
+  "prior_depth_rank": 4.92,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NO",
+  "snapshots": 110
+ },
+ {
+  "player_id": "00-0037746",
+  "season": 2025,
+  "prior_depth_rank": 2.29,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "WAS",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0037755",
+  "season": 2025,
+  "prior_depth_rank": 2.72,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "IND",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0037801",
+  "season": 2025,
+  "prior_depth_rank": 3.87,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037805",
+  "season": 2025,
+  "prior_depth_rank": 2.13,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NYJ",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037809",
+  "season": 2025,
+  "prior_depth_rank": 1.58,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "TEN",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0037816",
+  "season": 2025,
+  "prior_depth_rank": 2.16,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037827",
+  "season": 2025,
+  "prior_depth_rank": 7,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "GB",
+  "snapshots": 14
+ },
+ {
+  "player_id": "00-0037828",
+  "season": 2025,
+  "prior_depth_rank": 7.94,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PHI",
+  "snapshots": 60
+ },
+ {
+  "player_id": "00-0037834",
+  "season": 2025,
+  "prior_depth_rank": 1.23,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037837",
+  "season": 2025,
+  "prior_depth_rank": 2.34,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PIT",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0037838",
+  "season": 2025,
+  "prior_depth_rank": 2.35,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0037840",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038040",
+  "season": 2025,
+  "prior_depth_rank": 3.58,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LV",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0038041",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038046",
+  "season": 2025,
+  "prior_depth_rank": 2.03,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038090",
+  "season": 2025,
+  "prior_depth_rank": 3.28,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038092",
+  "season": 2025,
+  "prior_depth_rank": 6,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIA",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0038098",
+  "season": 2025,
+  "prior_depth_rank": 4.74,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CLE",
+  "snapshots": 95
+ },
+ {
+  "player_id": "00-0038102",
+  "season": 2025,
+  "prior_depth_rank": 1.55,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CLE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038104",
+  "season": 2025,
+  "prior_depth_rank": 5.96,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038108",
+  "season": 2025,
+  "prior_depth_rank": 3.19,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "KC",
+  "snapshots": 88
+ },
+ {
+  "player_id": "00-0038115",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038117",
+  "season": 2025,
+  "prior_depth_rank": 2.19,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038120",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYJ",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038122",
+  "season": 2025,
+  "prior_depth_rank": 3.42,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CIN",
+  "snapshots": 107
+ },
+ {
+  "player_id": "00-0038124",
+  "season": 2025,
+  "prior_depth_rank": 3.27,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038128",
+  "season": 2025,
+  "prior_depth_rank": 2.48,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038129",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "TB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038134",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038145",
+  "season": 2025,
+  "prior_depth_rank": 3.86,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "TEN",
+  "snapshots": 25
+ },
+ {
+  "player_id": "00-0038181",
+  "season": 2025,
+  "prior_depth_rank": 5.76,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIN",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0038359",
+  "season": 2025,
+  "prior_depth_rank": 5,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038385",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "LA",
+  "snapshots": 21
+ },
+ {
+  "player_id": "00-0038389",
+  "season": 2025,
+  "prior_depth_rank": 2.99,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "GB",
+  "snapshots": 89
+ },
+ {
+  "player_id": "00-0038391",
+  "season": 2025,
+  "prior_depth_rank": 4.05,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "GB",
+  "snapshots": 114
+ },
+ {
+  "player_id": "00-0038393",
+  "season": 2025,
+  "prior_depth_rank": 4.01,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038394",
+  "season": 2025,
+  "prior_depth_rank": 4.64,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038396",
+  "season": 2025,
+  "prior_depth_rank": 3.97,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038397",
+  "season": 2025,
+  "prior_depth_rank": 4.76,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "PIT",
+  "snapshots": 126
+ },
+ {
+  "player_id": "00-0038400",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "PHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038406",
+  "season": 2025,
+  "prior_depth_rank": 3.4,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NYJ",
+  "snapshots": 57
+ },
+ {
+  "player_id": "00-0038409",
+  "season": 2025,
+  "prior_depth_rank": 6.04,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "PIT",
+  "snapshots": 82
+ },
+ {
+  "player_id": "00-0038416",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038440",
+  "season": 2025,
+  "prior_depth_rank": 3.28,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038454",
+  "season": 2025,
+  "prior_depth_rank": 3.59,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "BAL",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0038456",
+  "season": 2025,
+  "prior_depth_rank": 4.73,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "ARI",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0038458",
+  "season": 2025,
+  "prior_depth_rank": 6.27,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TB",
+  "snapshots": 106
+ },
+ {
+  "player_id": "00-0038465",
+  "season": 2025,
+  "prior_depth_rank": 7.94,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "GB",
+  "snapshots": 216
+ },
+ {
+  "player_id": "00-0038476",
+  "season": 2025,
+  "prior_depth_rank": 3.66,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NYG",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0038477",
+  "season": 2025,
+  "prior_depth_rank": 12.12,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0038488",
+  "season": 2025,
+  "prior_depth_rank": 2.24,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "SEA",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0038489",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "PHI",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0038492",
+  "season": 2025,
+  "prior_depth_rank": 5.72,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "KC",
+  "snapshots": 121
+ },
+ {
+  "player_id": "00-0038496",
+  "season": 2025,
+  "prior_depth_rank": 7.56,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYJ",
+  "snapshots": 192
+ },
+ {
+  "player_id": "00-0038498",
+  "season": 2025,
+  "prior_depth_rank": 3.52,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PHI",
+  "snapshots": 86
+ },
+ {
+  "player_id": "00-0038502",
+  "season": 2025,
+  "prior_depth_rank": 8.3,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CAR",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0038507",
+  "season": 2025,
+  "prior_depth_rank": 11,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 5
+ },
+ {
+  "player_id": "00-0038518",
+  "season": 2025,
+  "prior_depth_rank": 8.11,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NE",
+  "snapshots": 211
+ },
+ {
+  "player_id": "00-0038519",
+  "season": 2025,
+  "prior_depth_rank": 9.56,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038542",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "ATL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038543",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038544",
+  "season": 2025,
+  "prior_depth_rank": 1.37,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0038547",
+  "season": 2025,
+  "prior_depth_rank": 1.55,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038550",
+  "season": 2025,
+  "prior_depth_rank": 2.49,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "DET",
+  "snapshots": 92
+ },
+ {
+  "player_id": "00-0038551",
+  "season": 2025,
+  "prior_depth_rank": 4.26,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NO",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038555",
+  "season": 2025,
+  "prior_depth_rank": 3.07,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "JAX",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038558",
+  "season": 2025,
+  "prior_depth_rank": 3.85,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PIT",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038559",
+  "season": 2025,
+  "prior_depth_rank": 1.49,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ARI",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0038563",
+  "season": 2025,
+  "prior_depth_rank": 1.11,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0038564",
+  "season": 2025,
+  "prior_depth_rank": 2.66,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PHI",
+  "snapshots": 196
+ },
+ {
+  "player_id": "00-0038573",
+  "season": 2025,
+  "prior_depth_rank": 5.2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0038576",
+  "season": 2025,
+  "prior_depth_rank": 5.48,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038579",
+  "season": 2025,
+  "prior_depth_rank": 2.03,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "LV",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038582",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "ARI",
+  "snapshots": 30
+ },
+ {
+  "player_id": "00-0038583",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "PHI",
+  "snapshots": 21
+ },
+ {
+  "player_id": "00-0038589",
+  "season": 2025,
+  "prior_depth_rank": 2.44,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "TEN",
+  "snapshots": 150
+ },
+ {
+  "player_id": "00-0038590",
+  "season": 2025,
+  "prior_depth_rank": 7.21,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 140
+ },
+ {
+  "player_id": "00-0038597",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038606",
+  "season": 2025,
+  "prior_depth_rank": 2.6,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "JAX",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038608",
+  "season": 2025,
+  "prior_depth_rank": 1.48,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038611",
+  "season": 2025,
+  "prior_depth_rank": 1.25,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "WAS",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038612",
+  "season": 2025,
+  "prior_depth_rank": 6.36,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DEN",
+  "snapshots": 67
+ },
+ {
+  "player_id": "00-0038614",
+  "season": 2025,
+  "prior_depth_rank": 1.14,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "LAC",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0038618",
+  "season": 2025,
+  "prior_depth_rank": 4.23,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0038619",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038621",
+  "season": 2025,
+  "prior_depth_rank": 4.75,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038622",
+  "season": 2025,
+  "prior_depth_rank": 5.81,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DAL",
+  "snapshots": 70
+ },
+ {
+  "player_id": "00-0038632",
+  "season": 2025,
+  "prior_depth_rank": 9.01,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 58
+ },
+ {
+  "player_id": "00-0038636",
+  "season": 2025,
+  "prior_depth_rank": 5.06,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038640",
+  "season": 2025,
+  "prior_depth_rank": 5.04,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DAL",
+  "snapshots": 116
+ },
+ {
+  "player_id": "00-0038643",
+  "season": 2025,
+  "prior_depth_rank": 3.89,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "SF",
+  "snapshots": 116
+ },
+ {
+  "player_id": "00-0038647",
+  "season": 2025,
+  "prior_depth_rank": 8.96,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DET",
+  "snapshots": 95
+ },
+ {
+  "player_id": "00-0038651",
+  "season": 2025,
+  "prior_depth_rank": 14.1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 14
+ },
+ {
+  "player_id": "00-0038658",
+  "season": 2025,
+  "prior_depth_rank": 4.46,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NYJ",
+  "snapshots": 123
+ },
+ {
+  "player_id": "00-0038667",
+  "season": 2025,
+  "prior_depth_rank": 9.54,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PHI",
+  "snapshots": 89
+ },
+ {
+  "player_id": "00-0038678",
+  "season": 2025,
+  "prior_depth_rank": 5.16,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TEN",
+  "snapshots": 26
+ },
+ {
+  "player_id": "00-0038679",
+  "season": 2025,
+  "prior_depth_rank": 6.45,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038685",
+  "season": 2025,
+  "prior_depth_rank": 2.23,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038705",
+  "season": 2025,
+  "prior_depth_rank": 1.7,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "ARI",
+  "snapshots": 213
+ },
+ {
+  "player_id": "00-0038710",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CLE",
+  "snapshots": 218
+ },
+ {
+  "player_id": "00-0038720",
+  "season": 2025,
+  "prior_depth_rank": 2.5,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038726",
+  "season": 2025,
+  "prior_depth_rank": 13,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 20
+ },
+ {
+  "player_id": "00-0038727",
+  "season": 2025,
+  "prior_depth_rank": 5.43,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "MIN",
+  "snapshots": 8
+ },
+ {
+  "player_id": "00-0038728",
+  "season": 2025,
+  "prior_depth_rank": 9.57,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 59
+ },
+ {
+  "player_id": "00-0038735",
+  "season": 2025,
+  "prior_depth_rank": 4.44,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DAL",
+  "snapshots": 25
+ },
+ {
+  "player_id": "00-0038738",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038740",
+  "season": 2025,
+  "prior_depth_rank": 8.03,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DAL",
+  "snapshots": 30
+ },
+ {
+  "player_id": "00-0038741",
+  "season": 2025,
+  "prior_depth_rank": 2.8,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DAL",
+  "snapshots": 104
+ },
+ {
+  "player_id": "00-0038752",
+  "season": 2025,
+  "prior_depth_rank": 2.96,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038762",
+  "season": 2025,
+  "prior_depth_rank": 7.8,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0038783",
+  "season": 2025,
+  "prior_depth_rank": 2.62,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038794",
+  "season": 2025,
+  "prior_depth_rank": 2.55,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DEN",
+  "snapshots": 207
+ },
+ {
+  "player_id": "00-0038797",
+  "season": 2025,
+  "prior_depth_rank": 1.57,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "GB",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0038806",
+  "season": 2025,
+  "prior_depth_rank": 14,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 4
+ },
+ {
+  "player_id": "00-0038809",
+  "season": 2025,
+  "prior_depth_rank": 4.39,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "GB",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0038810",
+  "season": 2025,
+  "prior_depth_rank": 4.23,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIN",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0038821",
+  "season": 2025,
+  "prior_depth_rank": 5.17,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 21
+ },
+ {
+  "player_id": "00-0038824",
+  "season": 2025,
+  "prior_depth_rank": 4.47,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0038828",
+  "season": 2025,
+  "prior_depth_rank": 5,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "TB",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0038830",
+  "season": 2025,
+  "prior_depth_rank": 7.45,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "WAS",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0038839",
+  "season": 2025,
+  "prior_depth_rank": 5.99,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038840",
+  "season": 2025,
+  "prior_depth_rank": 3.27,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038862",
+  "season": 2025,
+  "prior_depth_rank": 6.01,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "ATL",
+  "snapshots": 20
+ },
+ {
+  "player_id": "00-0038891",
+  "season": 2025,
+  "prior_depth_rank": 5.96,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 108
+ },
+ {
+  "player_id": "00-0038896",
+  "season": 2025,
+  "prior_depth_rank": 4.14,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DET",
+  "snapshots": 210
+ },
+ {
+  "player_id": "00-0038911",
+  "season": 2025,
+  "prior_depth_rank": 11.14,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BAL",
+  "snapshots": 91
+ },
+ {
+  "player_id": "00-0038913",
+  "season": 2025,
+  "prior_depth_rank": 6,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "GB",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0038930",
+  "season": 2025,
+  "prior_depth_rank": 4.55,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "ATL",
+  "snapshots": 92
+ },
+ {
+  "player_id": "00-0038933",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038935",
+  "season": 2025,
+  "prior_depth_rank": 0.99,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "JAX",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038938",
+  "season": 2025,
+  "prior_depth_rank": 6.47,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038941",
+  "season": 2025,
+  "prior_depth_rank": 6.83,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CHI",
+  "snapshots": 70
+ },
+ {
+  "player_id": "00-0038951",
+  "season": 2025,
+  "prior_depth_rank": 3.28,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TB",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0038953",
+  "season": 2025,
+  "prior_depth_rank": 4.81,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 133
+ },
+ {
+  "player_id": "00-0038976",
+  "season": 2025,
+  "prior_depth_rank": 2.11,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038977",
+  "season": 2025,
+  "prior_depth_rank": 5.06,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0038979",
+  "season": 2025,
+  "prior_depth_rank": 3.26,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038994",
+  "season": 2025,
+  "prior_depth_rank": 2.89,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038996",
+  "season": 2025,
+  "prior_depth_rank": 2.01,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038997",
+  "season": 2025,
+  "prior_depth_rank": 3.5,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0038998",
+  "season": 2025,
+  "prior_depth_rank": 4.07,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NO",
+  "snapshots": 69
+ },
+ {
+  "player_id": "00-0038999",
+  "season": 2025,
+  "prior_depth_rank": 5.9,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CHI",
+  "snapshots": 11
+ },
+ {
+  "player_id": "00-0039021",
+  "season": 2025,
+  "prior_depth_rank": 3.21,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039023",
+  "season": 2025,
+  "prior_depth_rank": 3.59,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CHI",
+  "snapshots": 89
+ },
+ {
+  "player_id": "00-0039032",
+  "season": 2025,
+  "prior_depth_rank": 1.87,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039040",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "MIA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039041",
+  "season": 2025,
+  "prior_depth_rank": 2.96,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "ARI",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0039050",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "TB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039052",
+  "season": 2025,
+  "prior_depth_rank": 8.75,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0039062",
+  "season": 2025,
+  "prior_depth_rank": 6.65,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039064",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039065",
+  "season": 2025,
+  "prior_depth_rank": 2.78,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039066",
+  "season": 2025,
+  "prior_depth_rank": 2.3,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LV",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039067",
+  "season": 2025,
+  "prior_depth_rank": 4.75,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039074",
+  "season": 2025,
+  "prior_depth_rank": 3.96,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039075",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039107",
+  "season": 2025,
+  "prior_depth_rank": 3.6,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039139",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039144",
+  "season": 2025,
+  "prior_depth_rank": 2.42,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039146",
+  "season": 2025,
+  "prior_depth_rank": 4.89,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039150",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039152",
+  "season": 2025,
+  "prior_depth_rank": 2.48,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "TEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039163",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "HOU",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039164",
+  "season": 2025,
+  "prior_depth_rank": 3.32,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039165",
+  "season": 2025,
+  "prior_depth_rank": 1.83,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039230",
+  "season": 2025,
+  "prior_depth_rank": 5.89,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYG",
+  "snapshots": 94
+ },
+ {
+  "player_id": "00-0039236",
+  "season": 2025,
+  "prior_depth_rank": 4.47,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039238",
+  "season": 2025,
+  "prior_depth_rank": 5.03,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "TB",
+  "snapshots": 18
+ },
+ {
+  "player_id": "00-0039244",
+  "season": 2025,
+  "prior_depth_rank": 5.81,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LV",
+  "snapshots": 92
+ },
+ {
+  "player_id": "00-0039259",
+  "season": 2025,
+  "prior_depth_rank": 9.21,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039263",
+  "season": 2025,
+  "prior_depth_rank": 5.8,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LAC",
+  "snapshots": 74
+ },
+ {
+  "player_id": "00-0039266",
+  "season": 2025,
+  "prior_depth_rank": 6.13,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CIN",
+  "snapshots": 47
+ },
+ {
+  "player_id": "00-0039275",
+  "season": 2025,
+  "prior_depth_rank": 6.29,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "GB",
+  "snapshots": 83
+ },
+ {
+  "player_id": "00-0039299",
+  "season": 2025,
+  "prior_depth_rank": 1.99,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039305",
+  "season": 2025,
+  "prior_depth_rank": 0.81,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "NE",
+  "snapshots": 191
+ },
+ {
+  "player_id": "00-0039311",
+  "season": 2025,
+  "prior_depth_rank": 5,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CAR",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0039316",
+  "season": 2025,
+  "prior_depth_rank": 4.5,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "BAL",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0039325",
+  "season": 2025,
+  "prior_depth_rank": 3.05,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "KC",
+  "snapshots": 59
+ },
+ {
+  "player_id": "00-0039329",
+  "season": 2025,
+  "prior_depth_rank": 9,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "GB",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0039331",
+  "season": 2025,
+  "prior_depth_rank": 3.81,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "ATL",
+  "snapshots": 195
+ },
+ {
+  "player_id": "00-0039337",
+  "season": 2025,
+  "prior_depth_rank": 5.89,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039338",
+  "season": 2025,
+  "prior_depth_rank": 2.02,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LV",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039342",
+  "season": 2025,
+  "prior_depth_rank": 3.23,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039344",
+  "season": 2025,
+  "prior_depth_rank": 5.88,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039355",
+  "season": 2025,
+  "prior_depth_rank": 6.72,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039356",
+  "season": 2025,
+  "prior_depth_rank": 1.48,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039359",
+  "season": 2025,
+  "prior_depth_rank": 2.79,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "HOU",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0039361",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039363",
+  "season": 2025,
+  "prior_depth_rank": 3.15,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039364",
+  "season": 2025,
+  "prior_depth_rank": 3.15,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039365",
+  "season": 2025,
+  "prior_depth_rank": 8.05,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039373",
+  "season": 2025,
+  "prior_depth_rank": 3.77,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DEN",
+  "snapshots": 149
+ },
+ {
+  "player_id": "00-0039376",
+  "season": 2025,
+  "prior_depth_rank": 1.64,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NO",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039379",
+  "season": 2025,
+  "prior_depth_rank": 4.29,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0039384",
+  "season": 2025,
+  "prior_depth_rank": 1.32,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039385",
+  "season": 2025,
+  "prior_depth_rank": 5,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "PHI",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0039386",
+  "season": 2025,
+  "prior_depth_rank": 5.95,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NO",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039391",
+  "season": 2025,
+  "prior_depth_rank": 2.15,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LAC",
+  "snapshots": 181
+ },
+ {
+  "player_id": "00-0039392",
+  "season": 2025,
+  "prior_depth_rank": 8,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 21
+ },
+ {
+  "player_id": "00-0039393",
+  "season": 2025,
+  "prior_depth_rank": 6,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TB",
+  "snapshots": 13
+ },
+ {
+  "player_id": "00-0039394",
+  "season": 2025,
+  "prior_depth_rank": 6.66,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039397",
+  "season": 2025,
+  "prior_depth_rank": 5.56,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ARI",
+  "snapshots": 92
+ },
+ {
+  "player_id": "00-0039398",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039399",
+  "season": 2025,
+  "prior_depth_rank": 4.28,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CIN",
+  "snapshots": 91
+ },
+ {
+  "player_id": "00-0039405",
+  "season": 2025,
+  "prior_depth_rank": 4.04,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "HOU",
+  "snapshots": 112
+ },
+ {
+  "player_id": "00-0039407",
+  "season": 2025,
+  "prior_depth_rank": 3.71,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LV",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039410",
+  "season": 2025,
+  "prior_depth_rank": 5.09,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DAL",
+  "snapshots": 206
+ },
+ {
+  "player_id": "00-0039415",
+  "season": 2025,
+  "prior_depth_rank": 9.32,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 89
+ },
+ {
+  "player_id": "00-0039420",
+  "season": 2025,
+  "prior_depth_rank": 4.38,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NE",
+  "snapshots": 71
+ },
+ {
+  "player_id": "00-0039424",
+  "season": 2025,
+  "prior_depth_rank": 4.4,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039437",
+  "season": 2025,
+  "prior_depth_rank": 8.64,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "GB",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0039451",
+  "season": 2025,
+  "prior_depth_rank": 4.89,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CIN",
+  "snapshots": 194
+ },
+ {
+  "player_id": "00-0039456",
+  "season": 2025,
+  "prior_depth_rank": 8.84,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SEA",
+  "snapshots": 88
+ },
+ {
+  "player_id": "00-0039458",
+  "season": 2025,
+  "prior_depth_rank": 2.76,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CLE",
+  "snapshots": 198
+ },
+ {
+  "player_id": "00-0039464",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CHI",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0039466",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CHI",
+  "snapshots": 28
+ },
+ {
+  "player_id": "00-0039473",
+  "season": 2025,
+  "prior_depth_rank": 5.43,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 84
+ },
+ {
+  "player_id": "00-0039489",
+  "season": 2025,
+  "prior_depth_rank": 3.66,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIA",
+  "snapshots": 107
+ },
+ {
+  "player_id": "00-0039491",
+  "season": 2025,
+  "prior_depth_rank": 4.1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039505",
+  "season": 2025,
+  "prior_depth_rank": 11.35,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NE",
+  "snapshots": 55
+ },
+ {
+  "player_id": "00-0039518",
+  "season": 2025,
+  "prior_depth_rank": 6.29,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NO",
+  "snapshots": 96
+ },
+ {
+  "player_id": "00-0039521",
+  "season": 2025,
+  "prior_depth_rank": 3.94,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ARI",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0039530",
+  "season": 2025,
+  "prior_depth_rank": 2.33,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039534",
+  "season": 2025,
+  "prior_depth_rank": 3.07,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "SF",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0039543",
+  "season": 2025,
+  "prior_depth_rank": 10,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 1
+ },
+ {
+  "player_id": "00-0039550",
+  "season": 2025,
+  "prior_depth_rank": 4.17,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "JAX",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0039552",
+  "season": 2025,
+  "prior_depth_rank": 5.32,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "JAX",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0039573",
+  "season": 2025,
+  "prior_depth_rank": 3.34,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DEN",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0039575",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "IND",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0039577",
+  "season": 2025,
+  "prior_depth_rank": 2.46,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "HOU",
+  "snapshots": 175
+ },
+ {
+  "player_id": "00-0039589",
+  "season": 2025,
+  "prior_depth_rank": 6.03,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039595",
+  "season": 2025,
+  "prior_depth_rank": 6,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TB",
+  "snapshots": 1
+ },
+ {
+  "player_id": "00-0039599",
+  "season": 2025,
+  "prior_depth_rank": 3.99,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PIT",
+  "snapshots": 13
+ },
+ {
+  "player_id": "00-0039603",
+  "season": 2025,
+  "prior_depth_rank": 5.69,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "HOU",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039623",
+  "season": 2025,
+  "prior_depth_rank": 4.69,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NO",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039626",
+  "season": 2025,
+  "prior_depth_rank": 6.96,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CIN",
+  "snapshots": 80
+ },
+ {
+  "player_id": "00-0039631",
+  "season": 2025,
+  "prior_depth_rank": 3.49,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039648",
+  "season": 2025,
+  "prior_depth_rank": 3.96,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "TEN",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0039650",
+  "season": 2025,
+  "prior_depth_rank": 5.19,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0039652",
+  "season": 2025,
+  "prior_depth_rank": 4.13,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DET",
+  "snapshots": 73
+ },
+ {
+  "player_id": "00-0039664",
+  "season": 2025,
+  "prior_depth_rank": 6.52,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0039677",
+  "season": 2025,
+  "prior_depth_rank": 3.29,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "WAS",
+  "snapshots": 102
+ },
+ {
+  "player_id": "00-0039684",
+  "season": 2025,
+  "prior_depth_rank": 5.6,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "KC",
+  "snapshots": 80
+ },
+ {
+  "player_id": "00-0039686",
+  "season": 2025,
+  "prior_depth_rank": 2.82,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "WAS",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039699",
+  "season": 2025,
+  "prior_depth_rank": 5.37,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "SF",
+  "snapshots": 16
+ },
+ {
+  "player_id": "00-0039701",
+  "season": 2025,
+  "prior_depth_rank": 10.11,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0039702",
+  "season": 2025,
+  "prior_depth_rank": 7.93,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "SF",
+  "snapshots": 217
+ },
+ {
+  "player_id": "00-0039703",
+  "season": 2025,
+  "prior_depth_rank": 5.23,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LA",
+  "snapshots": 172
+ },
+ {
+  "player_id": "00-0039710",
+  "season": 2025,
+  "prior_depth_rank": 5.52,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIN",
+  "snapshots": 92
+ },
+ {
+  "player_id": "00-0039722",
+  "season": 2025,
+  "prior_depth_rank": 11.63,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 82
+ },
+ {
+  "player_id": "00-0039732",
+  "season": 2025,
+  "prior_depth_rank": 1.4,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039737",
+  "season": 2025,
+  "prior_depth_rank": 2.66,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "ARI",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0039738",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039739",
+  "season": 2025,
+  "prior_depth_rank": 5.23,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PIT",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039746",
+  "season": 2025,
+  "prior_depth_rank": 3.22,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "PHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039747",
+  "season": 2025,
+  "prior_depth_rank": 9.89,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PHI",
+  "snapshots": 83
+ },
+ {
+  "player_id": "00-0039751",
+  "season": 2025,
+  "prior_depth_rank": 4.2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039754",
+  "season": 2025,
+  "prior_depth_rank": 4.6,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "TB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039757",
+  "season": 2025,
+  "prior_depth_rank": 3.01,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NE",
+  "snapshots": 163
+ },
+ {
+  "player_id": "00-0039760",
+  "season": 2025,
+  "prior_depth_rank": 10,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CHI",
+  "snapshots": 9
+ },
+ {
+  "player_id": "00-0039773",
+  "season": 2025,
+  "prior_depth_rank": 14.9,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LA",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0039782",
+  "season": 2025,
+  "prior_depth_rank": 5,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NYJ",
+  "snapshots": 21
+ },
+ {
+  "player_id": "00-0039792",
+  "season": 2025,
+  "prior_depth_rank": 2.86,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039793",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039794",
+  "season": 2025,
+  "prior_depth_rank": 2.46,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYJ",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039796",
+  "season": 2025,
+  "prior_depth_rank": 2.93,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039798",
+  "season": 2025,
+  "prior_depth_rank": 3.79,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYJ",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039801",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "BAL",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0039810",
+  "season": 2025,
+  "prior_depth_rank": 7.19,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CIN",
+  "snapshots": 127
+ },
+ {
+  "player_id": "00-0039811",
+  "season": 2025,
+  "prior_depth_rank": 4.9,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039814",
+  "season": 2025,
+  "prior_depth_rank": 5.55,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039816",
+  "season": 2025,
+  "prior_depth_rank": 4.63,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039824",
+  "season": 2025,
+  "prior_depth_rank": 4.05,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039843",
+  "season": 2025,
+  "prior_depth_rank": 6.55,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LV",
+  "snapshots": 74
+ },
+ {
+  "player_id": "00-0039847",
+  "season": 2025,
+  "prior_depth_rank": 0.76,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039849",
+  "season": 2025,
+  "prior_depth_rank": 2.54,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ARI",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0039851",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039853",
+  "season": 2025,
+  "prior_depth_rank": 9.65,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NE",
+  "snapshots": 24
+ },
+ {
+  "player_id": "00-0039855",
+  "season": 2025,
+  "prior_depth_rank": 6.07,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039868",
+  "season": 2025,
+  "prior_depth_rank": 2.95,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039874",
+  "season": 2025,
+  "prior_depth_rank": 1.99,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "MIA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039875",
+  "season": 2025,
+  "prior_depth_rank": 1.62,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039880",
+  "season": 2025,
+  "prior_depth_rank": 2.8,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039884",
+  "season": 2025,
+  "prior_depth_rank": 5.97,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039890",
+  "season": 2025,
+  "prior_depth_rank": 3.51,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039893",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "JAX",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039894",
+  "season": 2025,
+  "prior_depth_rank": 1.81,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039901",
+  "season": 2025,
+  "prior_depth_rank": 3.13,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039907",
+  "season": 2025,
+  "prior_depth_rank": 5.03,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039910",
+  "season": 2025,
+  "prior_depth_rank": 2.14,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "WAS",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039912",
+  "season": 2025,
+  "prior_depth_rank": 3.28,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "WAS",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039915",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0039916",
+  "season": 2025,
+  "prior_depth_rank": 2.68,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039917",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "ATL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039918",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039919",
+  "season": 2025,
+  "prior_depth_rank": 1.4,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039920",
+  "season": 2025,
+  "prior_depth_rank": 3.56,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYJ",
+  "snapshots": 186
+ },
+ {
+  "player_id": "00-0039921",
+  "season": 2025,
+  "prior_depth_rank": 3.85,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "ARI",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0039923",
+  "season": 2025,
+  "prior_depth_rank": 1.06,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0039936",
+  "season": 2025,
+  "prior_depth_rank": 5.57,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LAC",
+  "snapshots": 80
+ },
+ {
+  "player_id": "00-0040009",
+  "season": 2025,
+  "prior_depth_rank": 3.78,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040014",
+  "season": 2025,
+  "prior_depth_rank": 5.07,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "PHI",
+  "snapshots": 75
+ },
+ {
+  "player_id": "00-0040021",
+  "season": 2025,
+  "prior_depth_rank": 4.22,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040024",
+  "season": 2025,
+  "prior_depth_rank": 6.74,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040028",
+  "season": 2025,
+  "prior_depth_rank": 3.67,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "PHI",
+  "snapshots": 83
+ },
+ {
+  "player_id": "00-0040039",
+  "season": 2025,
+  "prior_depth_rank": 6.41,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "GB",
+  "snapshots": 86
+ },
+ {
+  "player_id": "00-0040046",
+  "season": 2025,
+  "prior_depth_rank": 7.78,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DAL",
+  "snapshots": 96
+ },
+ {
+  "player_id": "00-0040048",
+  "season": 2025,
+  "prior_depth_rank": 8.23,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DAL",
+  "snapshots": 89
+ },
+ {
+  "player_id": "00-0040049",
+  "season": 2025,
+  "prior_depth_rank": 9.76,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DAL",
+  "snapshots": 75
+ },
+ {
+  "player_id": "00-0040053",
+  "season": 2025,
+  "prior_depth_rank": 7.39,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SEA",
+  "snapshots": 53
+ },
+ {
+  "player_id": "00-0040058",
+  "season": 2025,
+  "prior_depth_rank": 2.87,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040060",
+  "season": 2025,
+  "prior_depth_rank": 4.19,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "SEA",
+  "snapshots": 55
+ },
+ {
+  "player_id": "00-0040067",
+  "season": 2025,
+  "prior_depth_rank": 6,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SEA",
+  "snapshots": 55
+ },
+ {
+  "player_id": "00-0040075",
+  "season": 2025,
+  "prior_depth_rank": 5.62,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040078",
+  "season": 2025,
+  "prior_depth_rank": 2,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040081",
+  "season": 2025,
+  "prior_depth_rank": 5.39,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040094",
+  "season": 2025,
+  "prior_depth_rank": 7.2,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "KC",
+  "snapshots": 83
+ },
+ {
+  "player_id": "00-0040120",
+  "season": 2025,
+  "prior_depth_rank": 9.39,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "KC",
+  "snapshots": 92
+ },
+ {
+  "player_id": "00-0040122",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LV",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040124",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040126",
+  "season": 2025,
+  "prior_depth_rank": 0.96,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040128",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040129",
+  "season": 2025,
+  "prior_depth_rank": 2.05,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040130",
+  "season": 2025,
+  "prior_depth_rank": 2.88,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0040131",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040134",
+  "season": 2025,
+  "prior_depth_rank": 3.07,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040138",
+  "season": 2025,
+  "prior_depth_rank": 4.14,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "HOU",
+  "snapshots": 219
+ },
+ {
+  "player_id": "00-0040142",
+  "season": 2025,
+  "prior_depth_rank": 1.87,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "PIT",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040154",
+  "season": 2025,
+  "prior_depth_rank": 3.97,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040162",
+  "season": 2025,
+  "prior_depth_rank": 1.96,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CLE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040164",
+  "season": 2025,
+  "prior_depth_rank": 6.38,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040170",
+  "season": 2025,
+  "prior_depth_rank": 1.96,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0040172",
+  "season": 2025,
+  "prior_depth_rank": 6.23,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040177",
+  "season": 2025,
+  "prior_depth_rank": 3.34,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040179",
+  "season": 2025,
+  "prior_depth_rank": 3.86,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040184",
+  "season": 2025,
+  "prior_depth_rank": 8.03,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0040187",
+  "season": 2025,
+  "prior_depth_rank": 3.81,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040189",
+  "season": 2025,
+  "prior_depth_rank": 1.5,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LAC",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0040194",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "BUF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040198",
+  "season": 2025,
+  "prior_depth_rank": 3.38,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "MIA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040202",
+  "season": 2025,
+  "prior_depth_rank": 4.45,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NO",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040203",
+  "season": 2025,
+  "prior_depth_rank": 3.4,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "PIT",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040205",
+  "season": 2025,
+  "prior_depth_rank": 3.11,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TEN",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0040206",
+  "season": 2025,
+  "prior_depth_rank": 2.48,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "IND",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040208",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040211",
+  "season": 2025,
+  "prior_depth_rank": 1.96,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "HOU",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040215",
+  "season": 2025,
+  "prior_depth_rank": 3.76,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040218",
+  "season": 2025,
+  "prior_depth_rank": 2.98,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040220",
+  "season": 2025,
+  "prior_depth_rank": 8.79,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0040222",
+  "season": 2025,
+  "prior_depth_rank": 2.56,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "LV",
+  "snapshots": 94
+ },
+ {
+  "player_id": "00-0040225",
+  "season": 2025,
+  "prior_depth_rank": 3.36,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040234",
+  "season": 2025,
+  "prior_depth_rank": 2.5,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "MIA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040236",
+  "season": 2025,
+  "prior_depth_rank": 1.69,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040237",
+  "season": 2025,
+  "prior_depth_rank": 3.75,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040238",
+  "season": 2025,
+  "prior_depth_rank": 2.25,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "JAX",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040240",
+  "season": 2025,
+  "prior_depth_rank": 5.74,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DEN",
+  "snapshots": 72
+ },
+ {
+  "player_id": "00-0040241",
+  "season": 2025,
+  "prior_depth_rank": 4.69,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040242",
+  "season": 2025,
+  "prior_depth_rank": 2.17,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "WAS",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040244",
+  "season": 2025,
+  "prior_depth_rank": 5.17,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NO",
+  "snapshots": 138
+ },
+ {
+  "player_id": "00-0040247",
+  "season": 2025,
+  "prior_depth_rank": 5.74,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 76
+ },
+ {
+  "player_id": "00-0040250",
+  "season": 2025,
+  "prior_depth_rank": 5.81,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "HOU",
+  "snapshots": 75
+ },
+ {
+  "player_id": "00-0040253",
+  "season": 2025,
+  "prior_depth_rank": 7,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "IND",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0040259",
+  "season": 2025,
+  "prior_depth_rank": 7.52,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 204
+ },
+ {
+  "player_id": "00-0040260",
+  "season": 2025,
+  "prior_depth_rank": 6.1,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CLE",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0040265",
+  "season": 2025,
+  "prior_depth_rank": 13.06,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CAR",
+  "snapshots": 83
+ },
+ {
+  "player_id": "00-0040272",
+  "season": 2025,
+  "prior_depth_rank": 3.56,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040275",
+  "season": 2025,
+  "prior_depth_rank": 6.31,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CHI",
+  "snapshots": 78
+ },
+ {
+  "player_id": "00-0040277",
+  "season": 2025,
+  "prior_depth_rank": 3.86,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040292",
+  "season": 2025,
+  "prior_depth_rank": 6.48,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CAR",
+  "snapshots": 83
+ },
+ {
+  "player_id": "00-0040298",
+  "season": 2025,
+  "prior_depth_rank": 7.77,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIA",
+  "snapshots": 89
+ },
+ {
+  "player_id": "00-0040301",
+  "season": 2025,
+  "prior_depth_rank": 3.73,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040302",
+  "season": 2025,
+  "prior_depth_rank": 8.2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIA",
+  "snapshots": 88
+ },
+ {
+  "player_id": "00-0040311",
+  "season": 2025,
+  "prior_depth_rank": 6.87,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIA",
+  "snapshots": 101
+ },
+ {
+  "player_id": "00-0040315",
+  "season": 2025,
+  "prior_depth_rank": 9.52,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 92
+ },
+ {
+  "player_id": "00-0040317",
+  "season": 2025,
+  "prior_depth_rank": 8.28,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "WAS",
+  "snapshots": 97
+ },
+ {
+  "player_id": "00-0040323",
+  "season": 2025,
+  "prior_depth_rank": 5.68,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "JAX",
+  "snapshots": 83
+ },
+ {
+  "player_id": "00-0040330",
+  "season": 2025,
+  "prior_depth_rank": 2.19,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "JAX",
+  "snapshots": 92
+ },
+ {
+  "player_id": "00-0040331",
+  "season": 2025,
+  "prior_depth_rank": 5.41,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "JAX",
+  "snapshots": 85
+ },
+ {
+  "player_id": "00-0040332",
+  "season": 2025,
+  "prior_depth_rank": 6.07,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "JAX",
+  "snapshots": 83
+ },
+ {
+  "player_id": "00-0040337",
+  "season": 2025,
+  "prior_depth_rank": 5.36,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "JAX",
+  "snapshots": 92
+ },
+ {
+  "player_id": "00-0040352",
+  "season": 2025,
+  "prior_depth_rank": 5.72,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "IND",
+  "snapshots": 93
+ },
+ {
+  "player_id": "00-0040361",
+  "season": 2025,
+  "prior_depth_rank": 8.43,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "BUF",
+  "snapshots": 77
+ },
+ {
+  "player_id": "00-0040363",
+  "season": 2025,
+  "prior_depth_rank": 5.14,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "BUF",
+  "snapshots": 104
+ },
+ {
+  "player_id": "00-0040366",
+  "season": 2025,
+  "prior_depth_rank": 10.62,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "KC",
+  "snapshots": 89
+ },
+ {
+  "player_id": "00-0040375",
+  "season": 2025,
+  "prior_depth_rank": 9.66,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CIN",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0040383",
+  "season": 2025,
+  "prior_depth_rank": 5.64,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ARI",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0040387",
+  "season": 2025,
+  "prior_depth_rank": 4.49,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DET",
+  "snapshots": 94
+ },
+ {
+  "player_id": "00-0040388",
+  "season": 2025,
+  "prior_depth_rank": 11.15,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DET",
+  "snapshots": 92
+ },
+ {
+  "player_id": "00-0040390",
+  "season": 2025,
+  "prior_depth_rank": 8.09,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DET",
+  "snapshots": 94
+ },
+ {
+  "player_id": "00-0040392",
+  "season": 2025,
+  "prior_depth_rank": 7.02,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "DEN",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0040393",
+  "season": 2025,
+  "prior_depth_rank": 4.25,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040394",
+  "season": 2025,
+  "prior_depth_rank": 7.33,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SEA",
+  "snapshots": 82
+ },
+ {
+  "player_id": "00-0040398",
+  "season": 2025,
+  "prior_depth_rank": 1.64,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NYJ",
+  "snapshots": 123
+ },
+ {
+  "player_id": "00-0040400",
+  "season": 2025,
+  "prior_depth_rank": 3.96,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYJ",
+  "snapshots": 93
+ },
+ {
+  "player_id": "00-0040405",
+  "season": 2025,
+  "prior_depth_rank": 9.4,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYJ",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0040406",
+  "season": 2025,
+  "prior_depth_rank": 7.71,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYJ",
+  "snapshots": 99
+ },
+ {
+  "player_id": "00-0040415",
+  "season": 2025,
+  "prior_depth_rank": 3.21,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "TB",
+  "snapshots": 127
+ },
+ {
+  "player_id": "00-0040419",
+  "season": 2025,
+  "prior_depth_rank": 14.2,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 89
+ },
+ {
+  "player_id": "00-0040429",
+  "season": 2025,
+  "prior_depth_rank": 3.9,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "TB",
+  "snapshots": 214
+ },
+ {
+  "player_id": "00-0040431",
+  "season": 2025,
+  "prior_depth_rank": 7.58,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 118
+ },
+ {
+  "player_id": "00-0040432",
+  "season": 2025,
+  "prior_depth_rank": 7.31,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040438",
+  "season": 2025,
+  "prior_depth_rank": 7.3,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0040443",
+  "season": 2025,
+  "prior_depth_rank": 6.07,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DEN",
+  "snapshots": 88
+ },
+ {
+  "player_id": "00-0040445",
+  "season": 2025,
+  "prior_depth_rank": 8.5,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DEN",
+  "snapshots": 52
+ },
+ {
+  "player_id": "00-0040455",
+  "season": 2025,
+  "prior_depth_rank": 8.77,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYG",
+  "snapshots": 10
+ },
+ {
+  "player_id": "00-0040456",
+  "season": 2025,
+  "prior_depth_rank": 8.27,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYG",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0040461",
+  "season": 2025,
+  "prior_depth_rank": 11.94,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 82
+ },
+ {
+  "player_id": "00-0040464",
+  "season": 2025,
+  "prior_depth_rank": 3.34,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "LAC",
+  "snapshots": 84
+ },
+ {
+  "player_id": "00-0040466",
+  "season": 2025,
+  "prior_depth_rank": 2.69,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LAC",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0040476",
+  "season": 2025,
+  "prior_depth_rank": 5.11,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "IND",
+  "snapshots": 94
+ },
+ {
+  "player_id": "00-0040488",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LV",
+  "snapshots": 187
+ },
+ {
+  "player_id": "00-0040493",
+  "season": 2025,
+  "prior_depth_rank": 7.5,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIN",
+  "snapshots": 21
+ },
+ {
+  "player_id": "00-0040494",
+  "season": 2025,
+  "prior_depth_rank": 2.66,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040498",
+  "season": 2025,
+  "prior_depth_rank": 9.65,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIN",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0040504",
+  "season": 2025,
+  "prior_depth_rank": 5.03,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIN",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0040506",
+  "season": 2025,
+  "prior_depth_rank": 4.59,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "MIN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040509",
+  "season": 2025,
+  "prior_depth_rank": 2.11,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "MIN",
+  "snapshots": 165
+ },
+ {
+  "player_id": "00-0040522",
+  "season": 2025,
+  "prior_depth_rank": 8.36,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 93
+ },
+ {
+  "player_id": "00-0040528",
+  "season": 2025,
+  "prior_depth_rank": 4.67,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "PIT",
+  "snapshots": 72
+ },
+ {
+  "player_id": "00-0040534",
+  "season": 2025,
+  "prior_depth_rank": 4.41,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PIT",
+  "snapshots": 174
+ },
+ {
+  "player_id": "00-0040547",
+  "season": 2025,
+  "prior_depth_rank": 3.93,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "ATL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040551",
+  "season": 2025,
+  "prior_depth_rank": 5.46,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "ATL",
+  "snapshots": 89
+ },
+ {
+  "player_id": "00-0040552",
+  "season": 2025,
+  "prior_depth_rank": 6.96,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "ATL",
+  "snapshots": 75
+ },
+ {
+  "player_id": "00-0040556",
+  "season": 2025,
+  "prior_depth_rank": 5.2,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SF",
+  "snapshots": 125
+ },
+ {
+  "player_id": "00-0040558",
+  "season": 2025,
+  "prior_depth_rank": 11.73,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SF",
+  "snapshots": 84
+ },
+ {
+  "player_id": "00-0040563",
+  "season": 2025,
+  "prior_depth_rank": 6.87,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040566",
+  "season": 2025,
+  "prior_depth_rank": 3.96,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NE",
+  "snapshots": 138
+ },
+ {
+  "player_id": "00-0040567",
+  "season": 2025,
+  "prior_depth_rank": 2.41,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040568",
+  "season": 2025,
+  "prior_depth_rank": 5,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040570",
+  "season": 2025,
+  "prior_depth_rank": 6.95,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NE",
+  "snapshots": 57
+ },
+ {
+  "player_id": "00-0040571",
+  "season": 2025,
+  "prior_depth_rank": 5.66,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NE",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0040581",
+  "season": 2025,
+  "prior_depth_rank": 3.37,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0040582",
+  "season": 2025,
+  "prior_depth_rank": 2.94,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "NYJ",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040583",
+  "season": 2025,
+  "prior_depth_rank": 1.38,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "HOU",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040584",
+  "season": 2025,
+  "prior_depth_rank": 1.22,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "TEN",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0040586",
+  "season": 2025,
+  "prior_depth_rank": 1.59,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DAL",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040589",
+  "season": 2025,
+  "prior_depth_rank": 3.36,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "SF",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040590",
+  "season": 2025,
+  "prior_depth_rank": 2.95,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040597",
+  "season": 2025,
+  "prior_depth_rank": 6.54,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LA",
+  "snapshots": 72
+ },
+ {
+  "player_id": "00-0040598",
+  "season": 2025,
+  "prior_depth_rank": 5.08,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LA",
+  "snapshots": 70
+ },
+ {
+  "player_id": "00-0040609",
+  "season": 2025,
+  "prior_depth_rank": 9.92,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LA",
+  "snapshots": 70
+ },
+ {
+  "player_id": "00-0040615",
+  "season": 2025,
+  "prior_depth_rank": 6.52,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 78
+ },
+ {
+  "player_id": "00-0040616",
+  "season": 2025,
+  "prior_depth_rank": 8.5,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 23
+ },
+ {
+  "player_id": "00-0040617",
+  "season": 2025,
+  "prior_depth_rank": 8.91,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 75
+ },
+ {
+  "player_id": "00-0040618",
+  "season": 2025,
+  "prior_depth_rank": 11.22,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "PIT",
+  "snapshots": 79
+ },
+ {
+  "player_id": "00-0040621",
+  "season": 2025,
+  "prior_depth_rank": 11.26,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SEA",
+  "snapshots": 31
+ },
+ {
+  "player_id": "00-0040628",
+  "season": 2025,
+  "prior_depth_rank": 5.73,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "TEN",
+  "snapshots": 86
+ },
+ {
+  "player_id": "00-0040629",
+  "season": 2025,
+  "prior_depth_rank": 5.77,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 130
+ },
+ {
+  "player_id": "00-0040633",
+  "season": 2025,
+  "prior_depth_rank": 9.6,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DEN",
+  "snapshots": 22
+ },
+ {
+  "player_id": "00-0040637",
+  "season": 2025,
+  "prior_depth_rank": 2.03,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "BAL",
+  "snapshots": 90
+ },
+ {
+  "player_id": "00-0040644",
+  "season": 2025,
+  "prior_depth_rank": 2.88,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CAR",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040646",
+  "season": 2025,
+  "prior_depth_rank": 5.96,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "KC",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040648",
+  "season": 2025,
+  "prior_depth_rank": 4.14,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040649",
+  "season": 2025,
+  "prior_depth_rank": 1.31,
+  "prior_depth_pos": "FB",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040651",
+  "season": 2025,
+  "prior_depth_rank": 6.54,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "SEA",
+  "snapshots": 83
+ },
+ {
+  "player_id": "00-0040653",
+  "season": 2025,
+  "prior_depth_rank": 9.18,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "SEA",
+  "snapshots": 57
+ },
+ {
+  "player_id": "00-0040656",
+  "season": 2025,
+  "prior_depth_rank": 4,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NO",
+  "snapshots": 10
+ },
+ {
+  "player_id": "00-0040663",
+  "season": 2025,
+  "prior_depth_rank": 1.37,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CLE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040666",
+  "season": 2025,
+  "prior_depth_rank": 1.45,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LAC",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0040667",
+  "season": 2025,
+  "prior_depth_rank": 3.78,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "GB",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040668",
+  "season": 2025,
+  "prior_depth_rank": 2.26,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CLE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040669",
+  "season": 2025,
+  "prior_depth_rank": 4.88,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "DET",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040673",
+  "season": 2025,
+  "prior_depth_rank": 2.37,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040676",
+  "season": 2025,
+  "prior_depth_rank": 1,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "TEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040691",
+  "season": 2025,
+  "prior_depth_rank": 1.77,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040692",
+  "season": 2025,
+  "prior_depth_rank": 4.74,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040697",
+  "season": 2025,
+  "prior_depth_rank": 5.43,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "CHI",
+  "snapshots": 64
+ },
+ {
+  "player_id": "00-0040704",
+  "season": 2025,
+  "prior_depth_rank": 1.95,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "CLE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040705",
+  "season": 2025,
+  "prior_depth_rank": 3.48,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TEN",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0040715",
+  "season": 2025,
+  "prior_depth_rank": 3.97,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYG",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040718",
+  "season": 2025,
+  "prior_depth_rank": 3.48,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "JAX",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040719",
+  "season": 2025,
+  "prior_depth_rank": 2.11,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "JAX",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040727",
+  "season": 2025,
+  "prior_depth_rank": 3.79,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LAC",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0040729",
+  "season": 2025,
+  "prior_depth_rank": 3,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "LV",
+  "snapshots": 220
+ },
+ {
+  "player_id": "00-0040730",
+  "season": 2025,
+  "prior_depth_rank": 1.96,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "DEN",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040734",
+  "season": 2025,
+  "prior_depth_rank": 2.16,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040735",
+  "season": 2025,
+  "prior_depth_rank": 3.78,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CHI",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040736",
+  "season": 2025,
+  "prior_depth_rank": 1.67,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "NYJ",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040737",
+  "season": 2025,
+  "prior_depth_rank": 1.78,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "LA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040739",
+  "season": 2025,
+  "prior_depth_rank": 1.98,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "SEA",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040743",
+  "season": 2025,
+  "prior_depth_rank": 1.79,
+  "prior_depth_pos": "QB",
+  "prior_depth_team": "NO",
+  "snapshots": 221
+ },
+ {
+  "player_id": "00-0040753",
+  "season": 2025,
+  "prior_depth_rank": 10.36,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "GB",
+  "snapshots": 88
+ },
+ {
+  "player_id": "00-0040758",
+  "season": 2025,
+  "prior_depth_rank": 6,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "NYJ",
+  "snapshots": 21
+ },
+ {
+  "player_id": "00-0040769",
+  "season": 2025,
+  "prior_depth_rank": 5.84,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "TB",
+  "snapshots": 216
+ },
+ {
+  "player_id": "00-0040782",
+  "season": 2025,
+  "prior_depth_rank": 3.11,
+  "prior_depth_pos": "WR",
+  "prior_depth_team": "CLE",
+  "snapshots": 206
+ },
+ {
+  "player_id": "00-0040784",
+  "season": 2025,
+  "prior_depth_rank": 2.82,
+  "prior_depth_pos": "RB",
+  "prior_depth_team": "CLE",
+  "snapshots": 221
+ },
+ {
+  "player_id": "PRY456541",
+  "season": 2025,
+  "prior_depth_rank": 3.4,
+  "prior_depth_pos": "TE",
+  "prior_depth_team": "HOU",
+  "snapshots": 52
+ }
+]

@@ -1,0 +1,217 @@
+name: NFL odds pull (live lines)
+
+# Keeps nfl.live_odds current so the board shows a real line and a real edge
+# next to each projection, and captures a closing line per game for CLV.
+#
+# ── SCHEDULE (2026-11-02): pg_cron dispatches this, GitHub's cron does not ───
+# GitHub's `schedule` delivery is late, and not by a little: measured p75 across
+# the MLB lab is ~4h08m, and the 11:00 UTC Sunday close of 2026-11-01 ran at
+# 14:04. A close meant for the 1 PM kickoffs that lands at 3 PM has captured
+# nothing — the script skips events already under way. So, like the NBA and NHL
+# labs, this workflow has no `schedule:`; pg_cron in the shared Supabase calls
+# workflow_dispatch on the minute (pg_cron dispatch SQL, not in this copy):
+#
+#   REFRESH (snapshot_kind=live, upserted in place — bounded storage)
+#     Wed 15:00 UTC = 10 AM ET, --within 168, regions=us,us2 · the week's board
+#     Sat 15:00 UTC = 10 AM ET, --within 168, regions=us     · the board picks freeze at
+#
+#   CLOSE (snapshot_kind=close, kept — this is the CLV substrate)
+#     ~90 min before every kickoff window, --within 2, regions=us,us2
+#     nfl_kickoff_close() checks nfl.odds_events every 10 minutes, so London
+#     9:30s, Thanksgiving, Christmas, Saturday weeks 15-18, TNF and MNF need no
+#     day list (a hand-written one already missed the Wednesday opener). The 2 h
+#     window folds the 4:05 and 4:25 games into one pull.
+#
+# ── WHY WEDNESDAY AND SATURDAY: A BOOK'S MENU IS A FUNCTION OF THE CLOCK ──────
+# Until 2026-09 the only pull that covered a Sunday game was Tuesday morning's,
+# and a book has barely posted its board then: on the 2026 week-2 slate half the
+# games had NO rushing, receiving or passing line, so the board's LINE column
+# fell back to the model's invented one (models.js recLine/passYdLine =
+# projection minus ~4-6, rounded) — a synthetic DIFF near +6 that floated every
+# unpriced row above every real edge. Re-measured that Sunday, DraftKings and
+# FanDuel each posted 12-13 receivers, 5-6 backs and both quarterbacks per game.
+# Yardage menus fill in Wed-Thu, so the week's first board is Wednesday (after
+# Tuesday's stats rebuild). The second is Saturday, after Friday's injury
+# designations: every pick holds the price of the last refresh before its
+# game's first close, so the refresh nearest the games is the one the ledger is
+# priced at. `us` alone there — us2 is a price-shopping luxury and the closes
+# add it.
+#
+# The close is only worth anything because the pick is NOT frozen at it: picks
+# hold the price of the last refresh before a game's first close pull, and every
+# close pull after that is the line they are graded against (close_at > odds_at,
+# pickLedger.js closeIsCapture).
+#
+# Games already under way are skipped, so a late delivery degrades to capturing
+# fewer games rather than capturing post-kickoff prices. row_key includes the
+# line, so a line that MOVES between two close passes leaves both rows
+# rather than overwriting — read the closing price as the latest captured_at,
+# and the pair is free line-movement history.
+#
+# ── COST ─────────────────────────────────────────────────────────────────────
+# 1 credit per market per region per event, so the REGION LIST is the only lever
+# — a bookmakers= filter is free and changes nothing. Measured on Week 1's 637
+# three-book props: DraftKings beats FanDuel's price on 56.7% and rides along in
+# `us` for free, while Hard Rock (us2, and therefore DOUBLE) is strictly the best
+# price on 1.9% and prices exactly 1 prop of 752 that nobody else does.
+#
+# So us2 is a "show me my book" purchase rather than a price one — and the budget
+# says buy it everywhere anyway. Measured 2026-09-08: MLB burns 27.6 credits/game
+# (2,646 over 96 games, Sep 1-7) and has 250 games left before its season ends
+# Sept 27, so it will spend ~6,900 and leave ~10,050 of September's key for the
+# NFL. Both regions on every pull spends ~890 of that — 9%.
+#
+#   (2026-09 plan) board 16 games × 4 markets × 2 regions = 128
+#   day-of closes   16 games × 4 markets × 2 regions = 128 spread over the week
+#                                                    week ≈ 300, season ≈ 5,300
+#
+# Measured late October with sacks, team totals and moneylines riding along:
+# a close is ~12 credits a game and the week ~450, against an account that spent
+# 8,526 of 20,000 across all three labs in October. The kickoff closes buy each
+# game once; the old 7 AM + Sunday 2 PM pair bought the late games twice.
+#
+# SACKS (added 2026-09-18) ride along on every pull, from `us` — the same region
+# the core props come from. They were bought from `us,us_dfs` until 2026-09-20,
+# on a Thursday measurement that found only PrizePicks and Underdog posting them;
+# re-measured three hours before kickoff, FanDuel, DraftKings and BetOnline each
+# posted them on 15 of 15 games. Sportsbooks post defensive props LATE, not
+# never. `us` alone measured 30 credits for a 15-game slate — ~120 a week, and
+# now in two-sided sportsbook prices rather than DFS pick'em payout structures.
+# `--no-sacks` turns it off and `--sacks-only` buys nothing else.
+#
+# GAME MARKETS (2026-10-14) ride along too, for the game engine's spread / total
+# / moneyline / team-total picks (src/lib/gameMarkets.js). Spreads, totals and
+# moneylines are ONE slate-level request billed per market per region — h2h adds
+# 1 credit per region per pull, ~10 a week. Team totals are per-event like a
+# prop: +1 per event per region, ~16 on the Saturday board, ~32 on Wednesday's and
+# the closes — ~90 a week. `--game-lines-only` buys just these (~17 a slate from
+# us) and `--no-game-lines` turns them all off.
+#
+# From October the NFL is effectively the only consumer of this key.
+#
+# NOT BOUGHT, and worth knowing: the model projects SIX prop types (rec_yards,
+# receptions, rush_yards, rush_att, pass_yards, completions) plus anytime TD, and
+# this pull buys lines for four. player_receptions, player_rush_attempts and
+# player_pass_completions are all posted (DraftKings carries all three; FanDuel
+# only receptions) and would add 48 × 3 × 2 = 288 for a September. The thing
+# stopping that is wiring, not credits.
+#
+# against a 20,000/month key SHARED with the MLB and WNBA labs.
+#
+# The script refuses to run if the pull would take the account below its
+# --reserve floor (default 3000), so an NFL pull can never starve MLB's daily
+# cron. It also writes its own row to public.odds_credit_log (source nfl_live);
+# the shared ledger is only truthful if every consumer of the key logs to it.
+#
+# RE-RUNS ARE CHEAP. The odds calls carry no retry (a failure warns and moves on,
+# and an error response is not billed), so retrying cannot burn credits. What
+# could is re-running a job that died halfway — so an event priced within the
+# last 90 minutes is skipped rather than re-bought, tracked per snapshot kind on
+# nfl.odds_events. Pass --force to deliberately re-buy.
+
+on:
+  # No schedule: pg_cron dispatches every run (pg_cron dispatch SQL, not in this copy).
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'refresh (live, upserted) or close (kept, CLV substrate)'
+        type: choice
+        options: [refresh, close]
+        default: refresh
+      within:
+        description: 'Only price games kicking off within this many hours'
+        required: false
+        default: '168'
+      regions:
+        description: 'us (FanDuel + DraftKings + 5) or us,us2 (adds Hard Rock, DOUBLE cost)'
+        type: choice
+        options: [us, 'us,us2']
+        default: us
+
+# A permissions block REPLACES the default token scopes rather than adding to
+# them, so contents: read must be listed or actions/checkout gets "Repository
+# not found" on a private repo — a 403 masked as a 404.
+permissions:
+  contents: read
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          check-latest: true   # runner cache lags security releases
+
+      # Every run is a workflow_dispatch (pg_cron, Model Refresh, or by hand),
+      # so the inputs are the mode.
+      - name: Choose mode from the inputs
+        id: mode
+        env:
+          IN_MODE: ${{ github.event.inputs.mode }}
+          IN_WITHIN: ${{ github.event.inputs.within }}
+          IN_REGIONS: ${{ github.event.inputs.regions }}
+        run: |
+          MODE="${IN_MODE:-refresh}"; WITHIN="${IN_WITHIN:-168}"; REGIONS="${IN_REGIONS:-us}"
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "within=$WITHIN" >> "$GITHUB_OUTPUT"
+          echo "regions=$REGIONS" >> "$GITHUB_OUTPUT"
+          echo "mode=$MODE within=${WITHIN}h regions=$REGIONS"
+
+      # Dry run first, unconditionally. It costs 0 credits (the /events endpoint
+      # is free) and prints the event map health plus the exact spend the live
+      # call is about to make — so a bad team-name match or an unexpectedly large
+      # slate shows up in the log next to the run that acted on it.
+      - name: Plan (dry run, 0 credits)
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: >
+          node scripts/pull_live_odds.mjs
+          --within "${{ steps.mode.outputs.within }}"
+          --regions "${{ steps.mode.outputs.regions }}"
+
+      - name: Pull
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          ARGS="--live --within ${{ steps.mode.outputs.within }} --regions ${{ steps.mode.outputs.regions }}"
+          if [ "${{ steps.mode.outputs.mode }}" = "close" ]; then ARGS="$ARGS --close"; fi
+          node scripts/pull_live_odds.mjs $ARGS
+
+      # Re-freeze the pick ledger on the lines that just landed. Here rather than
+      # on its own cron so it can never run before the prices it records — see
+      # picks.yml. Only games that have not kicked off are touched. A refresh
+      # pull (Wednesday, Saturday) re-prices the whole week. A CLOSE pull does NOT
+      # re-price a game's existing picks: it only adds rows new to the ledger
+      # (sacks, late yardage lines). Until 2026-10-07 it overwrote them at the
+      # closing number, so every pick's price WAS its close and CLV read 0 on
+      # 3,281 picks — see the header of scripts/snapshot_picks.mjs.
+      #
+      # continue-on-error: the odds are already written and paid for, and a
+      # ledger hiccup must not mark the pull that bought them as failed.
+      - name: Snapshot the board's picks at these lines
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/snapshot_picks.mjs --write --within "${{ steps.mode.outputs.within }}"
+
+      # The lab header's "model" time: lab_status() in the shared Supabase
+      # (Postgres functions, not in this copy) reads the newest lab_runs row.
+      - name: Log the model run for the header
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: >
+          curl -fsS -X POST "$SUPABASE_URL/rest/v1/lab_runs"
+          -H "apikey: $SUPABASE_SERVICE_ROLE_KEY" -H "Authorization: Bearer $SUPABASE_SERVICE_ROLE_KEY"
+          -H "Content-Type: application/json" -d "{\"lab\":\"nfl\",\"run_url\":\"$RUN_URL\"}"

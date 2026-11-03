@@ -1,0 +1,142 @@
+:root {
+  /* The palette. src/lib/theme.js maps C.* onto these names; change a color
+     here and every inline style follows. Two blocks, one per theme: <html
+     data-theme> picks between them (index.html sets it before first paint). */
+  --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--txt);
+}
+
+/* DARK — the original WNBA-lab ground, value for value. */
+:root, :root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0f1923;
+  --panel: rgba(26, 37, 53, 0.85);
+  --panel-solid: #1a2535;
+  --panel2: rgba(17, 24, 39, 0.8);
+  --deep: #111827;
+  --inset: #0b1520;
+  --line: #4a566e;
+  --line-soft: rgba(74, 86, 110, 0.4);
+  --txt: #e2e8f0;
+  --txt2: #cbd5e1;
+  --sub: #94a3b8;
+  --muted: #7a8fa8;
+  --faint: #64748b;
+  --faintest: #4a566e;
+  --accent: #7dd3fc;
+  --accent2: #38bdf8;
+  --good: #4ade80;
+  --bad: #f87272;
+  --warn: #f59e0b;
+  --purple: #c084fc;
+  --pink: #f472b6;
+  --gold: #f59e0b;
+  --shadow: #000000;
+  --heat-good: #4ade80;
+  --heat-bad: #f87272;
+  --pos-qb: #f59e0b;
+  --pos-rb: #4ade80;
+  --pos-wr: #7dd3fc;
+  --pos-te: #c084fc;
+  --header-bg: rgba(26, 37, 53, 0.92);
+  --glow: radial-gradient(ellipse at 50% 0%, rgba(125, 211, 252, 0.06) 0%, transparent 70%);
+  --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(125, 211, 252, 0.04) inset;
+  --tab-on-bg: rgba(125, 211, 252, 0.14);
+  --tab-on-line: rgba(125, 211, 252, 0.35);
+  --tab-on-fg: #7dd3fc;
+}
+
+/* LIGHT — white cards on a cool slate ground, royal-blue accent, navy ink. */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #eef2f8;
+  --panel: rgba(255, 255, 255, 0.94);
+  --panel-solid: #ffffff;
+  --panel2: #f6f8fc;
+  --deep: #e8edf5;
+  --inset: #f2f5fa;
+  --line: #d5dde9;
+  --line-soft: #e6ebf2;
+  --txt: #0f1b2d;
+  --txt2: #22324a;
+  --sub: #4a5a72;
+  --muted: #536379;
+  --faint: #6b7a90;
+  --faintest: #a3afc0;
+  --accent: #1f4fb8;
+  --accent2: #2563eb;
+  --good: #15803d;
+  --bad: #d12f2f;
+  --warn: #b45309;
+  --purple: #7c3aed;
+  --pink: #db2777;
+  --gold: #9a6f12;
+  --shadow: rgba(15, 27, 45, 0.35);
+  --heat-good: #22c55e;
+  --heat-bad: #ef4444;
+  --pos-qb: #c2700a;
+  --pos-rb: #16a34a;
+  --pos-wr: #0284c7;
+  --pos-te: #9333ea;
+  --header-bg: rgba(255, 255, 255, 0.86);
+  --glow: radial-gradient(ellipse at 50% 0%, rgba(37, 99, 235, 0.10) 0%, transparent 70%);
+  --card-shadow: 0 1px 2px rgba(15, 27, 45, 0.05), 0 6px 22px rgba(15, 27, 45, 0.06);
+  --tab-on-bg: #1f4fb8;
+  --tab-on-line: #1f4fb8;
+  --tab-on-fg: #ffffff;
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+body { margin: 0; background: var(--bg); min-height: 100vh; }
+
+button { font-family: inherit; cursor: pointer; transition: background .15s, border-color .15s, color .15s, opacity .15s; }
+button:hover:not(:disabled) { opacity: 0.85; }
+button:disabled { cursor: default; }
+input, select { font-family: inherit; }
+input:focus, select:focus { border-color: color-mix(in srgb, var(--accent) 50%, transparent) !important; }
+select option { background: var(--panel-solid); color: var(--txt); }
+table { border-collapse: collapse; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--line); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+.fade-in { animation: fade .25s ease; }
+@keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Board / log rows: hover highlight without a per-row JS handler. */
+.row-hover { transition: background .12s; }
+.row-hover:hover { background: color-mix(in srgb, var(--accent) 5%, transparent); }
+
+/* Filter-bar dropdown rows. */
+.dd-item:hover:not(:disabled) { background: color-mix(in srgb, var(--accent) 8%, transparent) !important; opacity: 1 !important; }
+
+/* Sortable column headers. */
+.th-sort { cursor: pointer; }
+.th-sort:hover { color: var(--accent); }
+
+/* The status read (credits, odds, model) sits between the name and the buttons
+   on a wide screen; below that the header shows its second copy, a row of its
+   own under the bar, rather than squeezing the name or the buttons. (!important:
+   the block's display is an inline style.) */
+.hdr-status-row { display: none !important; }
+@media (max-width: 1180px) {
+  .hdr-status-inline { display: none !important; }
+  .hdr-status-row { display: flex !important; margin-top: 6px; }
+}
+
+/* ── narrow screens ──────────────────────────────────────────────────────────
+   The header carries four things (lab switcher, name, state badges, reload) and
+   at 375px they fight. Drop the provenance subtitle and the "updated" stamp —
+   both are context, not controls — and let the name shrink so it stays on one
+   line beside the switcher. */
+@media (max-width: 640px) {
+  .hdr-status-row { flex-wrap: wrap; justify-content: space-between; text-align: left !important;
+                    gap: 2px 10px !important; font-size: 9px !important; margin-left: 0 !important; width: 100%; }
+  .hdr-title { font-size: 15px !important; }
+  .hdr-sub, .hdr-updated, .hdr-refresh-label { display: none; }
+  .hdr-row { gap: 8px; }
+}

@@ -1,0 +1,366 @@
+{
+ "_doc": {
+  "purpose": "2026 coaching staffs for the board's staff/scheme strip. Display only — the model's offensive tendency layer reads play_callers_2026.json.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/List_of_current_NFL_defensive_coordinators",
+   "https://en.wikipedia.org/wiki/List_of_current_NFL_offensive_coordinators",
+   "scripts/out/play_callers_2026.json"
+  ],
+  "verified": "2026-09-16",
+  "dc_since": "Season the DC took the job; 2026 = new this year, so last season's defensive tendencies describe someone else."
+ },
+ "teams": {
+  "ARI": {
+   "team_abbr": "ARI",
+   "head_coach": "Mike LaFleur",
+   "hc_change": true,
+   "offensive_coordinator": "Nathaniel Hackett",
+   "play_caller": "Nathaniel Hackett",
+   "play_caller_confidence": "high",
+   "defensive_coordinator": "Nick Rallis",
+   "dc_since": 2023,
+   "dc_change": false
+  },
+  "ATL": {
+   "team_abbr": "ATL",
+   "head_coach": "Kevin Stefanski",
+   "hc_change": true,
+   "offensive_coordinator": "Tommy Rees",
+   "play_caller": "Kevin Stefanski",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Jeff Ulbrich",
+   "dc_since": 2025,
+   "dc_change": false
+  },
+  "BAL": {
+   "team_abbr": "BAL",
+   "head_coach": "Jesse Minter",
+   "hc_change": true,
+   "offensive_coordinator": "Declan Doyle",
+   "play_caller": "Declan Doyle",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Anthony Weaver",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "BUF": {
+   "team_abbr": "BUF",
+   "head_coach": "Joe Brady",
+   "hc_change": true,
+   "offensive_coordinator": "Pete Carmichael Jr.",
+   "play_caller": "Joe Brady",
+   "play_caller_confidence": "high",
+   "defensive_coordinator": "Jim Leonhard",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "CLE": {
+   "team_abbr": "CLE",
+   "head_coach": "Todd Monken",
+   "hc_change": true,
+   "offensive_coordinator": "Travis Switzer",
+   "play_caller": "Todd Monken",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Mike Rutenberg",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "LV": {
+   "team_abbr": "LV",
+   "head_coach": "Klint Kubiak",
+   "hc_change": true,
+   "offensive_coordinator": "Andrew Janocko",
+   "play_caller": "Klint Kubiak",
+   "play_caller_confidence": "high",
+   "defensive_coordinator": "Rob Leonard",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "MIA": {
+   "team_abbr": "MIA",
+   "head_coach": "Jeff Hafley",
+   "hc_change": true,
+   "offensive_coordinator": "Bobby Slowik",
+   "play_caller": "Bobby Slowik",
+   "play_caller_confidence": "high",
+   "defensive_coordinator": "Sean Duggan",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "NYG": {
+   "team_abbr": "NYG",
+   "head_coach": "John Harbaugh",
+   "hc_change": true,
+   "offensive_coordinator": "Matt Nagy",
+   "play_caller": "Matt Nagy",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Dennard Wilson",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "PIT": {
+   "team_abbr": "PIT",
+   "head_coach": "Mike McCarthy",
+   "hc_change": true,
+   "offensive_coordinator": "Brian Angelichio",
+   "play_caller": "Mike McCarthy",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Patrick Graham",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "TEN": {
+   "team_abbr": "TEN",
+   "head_coach": "Robert Saleh",
+   "hc_change": true,
+   "offensive_coordinator": "Brian Daboll",
+   "play_caller": "Brian Daboll",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Gus Bradley",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "CHI": {
+   "team_abbr": "CHI",
+   "head_coach": "Ben Johnson",
+   "hc_change": false,
+   "offensive_coordinator": "Press Taylor",
+   "play_caller": "Ben Johnson",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Dennis Allen",
+   "dc_since": 2025,
+   "dc_change": false
+  },
+  "CIN": {
+   "team_abbr": "CIN",
+   "head_coach": "Zac Taylor",
+   "hc_change": false,
+   "offensive_coordinator": "Dan Pitcher",
+   "play_caller": "Zac Taylor",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Al Golden",
+   "dc_since": 2025,
+   "dc_change": false
+  },
+  "CAR": {
+   "team_abbr": "CAR",
+   "head_coach": "Dave Canales",
+   "hc_change": false,
+   "offensive_coordinator": "Brad Idzik",
+   "play_caller": "Dave Canales",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Ejiro Evero",
+   "dc_since": 2023,
+   "dc_change": false
+  },
+  "DAL": {
+   "team_abbr": "DAL",
+   "head_coach": "Brian Schottenheimer",
+   "hc_change": false,
+   "offensive_coordinator": "Klayton Adams",
+   "play_caller": "Brian Schottenheimer",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Christian Parker",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "DEN": {
+   "team_abbr": "DEN",
+   "head_coach": "Sean Payton",
+   "hc_change": false,
+   "offensive_coordinator": "Davis Webb",
+   "play_caller": "Sean Payton",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Vance Joseph",
+   "dc_since": 2023,
+   "dc_change": false
+  },
+  "DET": {
+   "team_abbr": "DET",
+   "head_coach": "Dan Campbell",
+   "hc_change": false,
+   "offensive_coordinator": "Drew Petzing",
+   "play_caller": "Drew Petzing",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Kelvin Sheppard",
+   "dc_since": 2025,
+   "dc_change": false
+  },
+  "GB": {
+   "team_abbr": "GB",
+   "head_coach": "Matt LaFleur",
+   "hc_change": false,
+   "offensive_coordinator": "Adam Stenavich",
+   "play_caller": "Matt LaFleur",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Jonathan Gannon",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "HOU": {
+   "team_abbr": "HOU",
+   "head_coach": "DeMeco Ryans",
+   "hc_change": false,
+   "offensive_coordinator": "Nick Caley",
+   "play_caller": "Nick Caley",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Matt Burke",
+   "dc_since": 2023,
+   "dc_change": false
+  },
+  "IND": {
+   "team_abbr": "IND",
+   "head_coach": "Shane Steichen",
+   "hc_change": false,
+   "offensive_coordinator": "Jim Bob Cooter",
+   "play_caller": "Shane Steichen",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Lou Anarumo",
+   "dc_since": 2025,
+   "dc_change": false
+  },
+  "JAX": {
+   "team_abbr": "JAX",
+   "head_coach": "Liam Coen",
+   "hc_change": false,
+   "offensive_coordinator": "Grant Udinski",
+   "play_caller": "Liam Coen",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Anthony Campanile",
+   "dc_since": 2025,
+   "dc_change": false
+  },
+  "KC": {
+   "team_abbr": "KC",
+   "head_coach": "Andy Reid",
+   "hc_change": false,
+   "offensive_coordinator": "Eric Bieniemy",
+   "play_caller": "Andy Reid",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Steve Spagnuolo",
+   "dc_since": 2019,
+   "dc_change": false
+  },
+  "LA": {
+   "team_abbr": "LA",
+   "head_coach": "Sean McVay",
+   "hc_change": false,
+   "offensive_coordinator": "Nate Scheelhaase",
+   "play_caller": "Sean McVay",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Chris Shula",
+   "dc_since": 2024,
+   "dc_change": false
+  },
+  "LAC": {
+   "team_abbr": "LAC",
+   "head_coach": "Jim Harbaugh",
+   "hc_change": false,
+   "offensive_coordinator": "Mike McDaniel",
+   "play_caller": "Mike McDaniel",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Chris O'Leary",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "MIN": {
+   "team_abbr": "MIN",
+   "head_coach": "Kevin O'Connell",
+   "hc_change": false,
+   "offensive_coordinator": "Wes Phillips",
+   "play_caller": "Kevin O'Connell",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Brian Flores",
+   "dc_since": 2023,
+   "dc_change": false
+  },
+  "NE": {
+   "team_abbr": "NE",
+   "head_coach": "Mike Vrabel",
+   "hc_change": false,
+   "offensive_coordinator": "Josh McDaniels",
+   "play_caller": "Josh McDaniels",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Zak Kuhr",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "NO": {
+   "team_abbr": "NO",
+   "head_coach": "Kellen Moore",
+   "hc_change": false,
+   "offensive_coordinator": "Doug Nussmeier",
+   "play_caller": "Kellen Moore",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Brandon Staley",
+   "dc_since": 2025,
+   "dc_change": false
+  },
+  "NYJ": {
+   "team_abbr": "NYJ",
+   "head_coach": "Aaron Glenn",
+   "hc_change": false,
+   "offensive_coordinator": "Frank Reich",
+   "play_caller": "Frank Reich",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Brian Duker",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "PHI": {
+   "team_abbr": "PHI",
+   "head_coach": "Nick Sirianni",
+   "hc_change": false,
+   "offensive_coordinator": "Sean Mannion",
+   "play_caller": "Sean Mannion",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Vic Fangio",
+   "dc_since": 2024,
+   "dc_change": false
+  },
+  "SEA": {
+   "team_abbr": "SEA",
+   "head_coach": "Mike Macdonald",
+   "hc_change": false,
+   "offensive_coordinator": "Brian Fleury",
+   "play_caller": "Brian Fleury",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Aden Durde",
+   "dc_since": 2024,
+   "dc_change": false
+  },
+  "SF": {
+   "team_abbr": "SF",
+   "head_coach": "Kyle Shanahan",
+   "hc_change": false,
+   "offensive_coordinator": "Klay Kubiak",
+   "play_caller": "Kyle Shanahan",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Raheem Morris",
+   "dc_since": 2026,
+   "dc_change": true
+  },
+  "TB": {
+   "team_abbr": "TB",
+   "head_coach": "Todd Bowles",
+   "hc_change": false,
+   "offensive_coordinator": "Zac Robinson",
+   "play_caller": "Zac Robinson",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Todd Bowles",
+   "dc_since": 2019,
+   "dc_change": false
+  },
+  "WAS": {
+   "team_abbr": "WAS",
+   "head_coach": "Dan Quinn",
+   "hc_change": false,
+   "offensive_coordinator": "David Blough",
+   "play_caller": "David Blough",
+   "play_caller_confidence": "inferred",
+   "defensive_coordinator": "Daronte Jones",
+   "dc_since": 2026,
+   "dc_change": true
+  }
+ }
+}

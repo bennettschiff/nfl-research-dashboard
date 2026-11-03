@@ -1,0 +1,1787 @@
+{
+ "_doc": "Display-only team scheme tendencies (FTN charting + pbp). Built by scripts/build_inseason_sources.py. Man/zone is absent by design: no in-season source.",
+ "seasons": {
+  "2025": {
+   "league": {
+    "off": {
+     "neutral_pass_rate": 0.357,
+     "shotgun_rate": 0.885,
+     "no_huddle_rate": 0.0827,
+     "plays_pg": 48.6,
+     "motion_rate": 0.65,
+     "play_action_rate": 0.237,
+     "rpo_rate": 0.0524,
+     "screen_rate": 0.0923
+    },
+    "def": {
+     "blitz_rate": 0.358,
+     "avg_rushers": 4.47,
+     "avg_box_run": 7.5,
+     "stacked_box_rate": 0.0971,
+     "light_box_rate": 0.685,
+     "sack_rate": 0.049,
+     "pressure_rate": 0.194,
+     "pass_epa": 0.0737,
+     "rush_epa": -0.0712
+    }
+   },
+   "teams": {
+    "ARI": {
+     "season": 2025,
+     "team_abbr": "ARI",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.423,
+      "shotgun_rate": 0.817,
+      "no_huddle_rate": 0.117,
+      "plays_pg": 89.1,
+      "motion_rate": 0.544,
+      "play_action_rate": 0.17,
+      "rpo_rate": 0.025,
+      "screen_rate": 0.11
+     },
+     "def": {
+      "blitz_rate": 0.272,
+      "avg_rushers": 4.82,
+      "avg_box_run": 6.74,
+      "stacked_box_rate": 0.0717,
+      "light_box_rate": 0.763,
+      "sack_rate": 0.0408,
+      "pressure_rate": 0.152,
+      "pass_epa": 0.221,
+      "rush_epa": -0.0363
+     }
+    },
+    "ATL": {
+     "season": 2025,
+     "team_abbr": "ATL",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.412,
+      "shotgun_rate": 0.676,
+      "no_huddle_rate": 0.107,
+      "plays_pg": 53.1,
+      "motion_rate": 0.905,
+      "play_action_rate": 0.215,
+      "rpo_rate": 0.056,
+      "screen_rate": 0.1098
+     },
+     "def": {
+      "blitz_rate": 0.231,
+      "avg_rushers": 3.59,
+      "avg_box_run": 6.87,
+      "stacked_box_rate": 0.0824,
+      "light_box_rate": 0.506,
+      "sack_rate": 0.0647,
+      "pressure_rate": 0.301,
+      "pass_epa": 0.0214,
+      "rush_epa": -0.0246
+     }
+    },
+    "BAL": {
+     "season": 2025,
+     "team_abbr": "BAL",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.467,
+      "shotgun_rate": 0.742,
+      "no_huddle_rate": 0.0405,
+      "plays_pg": 59.2,
+      "motion_rate": 0.393,
+      "play_action_rate": 0.198,
+      "rpo_rate": 0.0466,
+      "screen_rate": 0.0602
+     },
+     "def": {
+      "blitz_rate": 0.272,
+      "avg_rushers": 3.67,
+      "avg_box_run": 6.78,
+      "stacked_box_rate": 0.126,
+      "light_box_rate": 0.429,
+      "sack_rate": 0.0547,
+      "pressure_rate": 0.164,
+      "pass_epa": 0.1243,
+      "rush_epa": -0.127
+     }
+    },
+    "BUF": {
+     "season": 2025,
+     "team_abbr": "BUF",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.617,
+      "shotgun_rate": 0.512,
+      "no_huddle_rate": 0.0617,
+      "plays_pg": 74.9,
+      "motion_rate": 0.816,
+      "play_action_rate": 0.229,
+      "rpo_rate": 0.0822,
+      "screen_rate": 0.0748
+     },
+     "def": {
+      "blitz_rate": 0.333,
+      "avg_rushers": 3.79,
+      "avg_box_run": 5.7,
+      "stacked_box_rate": 0.0828,
+      "light_box_rate": 0.61,
+      "sack_rate": 0.0841,
+      "pressure_rate": 0.162,
+      "pass_epa": -0.0626,
+      "rush_epa": 0.0309
+     }
+    },
+    "CAR": {
+     "season": 2025,
+     "team_abbr": "CAR",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.529,
+      "shotgun_rate": 0.484,
+      "no_huddle_rate": 0.0401,
+      "plays_pg": 85.5,
+      "motion_rate": 0.328,
+      "play_action_rate": 0.239,
+      "rpo_rate": 0.0695,
+      "screen_rate": 0.0606
+     },
+     "def": {
+      "blitz_rate": 0.305,
+      "avg_rushers": 3.05,
+      "avg_box_run": 8.65,
+      "stacked_box_rate": 0.0552,
+      "light_box_rate": 0.7,
+      "sack_rate": 0.0668,
+      "pressure_rate": 0.203,
+      "pass_epa": 0.151,
+      "rush_epa": -0.0203
+     }
+    },
+    "CHI": {
+     "season": 2025,
+     "team_abbr": "CHI",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.361,
+      "shotgun_rate": 0.418,
+      "no_huddle_rate": 0.033,
+      "plays_pg": 40.3,
+      "motion_rate": 0.63,
+      "play_action_rate": 0.246,
+      "rpo_rate": 0.0555,
+      "screen_rate": 0.0902
+     },
+     "def": {
+      "blitz_rate": 0.343,
+      "avg_rushers": 3.45,
+      "avg_box_run": 8.53,
+      "stacked_box_rate": 0.08,
+      "light_box_rate": 0.506,
+      "sack_rate": 0.0733,
+      "pressure_rate": 0.13,
+      "pass_epa": 0.0887,
+      "rush_epa": -0.0254
+     }
+    },
+    "CIN": {
+     "season": 2025,
+     "team_abbr": "CIN",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.853,
+      "shotgun_rate": 0.909,
+      "no_huddle_rate": 0.0341,
+      "plays_pg": 39.8,
+      "motion_rate": 0.701,
+      "play_action_rate": 0.122,
+      "rpo_rate": 0.1266,
+      "screen_rate": 0.0667
+     },
+     "def": {
+      "blitz_rate": 0.24,
+      "avg_rushers": 3.41,
+      "avg_box_run": 5.02,
+      "stacked_box_rate": 0.0585,
+      "light_box_rate": 0.661,
+      "sack_rate": 0.0352,
+      "pressure_rate": 0.237,
+      "pass_epa": 0.212,
+      "rush_epa": 0.0429
+     }
+    },
+    "CLE": {
+     "season": 2025,
+     "team_abbr": "CLE",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.581,
+      "shotgun_rate": 0.422,
+      "no_huddle_rate": 0.0619,
+      "plays_pg": 84.7,
+      "motion_rate": 0.348,
+      "play_action_rate": 0.255,
+      "rpo_rate": 0.0488,
+      "screen_rate": 0.0527
+     },
+     "def": {
+      "blitz_rate": 0.374,
+      "avg_rushers": 5.63,
+      "avg_box_run": 9.42,
+      "stacked_box_rate": 0.249,
+      "light_box_rate": 0.509,
+      "sack_rate": 0.0836,
+      "pressure_rate": 0.201,
+      "pass_epa": -0.1071,
+      "rush_epa": -0.1013
+     }
+    },
+    "DAL": {
+     "season": 2025,
+     "team_abbr": "DAL",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.549,
+      "shotgun_rate": 0.501,
+      "no_huddle_rate": 0.0855,
+      "plays_pg": 89.8,
+      "motion_rate": 0.615,
+      "play_action_rate": 0.226,
+      "rpo_rate": 0.0564,
+      "screen_rate": 0.0628
+     },
+     "def": {
+      "blitz_rate": 0.235,
+      "avg_rushers": 5.11,
+      "avg_box_run": 6.14,
+      "stacked_box_rate": 0.0564,
+      "light_box_rate": 0.467,
+      "sack_rate": 0.0716,
+      "pressure_rate": 0.378,
+      "pass_epa": 0.266,
+      "rush_epa": 0.0404
+     }
+    },
+    "DEN": {
+     "season": 2025,
+     "team_abbr": "DEN",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.852,
+      "shotgun_rate": 0.496,
+      "no_huddle_rate": 0.145,
+      "plays_pg": 66,
+      "motion_rate": 0.329,
+      "play_action_rate": 0.242,
+      "rpo_rate": 0.0905,
+      "screen_rate": 0.134
+     },
+     "def": {
+      "blitz_rate": 0.412,
+      "avg_rushers": 4.32,
+      "avg_box_run": 4.76,
+      "stacked_box_rate": 0.0489,
+      "light_box_rate": 0.487,
+      "sack_rate": 0.1032,
+      "pressure_rate": 0.299,
+      "pass_epa": -0.0392,
+      "rush_epa": -0.106
+     }
+    },
+    "DET": {
+     "season": 2025,
+     "team_abbr": "DET",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.693,
+      "shotgun_rate": 0.461,
+      "no_huddle_rate": 0.0729,
+      "plays_pg": 64,
+      "motion_rate": 0.368,
+      "play_action_rate": 0.21,
+      "rpo_rate": 0.0399,
+      "screen_rate": 0.079
+     },
+     "def": {
+      "blitz_rate": 0.387,
+      "avg_rushers": 3.61,
+      "avg_box_run": 5.5,
+      "stacked_box_rate": 0.191,
+      "light_box_rate": 0.225,
+      "sack_rate": 0.0474,
+      "pressure_rate": 0.272,
+      "pass_epa": 0.0488,
+      "rush_epa": -0.0485
+     }
+    },
+    "GB": {
+     "season": 2025,
+     "team_abbr": "GB",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.761,
+      "shotgun_rate": 0.721,
+      "no_huddle_rate": 0.1248,
+      "plays_pg": 37.6,
+      "motion_rate": 0.669,
+      "play_action_rate": 0.283,
+      "rpo_rate": 0.1121,
+      "screen_rate": 0.0924
+     },
+     "def": {
+      "blitz_rate": 0.155,
+      "avg_rushers": 3.01,
+      "avg_box_run": 4.41,
+      "stacked_box_rate": 0.072,
+      "light_box_rate": 0.328,
+      "sack_rate": 0.0335,
+      "pressure_rate": 0.267,
+      "pass_epa": 0.159,
+      "rush_epa": -0.0478
+     }
+    },
+    "HOU": {
+     "season": 2025,
+     "team_abbr": "HOU",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.44,
+      "shotgun_rate": 0.469,
+      "no_huddle_rate": 0.0488,
+      "plays_pg": 53.5,
+      "motion_rate": 0.516,
+      "play_action_rate": 0.319,
+      "rpo_rate": 0.0156,
+      "screen_rate": 0.054
+     },
+     "def": {
+      "blitz_rate": 0.27,
+      "avg_rushers": 3.95,
+      "avg_box_run": 6.11,
+      "stacked_box_rate": 0.0528,
+      "light_box_rate": 0.423,
+      "sack_rate": 0.0885,
+      "pressure_rate": 0.283,
+      "pass_epa": -0.0702,
+      "rush_epa": -0.173
+     }
+    },
+    "IND": {
+     "season": 2025,
+     "team_abbr": "IND",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.627,
+      "shotgun_rate": 0.5,
+      "no_huddle_rate": 0.0399,
+      "plays_pg": 67.5,
+      "motion_rate": 0.389,
+      "play_action_rate": 0.185,
+      "rpo_rate": 0.0733,
+      "screen_rate": 0.0611
+     },
+     "def": {
+      "blitz_rate": 0.323,
+      "avg_rushers": 4.26,
+      "avg_box_run": 9.11,
+      "stacked_box_rate": 0.0656,
+      "light_box_rate": 0.532,
+      "sack_rate": 0.0453,
+      "pressure_rate": 0.136,
+      "pass_epa": 0.0495,
+      "rush_epa": -0.094
+     }
+    },
+    "JAX": {
+     "season": 2025,
+     "team_abbr": "JAX",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.424,
+      "shotgun_rate": 0.482,
+      "no_huddle_rate": 0.0952,
+      "plays_pg": 80.9,
+      "motion_rate": 0.722,
+      "play_action_rate": 0.201,
+      "rpo_rate": 0.0605,
+      "screen_rate": 0.108
+     },
+     "def": {
+      "blitz_rate": 0.391,
+      "avg_rushers": 4.85,
+      "avg_box_run": 6.82,
+      "stacked_box_rate": 0.0581,
+      "light_box_rate": 0.561,
+      "sack_rate": 0.0426,
+      "pressure_rate": 0.219,
+      "pass_epa": -0.071,
+      "rush_epa": -0.127
+     }
+    },
+    "KC": {
+     "season": 2025,
+     "team_abbr": "KC",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.749,
+      "shotgun_rate": 0.897,
+      "no_huddle_rate": 0.0302,
+      "plays_pg": 84.3,
+      "motion_rate": 0.626,
+      "play_action_rate": 0.207,
+      "rpo_rate": 0.134,
+      "screen_rate": 0.0863
+     },
+     "def": {
+      "blitz_rate": 0.527,
+      "avg_rushers": 6.13,
+      "avg_box_run": 5.8,
+      "stacked_box_rate": 0.0488,
+      "light_box_rate": 0.446,
+      "sack_rate": 0.0741,
+      "pressure_rate": 0.238,
+      "pass_epa": 0.066,
+      "rush_epa": -0.137
+     }
+    },
+    "LA": {
+     "season": 2025,
+     "team_abbr": "LA",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.756,
+      "shotgun_rate": 0.316,
+      "no_huddle_rate": 0.0558,
+      "plays_pg": 65,
+      "motion_rate": 0.798,
+      "play_action_rate": 0.237,
+      "rpo_rate": 0.006,
+      "screen_rate": 0.0864
+     },
+     "def": {
+      "blitz_rate": 0.273,
+      "avg_rushers": 4.89,
+      "avg_box_run": 6.48,
+      "stacked_box_rate": 0.0596,
+      "light_box_rate": 0.853,
+      "sack_rate": 0.0709,
+      "pressure_rate": 0.341,
+      "pass_epa": -0.04,
+      "rush_epa": -0.1122
+     }
+    },
+    "LAC": {
+     "season": 2025,
+     "team_abbr": "LAC",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.609,
+      "shotgun_rate": 0.653,
+      "no_huddle_rate": 0.0273,
+      "plays_pg": 70.9,
+      "motion_rate": 0.411,
+      "play_action_rate": 0.298,
+      "rpo_rate": 0.0324,
+      "screen_rate": 0.0488
+     },
+     "def": {
+      "blitz_rate": 0.284,
+      "avg_rushers": 5.45,
+      "avg_box_run": 4.42,
+      "stacked_box_rate": 0.0558,
+      "light_box_rate": 0.875,
+      "sack_rate": 0.0433,
+      "pressure_rate": 0.156,
+      "pass_epa": -0.0464,
+      "rush_epa": -0.073
+     }
+    },
+    "LV": {
+     "season": 2025,
+     "team_abbr": "LV",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.701,
+      "shotgun_rate": 0.882,
+      "no_huddle_rate": 0.0659,
+      "plays_pg": 44.6,
+      "motion_rate": 0.706,
+      "play_action_rate": 0.28,
+      "rpo_rate": 0.0293,
+      "screen_rate": 0.0558
+     },
+     "def": {
+      "blitz_rate": 0.252,
+      "avg_rushers": 2.63,
+      "avg_box_run": 8.28,
+      "stacked_box_rate": 0.0683,
+      "light_box_rate": 0.509,
+      "sack_rate": 0.0414,
+      "pressure_rate": 0.163,
+      "pass_epa": 0.134,
+      "rush_epa": -0.1198
+     }
+    },
+    "MIA": {
+     "season": 2025,
+     "team_abbr": "MIA",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.583,
+      "shotgun_rate": 0.764,
+      "no_huddle_rate": 0.044,
+      "plays_pg": 66.5,
+      "motion_rate": 0.839,
+      "play_action_rate": 0.305,
+      "rpo_rate": 0.0378,
+      "screen_rate": 0.072
+     },
+     "def": {
+      "blitz_rate": 0.405,
+      "avg_rushers": 3.4,
+      "avg_box_run": 7.18,
+      "stacked_box_rate": 0.117,
+      "light_box_rate": 0.345,
+      "sack_rate": 0.0682,
+      "pressure_rate": 0.227,
+      "pass_epa": 0.214,
+      "rush_epa": -0.0303
+     }
+    },
+    "MIN": {
+     "season": 2025,
+     "team_abbr": "MIN",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.791,
+      "shotgun_rate": 0.357,
+      "no_huddle_rate": 0.0853,
+      "plays_pg": 58,
+      "motion_rate": 0.484,
+      "play_action_rate": 0.317,
+      "rpo_rate": 0.0527,
+      "screen_rate": 0.1085
+     },
+     "def": {
+      "blitz_rate": 0.351,
+      "avg_rushers": 6.17,
+      "avg_box_run": 6.49,
+      "stacked_box_rate": 0.1041,
+      "light_box_rate": 0.529,
+      "sack_rate": 0.115,
+      "pressure_rate": 0.319,
+      "pass_epa": -0.1017,
+      "rush_epa": -0.1126
+     }
+    },
+    "NE": {
+     "season": 2025,
+     "team_abbr": "NE",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.813,
+      "shotgun_rate": 0.42,
+      "no_huddle_rate": 0.0276,
+      "plays_pg": 45.2,
+      "motion_rate": 0.368,
+      "play_action_rate": 0.324,
+      "rpo_rate": 0.0218,
+      "screen_rate": 0.0277
+     },
+     "def": {
+      "blitz_rate": 0.186,
+      "avg_rushers": 3.53,
+      "avg_box_run": 9.04,
+      "stacked_box_rate": 0.131,
+      "light_box_rate": 0.571,
+      "sack_rate": 0.0461,
+      "pressure_rate": 0.149,
+      "pass_epa": -0.0109,
+      "rush_epa": -0.0774
+     }
+    },
+    "NO": {
+     "season": 2025,
+     "team_abbr": "NO",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.625,
+      "shotgun_rate": 0.563,
+      "no_huddle_rate": 0.193,
+      "plays_pg": 64.4,
+      "motion_rate": 0.482,
+      "play_action_rate": 0.121,
+      "rpo_rate": 0.0372,
+      "screen_rate": 0.0352
+     },
+     "def": {
+      "blitz_rate": 0.348,
+      "avg_rushers": 4.17,
+      "avg_box_run": 7.97,
+      "stacked_box_rate": 0.0395,
+      "light_box_rate": 0.606,
+      "sack_rate": 0.0881,
+      "pressure_rate": 0.216,
+      "pass_epa": 0.0199,
+      "rush_epa": -0.18
+     }
+    },
+    "NYG": {
+     "season": 2025,
+     "team_abbr": "NYG",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.697,
+      "shotgun_rate": 1.055,
+      "no_huddle_rate": 0.248,
+      "plays_pg": 72.6,
+      "motion_rate": 0.474,
+      "play_action_rate": 0.167,
+      "rpo_rate": 0.075,
+      "screen_rate": 0.0769
+     },
+     "def": {
+      "blitz_rate": 0.375,
+      "avg_rushers": 4.11,
+      "avg_box_run": 6.75,
+      "stacked_box_rate": 0.0803,
+      "light_box_rate": 0.539,
+      "sack_rate": 0.0407,
+      "pressure_rate": 0.149,
+      "pass_epa": 0.0613,
+      "rush_epa": 0.098
+     }
+    },
+    "NYJ": {
+     "season": 2025,
+     "team_abbr": "NYJ",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.463,
+      "shotgun_rate": 0.555,
+      "no_huddle_rate": 0.1059,
+      "plays_pg": 42.9,
+      "motion_rate": 0.404,
+      "play_action_rate": 0.107,
+      "rpo_rate": 0.1147,
+      "screen_rate": 0.0917
+     },
+     "def": {
+      "blitz_rate": 0.189,
+      "avg_rushers": 5.31,
+      "avg_box_run": 5.8,
+      "stacked_box_rate": 0.154,
+      "light_box_rate": 0.52,
+      "sack_rate": 0.0523,
+      "pressure_rate": 0.086,
+      "pass_epa": 0.404,
+      "rush_epa": -0.0264
+     }
+    },
+    "PHI": {
+     "season": 2025,
+     "team_abbr": "PHI",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.662,
+      "shotgun_rate": 0.732,
+      "no_huddle_rate": 0.122,
+      "plays_pg": 45,
+      "motion_rate": 0.57,
+      "play_action_rate": 0.266,
+      "rpo_rate": 0.0509,
+      "screen_rate": 0.0552
+     },
+     "def": {
+      "blitz_rate": 0.335,
+      "avg_rushers": 3.6,
+      "avg_box_run": 6.15,
+      "stacked_box_rate": 0.0304,
+      "light_box_rate": 0.541,
+      "sack_rate": 0.0822,
+      "pressure_rate": 0.27,
+      "pass_epa": -0.0187,
+      "rush_epa": -0.101
+     }
+    },
+    "PIT": {
+     "season": 2025,
+     "team_abbr": "PIT",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.776,
+      "shotgun_rate": 0.842,
+      "no_huddle_rate": 0.148,
+      "plays_pg": 72.3,
+      "motion_rate": 0.751,
+      "play_action_rate": 0.219,
+      "rpo_rate": 0.0725,
+      "screen_rate": 0.155
+     },
+     "def": {
+      "blitz_rate": 0.317,
+      "avg_rushers": 5.72,
+      "avg_box_run": 4.89,
+      "stacked_box_rate": 0.206,
+      "light_box_rate": 0.529,
+      "sack_rate": 0.0828,
+      "pressure_rate": 0.215,
+      "pass_epa": 0.0725,
+      "rush_epa": -0.0494
+     }
+    },
+    "SEA": {
+     "season": 2025,
+     "team_abbr": "SEA",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.348,
+      "shotgun_rate": 0.363,
+      "no_huddle_rate": 0.0559,
+      "plays_pg": 37.9,
+      "motion_rate": 0.604,
+      "play_action_rate": 0.315,
+      "rpo_rate": 0.0285,
+      "screen_rate": 0.0768
+     },
+     "def": {
+      "blitz_rate": 0.321,
+      "avg_rushers": 5.32,
+      "avg_box_run": 4.81,
+      "stacked_box_rate": 0.0528,
+      "light_box_rate": 0.717,
+      "sack_rate": 0.0584,
+      "pressure_rate": 0.262,
+      "pass_epa": -0.0739,
+      "rush_epa": -0.21
+     }
+    },
+    "SF": {
+     "season": 2025,
+     "team_abbr": "SF",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.547,
+      "shotgun_rate": 0.539,
+      "no_huddle_rate": 0.0297,
+      "plays_pg": 75.2,
+      "motion_rate": 0.838,
+      "play_action_rate": 0.189,
+      "rpo_rate": 0.0051,
+      "screen_rate": 0.0665
+     },
+     "def": {
+      "blitz_rate": 0.244,
+      "avg_rushers": 5.75,
+      "avg_box_run": 6.48,
+      "stacked_box_rate": 0.0064,
+      "light_box_rate": 0.892,
+      "sack_rate": 0.0318,
+      "pressure_rate": 0.175,
+      "pass_epa": 0.157,
+      "rush_epa": -0.0518
+     }
+    },
+    "TB": {
+     "season": 2025,
+     "team_abbr": "TB",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.437,
+      "shotgun_rate": 0.454,
+      "no_huddle_rate": 0.057,
+      "plays_pg": 73.2,
+      "motion_rate": 0.806,
+      "play_action_rate": 0.187,
+      "rpo_rate": 0.0722,
+      "screen_rate": 0.09
+     },
+     "def": {
+      "blitz_rate": 0.345,
+      "avg_rushers": 3.1,
+      "avg_box_run": 4.83,
+      "stacked_box_rate": 0.089,
+      "light_box_rate": 0.492,
+      "sack_rate": 0.0496,
+      "pressure_rate": 0.131,
+      "pass_epa": 0.0898,
+      "rush_epa": -0.108
+     }
+    },
+    "TEN": {
+     "season": 2025,
+     "team_abbr": "TEN",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.559,
+      "shotgun_rate": 0.494,
+      "no_huddle_rate": 0.128,
+      "plays_pg": 50.4,
+      "motion_rate": 0.379,
+      "play_action_rate": 0.133,
+      "rpo_rate": 0.083,
+      "screen_rate": 0.105
+     },
+     "def": {
+      "blitz_rate": 0.192,
+      "avg_rushers": 4.62,
+      "avg_box_run": 7.07,
+      "stacked_box_rate": 0.137,
+      "light_box_rate": 0.618,
+      "sack_rate": 0.0662,
+      "pressure_rate": 0.309,
+      "pass_epa": 0.226,
+      "rush_epa": -0.0293
+     }
+    },
+    "WAS": {
+     "season": 2025,
+     "team_abbr": "WAS",
+     "games": 17,
+     "through_week": 18,
+     "off": {
+      "neutral_pass_rate": 0.63,
+      "shotgun_rate": 1.046,
+      "no_huddle_rate": 0.807,
+      "plays_pg": 64.8,
+      "motion_rate": 0.735,
+      "play_action_rate": 0.21,
+      "rpo_rate": 0.1106,
+      "screen_rate": 0.05
+     },
+     "def": {
+      "blitz_rate": 0.189,
+      "avg_rushers": 3.64,
+      "avg_box_run": 8.24,
+      "stacked_box_rate": 0.0314,
+      "light_box_rate": 0.714,
+      "sack_rate": 0.0664,
+      "pressure_rate": 0.151,
+      "pass_epa": 0.246,
+      "rush_epa": 0.0348
+     }
+    }
+   }
+  },
+  "2026": {
+   "league": {
+    "off": {
+     "neutral_pass_rate": 0.448,
+     "shotgun_rate": 0.768,
+     "no_huddle_rate": 0.0735,
+     "plays_pg": 68.9,
+     "motion_rate": 0.802,
+     "play_action_rate": 0.195,
+     "rpo_rate": 0.0312,
+     "screen_rate": 0.0989
+    },
+    "def": {
+     "blitz_rate": 0.323,
+     "avg_rushers": 4.8,
+     "avg_box_run": 7.66,
+     "stacked_box_rate": 0.0979,
+     "light_box_rate": 0.282,
+     "sack_rate": 0.0678,
+     "pressure_rate": 0.274,
+     "pass_epa": 0.0924,
+     "rush_epa": -0.1107
+    }
+   },
+   "teams": {
+    "ARI": {
+     "season": 2026,
+     "team_abbr": "ARI",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.619,
+      "shotgun_rate": 0.453,
+      "no_huddle_rate": 0.117,
+      "plays_pg": 72,
+      "motion_rate": 0.633,
+      "play_action_rate": 0.167,
+      "rpo_rate": 0.0043,
+      "screen_rate": 0.0723
+     },
+     "def": {
+      "blitz_rate": 0.362,
+      "avg_rushers": 6.04,
+      "avg_box_run": 5.58,
+      "stacked_box_rate": 0.0764,
+      "light_box_rate": 0.586,
+      "sack_rate": 0.0714,
+      "pressure_rate": 0.184,
+      "pass_epa": 0.204,
+      "rush_epa": -0.122
+     }
+    },
+    "ATL": {
+     "season": 2026,
+     "team_abbr": "ATL",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.488,
+      "shotgun_rate": 0.496,
+      "no_huddle_rate": 0.0288,
+      "plays_pg": 61,
+      "motion_rate": 0.618,
+      "play_action_rate": 0.272,
+      "rpo_rate": 0.0338,
+      "screen_rate": 0.078
+     },
+     "def": {
+      "blitz_rate": 0.211,
+      "avg_rushers": 4.68,
+      "avg_box_run": 6.17,
+      "stacked_box_rate": 0.0363,
+      "light_box_rate": 0.385,
+      "sack_rate": 0.0356,
+      "pressure_rate": 0.209,
+      "pass_epa": 0.0033,
+      "rush_epa": -0.113
+     }
+    },
+    "BAL": {
+     "season": 2026,
+     "team_abbr": "BAL",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.588,
+      "shotgun_rate": 0.593,
+      "no_huddle_rate": 0.0324,
+      "plays_pg": 62,
+      "motion_rate": 0.717,
+      "play_action_rate": 0.333,
+      "rpo_rate": 0.0574,
+      "screen_rate": 0.0681
+     },
+     "def": {
+      "blitz_rate": 0.413,
+      "avg_rushers": 6.15,
+      "avg_box_run": 7.27,
+      "stacked_box_rate": 0.065,
+      "light_box_rate": 0.615,
+      "sack_rate": 0.0344,
+      "pressure_rate": 0.148,
+      "pass_epa": 0.0494,
+      "rush_epa": -0.0923
+     }
+    },
+    "BUF": {
+     "season": 2026,
+     "team_abbr": "BUF",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.41,
+      "shotgun_rate": 0.362,
+      "no_huddle_rate": 0.0469,
+      "plays_pg": 51,
+      "motion_rate": 0.526,
+      "play_action_rate": 0.184,
+      "rpo_rate": 0.0632,
+      "screen_rate": 0.0704
+     },
+     "def": {
+      "blitz_rate": 0.415,
+      "avg_rushers": 5.32,
+      "avg_box_run": 4.16,
+      "stacked_box_rate": 0.226,
+      "light_box_rate": 0.493,
+      "sack_rate": 0.0573,
+      "pressure_rate": 0.268,
+      "pass_epa": 0.114,
+      "rush_epa": -0.0616
+     }
+    },
+    "CAR": {
+     "season": 2026,
+     "team_abbr": "CAR",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.42,
+      "shotgun_rate": 0.905,
+      "no_huddle_rate": 0.0604,
+      "plays_pg": 57.2,
+      "motion_rate": 0.586,
+      "play_action_rate": 0.314,
+      "rpo_rate": 0.153,
+      "screen_rate": 0.0541
+     },
+     "def": {
+      "blitz_rate": 0.227,
+      "avg_rushers": 3.06,
+      "avg_box_run": 7.11,
+      "stacked_box_rate": 0.0314,
+      "light_box_rate": 0.333,
+      "sack_rate": 0.032,
+      "pressure_rate": 0.179,
+      "pass_epa": 0.1076,
+      "rush_epa": -0.0585
+     }
+    },
+    "CHI": {
+     "season": 2026,
+     "team_abbr": "CHI",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.647,
+      "shotgun_rate": 0.396,
+      "no_huddle_rate": 0.0661,
+      "plays_pg": 103.2,
+      "motion_rate": 0.588,
+      "play_action_rate": 0.378,
+      "rpo_rate": 0.028,
+      "screen_rate": 0.1241
+     },
+     "def": {
+      "blitz_rate": 0.297,
+      "avg_rushers": 4.03,
+      "avg_box_run": 7.93,
+      "stacked_box_rate": 0.145,
+      "light_box_rate": 0.339,
+      "sack_rate": 0.1072,
+      "pressure_rate": 0.223,
+      "pass_epa": 0.0219,
+      "rush_epa": -0.119
+     }
+    },
+    "CIN": {
+     "season": 2026,
+     "team_abbr": "CIN",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.479,
+      "shotgun_rate": 0.564,
+      "no_huddle_rate": 0.037,
+      "plays_pg": 80.5,
+      "motion_rate": 0.438,
+      "play_action_rate": 0.207,
+      "rpo_rate": 0.0884,
+      "screen_rate": 0.0441
+     },
+     "def": {
+      "blitz_rate": 0.177,
+      "avg_rushers": 4.22,
+      "avg_box_run": 3.99,
+      "stacked_box_rate": 0.0957,
+      "light_box_rate": 0.736,
+      "sack_rate": 0.0729,
+      "pressure_rate": 0.155,
+      "pass_epa": 0.0248,
+      "rush_epa": -0.0822
+     }
+    },
+    "CLE": {
+     "season": 2026,
+     "team_abbr": "CLE",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.59,
+      "shotgun_rate": 0.549,
+      "no_huddle_rate": 0.0598,
+      "plays_pg": 39.1,
+      "motion_rate": 0.731,
+      "play_action_rate": 0.213,
+      "rpo_rate": 0.0853,
+      "screen_rate": 0.12
+     },
+     "def": {
+      "blitz_rate": 0.291,
+      "avg_rushers": 5.49,
+      "avg_box_run": 5.25,
+      "stacked_box_rate": 0.0327,
+      "light_box_rate": 0.619,
+      "sack_rate": 0.0416,
+      "pressure_rate": 0.139,
+      "pass_epa": -0.0068,
+      "rush_epa": -0.0217
+     }
+    },
+    "DAL": {
+     "season": 2026,
+     "team_abbr": "DAL",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.635,
+      "shotgun_rate": 0.446,
+      "no_huddle_rate": 0.0658,
+      "plays_pg": 68,
+      "motion_rate": 0.415,
+      "play_action_rate": 0.246,
+      "rpo_rate": 0.0337,
+      "screen_rate": 0.047
+     },
+     "def": {
+      "blitz_rate": 0.3,
+      "avg_rushers": 5.15,
+      "avg_box_run": 7.57,
+      "stacked_box_rate": 0.0876,
+      "light_box_rate": 0.333,
+      "sack_rate": 0.0386,
+      "pressure_rate": 0.191,
+      "pass_epa": 0.221,
+      "rush_epa": -0.0214
+     }
+    },
+    "DEN": {
+     "season": 2026,
+     "team_abbr": "DEN",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.586,
+      "shotgun_rate": 0.673,
+      "no_huddle_rate": 0.07,
+      "plays_pg": 77.6,
+      "motion_rate": 0.578,
+      "play_action_rate": 0.21,
+      "rpo_rate": 0.094,
+      "screen_rate": 0.129
+     },
+     "def": {
+      "blitz_rate": 0.477,
+      "avg_rushers": 3.48,
+      "avg_box_run": 9.1,
+      "stacked_box_rate": 0.152,
+      "light_box_rate": 0.508,
+      "sack_rate": 0.0676,
+      "pressure_rate": 0.243,
+      "pass_epa": -0.0134,
+      "rush_epa": -0.0352
+     }
+    },
+    "DET": {
+     "season": 2026,
+     "team_abbr": "DET",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.578,
+      "shotgun_rate": 0.448,
+      "no_huddle_rate": 0.0686,
+      "plays_pg": 82,
+      "motion_rate": 0.609,
+      "play_action_rate": 0.341,
+      "rpo_rate": 0.0114,
+      "screen_rate": 0.0692
+     },
+     "def": {
+      "blitz_rate": 0.325,
+      "avg_rushers": 4.58,
+      "avg_box_run": 4.28,
+      "stacked_box_rate": 0.0985,
+      "light_box_rate": 0.408,
+      "sack_rate": 0.0428,
+      "pressure_rate": 0.293,
+      "pass_epa": 0.245,
+      "rush_epa": -0.0995
+     }
+    },
+    "GB": {
+     "season": 2026,
+     "team_abbr": "GB",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.829,
+      "shotgun_rate": 0.932,
+      "no_huddle_rate": 0.1182,
+      "plays_pg": 41.8,
+      "motion_rate": 0.754,
+      "play_action_rate": 0.155,
+      "rpo_rate": 0.0759,
+      "screen_rate": 0.0631
+     },
+     "def": {
+      "blitz_rate": 0.311,
+      "avg_rushers": 2.93,
+      "avg_box_run": 5.53,
+      "stacked_box_rate": 0.0388,
+      "light_box_rate": 0.406,
+      "sack_rate": 0.0584,
+      "pressure_rate": 0.126,
+      "pass_epa": -0.0035,
+      "rush_epa": -0.101
+     }
+    },
+    "HOU": {
+     "season": 2026,
+     "team_abbr": "HOU",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.79,
+      "shotgun_rate": 0.84,
+      "no_huddle_rate": 0.0312,
+      "plays_pg": 61.7,
+      "motion_rate": 0.593,
+      "play_action_rate": 0.241,
+      "rpo_rate": 0.0281,
+      "screen_rate": 0.0401
+     },
+     "def": {
+      "blitz_rate": 0.232,
+      "avg_rushers": 2.75,
+      "avg_box_run": 5.62,
+      "stacked_box_rate": 0.176,
+      "light_box_rate": 0.267,
+      "sack_rate": 0.1007,
+      "pressure_rate": 0.306,
+      "pass_epa": 0.107,
+      "rush_epa": -0.0328
+     }
+    },
+    "IND": {
+     "season": 2026,
+     "team_abbr": "IND",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.562,
+      "shotgun_rate": 0.738,
+      "no_huddle_rate": 0.0314,
+      "plays_pg": 62.5,
+      "motion_rate": 0.524,
+      "play_action_rate": 0.258,
+      "rpo_rate": 0.0344,
+      "screen_rate": 0.0428
+     },
+     "def": {
+      "blitz_rate": 0.166,
+      "avg_rushers": 4.66,
+      "avg_box_run": 7.68,
+      "stacked_box_rate": 0.066,
+      "light_box_rate": 0.392,
+      "sack_rate": 0.0388,
+      "pressure_rate": 0.109,
+      "pass_epa": 0.1145,
+      "rush_epa": -0.0229
+     }
+    },
+    "JAX": {
+     "season": 2026,
+     "team_abbr": "JAX",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.679,
+      "shotgun_rate": 0.575,
+      "no_huddle_rate": 0.041,
+      "plays_pg": 39.7,
+      "motion_rate": 0.512,
+      "play_action_rate": 0.182,
+      "rpo_rate": 0.0125,
+      "screen_rate": 0.0763
+     },
+     "def": {
+      "blitz_rate": 0.228,
+      "avg_rushers": 2.74,
+      "avg_box_run": 4.87,
+      "stacked_box_rate": 0.155,
+      "light_box_rate": 0.558,
+      "sack_rate": 0.0374,
+      "pressure_rate": 0.203,
+      "pass_epa": -0.0253,
+      "rush_epa": -0.14
+     }
+    },
+    "KC": {
+     "season": 2026,
+     "team_abbr": "KC",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.834,
+      "shotgun_rate": 0.703,
+      "no_huddle_rate": 0.008,
+      "plays_pg": 84.5,
+      "motion_rate": 0.674,
+      "play_action_rate": 0.219,
+      "rpo_rate": 0.095,
+      "screen_rate": 0.157
+     },
+     "def": {
+      "blitz_rate": 0.21,
+      "avg_rushers": 3.1,
+      "avg_box_run": 6.16,
+      "stacked_box_rate": 0.0208,
+      "light_box_rate": 0.407,
+      "sack_rate": 0.0357,
+      "pressure_rate": 0.22,
+      "pass_epa": 0.0822,
+      "rush_epa": -0.156
+     }
+    },
+    "LA": {
+     "season": 2026,
+     "team_abbr": "LA",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.386,
+      "shotgun_rate": 0.439,
+      "no_huddle_rate": 0.137,
+      "plays_pg": 77.6,
+      "motion_rate": 0.825,
+      "play_action_rate": 0.33,
+      "rpo_rate": 0.0051,
+      "screen_rate": 0.0926
+     },
+     "def": {
+      "blitz_rate": 0.263,
+      "avg_rushers": 4.53,
+      "avg_box_run": 4.13,
+      "stacked_box_rate": 0.142,
+      "light_box_rate": 0.25,
+      "sack_rate": 0.0395,
+      "pressure_rate": 0.164,
+      "pass_epa": -0.0184,
+      "rush_epa": -0.119
+     }
+    },
+    "LAC": {
+     "season": 2026,
+     "team_abbr": "LAC",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.508,
+      "shotgun_rate": 0.504,
+      "no_huddle_rate": 0.0494,
+      "plays_pg": 44.3,
+      "motion_rate": 0.459,
+      "play_action_rate": 0.307,
+      "rpo_rate": 0.0345,
+      "screen_rate": 0.13
+     },
+     "def": {
+      "blitz_rate": 0.351,
+      "avg_rushers": 4.91,
+      "avg_box_run": 7.87,
+      "stacked_box_rate": 0.121,
+      "light_box_rate": 0.439,
+      "sack_rate": 0.0688,
+      "pressure_rate": 0.176,
+      "pass_epa": -0.0078,
+      "rush_epa": -0.045
+     }
+    },
+    "LV": {
+     "season": 2026,
+     "team_abbr": "LV",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.407,
+      "shotgun_rate": 0.377,
+      "no_huddle_rate": 0.0506,
+      "plays_pg": 70.3,
+      "motion_rate": 0.71,
+      "play_action_rate": 0.189,
+      "rpo_rate": 0.016,
+      "screen_rate": 0.0531
+     },
+     "def": {
+      "blitz_rate": 0.304,
+      "avg_rushers": 5.9,
+      "avg_box_run": 8.47,
+      "stacked_box_rate": 0.0467,
+      "light_box_rate": 0.751,
+      "sack_rate": 0.0689,
+      "pressure_rate": 0.252,
+      "pass_epa": 0.173,
+      "rush_epa": -0.0501
+     }
+    },
+    "MIA": {
+     "season": 2026,
+     "team_abbr": "MIA",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.471,
+      "shotgun_rate": 0.566,
+      "no_huddle_rate": 0.034,
+      "plays_pg": 60,
+      "motion_rate": 0.763,
+      "play_action_rate": 0.244,
+      "rpo_rate": 0.0451,
+      "screen_rate": 0.0953
+     },
+     "def": {
+      "blitz_rate": 0.29,
+      "avg_rushers": 3.72,
+      "avg_box_run": 8.62,
+      "stacked_box_rate": 0.0458,
+      "light_box_rate": 0.23,
+      "sack_rate": 0.044,
+      "pressure_rate": 0.249,
+      "pass_epa": 0.22,
+      "rush_epa": -0.0475
+     }
+    },
+    "MIN": {
+     "season": 2026,
+     "team_abbr": "MIN",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.458,
+      "shotgun_rate": 0.384,
+      "no_huddle_rate": 0.0564,
+      "plays_pg": 69,
+      "motion_rate": 0.569,
+      "play_action_rate": 0.311,
+      "rpo_rate": 0.0844,
+      "screen_rate": 0.065
+     },
+     "def": {
+      "blitz_rate": 0.916,
+      "avg_rushers": 6.39,
+      "avg_box_run": 6.21,
+      "stacked_box_rate": 0.0485,
+      "light_box_rate": 0.361,
+      "sack_rate": 0.114,
+      "pressure_rate": 0.206,
+      "pass_epa": -0.175,
+      "rush_epa": -0.187
+     }
+    },
+    "NE": {
+     "season": 2026,
+     "team_abbr": "NE",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.389,
+      "shotgun_rate": 0.624,
+      "no_huddle_rate": 0.0052,
+      "plays_pg": 39.2,
+      "motion_rate": 0.761,
+      "play_action_rate": 0.166,
+      "rpo_rate": 0.0297,
+      "screen_rate": 0.0479
+     },
+     "def": {
+      "blitz_rate": 0.497,
+      "avg_rushers": 5,
+      "avg_box_run": 5.36,
+      "stacked_box_rate": 0.129,
+      "light_box_rate": 0.393,
+      "sack_rate": 0.0727,
+      "pressure_rate": 0.171,
+      "pass_epa": 0.102,
+      "rush_epa": -0.131
+     }
+    },
+    "NO": {
+     "season": 2026,
+     "team_abbr": "NO",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.852,
+      "shotgun_rate": 0.895,
+      "no_huddle_rate": 0.091,
+      "plays_pg": 55.5,
+      "motion_rate": 0.624,
+      "play_action_rate": 0.164,
+      "rpo_rate": 0.0235,
+      "screen_rate": 0.0373
+     },
+     "def": {
+      "blitz_rate": 0.271,
+      "avg_rushers": 4.06,
+      "avg_box_run": 7.21,
+      "stacked_box_rate": 0.0973,
+      "light_box_rate": 0.391,
+      "sack_rate": 0.0454,
+      "pressure_rate": 0.121,
+      "pass_epa": 0.09,
+      "rush_epa": 0.0124
+     }
+    },
+    "NYG": {
+     "season": 2026,
+     "team_abbr": "NYG",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.733,
+      "shotgun_rate": 0.733,
+      "no_huddle_rate": 0.0823,
+      "plays_pg": 86.7,
+      "motion_rate": 0.308,
+      "play_action_rate": 0.224,
+      "rpo_rate": 0.0407,
+      "screen_rate": 0.0426
+     },
+     "def": {
+      "blitz_rate": 0.386,
+      "avg_rushers": 4.02,
+      "avg_box_run": 8.35,
+      "stacked_box_rate": 0.172,
+      "light_box_rate": 0.533,
+      "sack_rate": 0.0215,
+      "pressure_rate": 0.124,
+      "pass_epa": 0.1154,
+      "rush_epa": -0.1179
+     }
+    },
+    "NYJ": {
+     "season": 2026,
+     "team_abbr": "NYJ",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.631,
+      "shotgun_rate": 0.395,
+      "no_huddle_rate": 0.0391,
+      "plays_pg": 58.2,
+      "motion_rate": 0.593,
+      "play_action_rate": 0.226,
+      "rpo_rate": 0.0384,
+      "screen_rate": 0.0549
+     },
+     "def": {
+      "blitz_rate": 0.26,
+      "avg_rushers": 4.21,
+      "avg_box_run": 9.12,
+      "stacked_box_rate": 0.1054,
+      "light_box_rate": 0.447,
+      "sack_rate": 0.0899,
+      "pressure_rate": 0.26,
+      "pass_epa": 0.229,
+      "rush_epa": -0.133
+     }
+    },
+    "PHI": {
+     "season": 2026,
+     "team_abbr": "PHI",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.707,
+      "shotgun_rate": 0.868,
+      "no_huddle_rate": 0.182,
+      "plays_pg": 63.1,
+      "motion_rate": 0.639,
+      "play_action_rate": 0.208,
+      "rpo_rate": 0.0642,
+      "screen_rate": 0.0366
+     },
+     "def": {
+      "blitz_rate": 0.373,
+      "avg_rushers": 5.09,
+      "avg_box_run": 4.89,
+      "stacked_box_rate": 0.0346,
+      "light_box_rate": 0.426,
+      "sack_rate": 0.0401,
+      "pressure_rate": 0.113,
+      "pass_epa": 0.133,
+      "rush_epa": 0.0236
+     }
+    },
+    "PIT": {
+     "season": 2026,
+     "team_abbr": "PIT",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.773,
+      "shotgun_rate": 0.793,
+      "no_huddle_rate": 0.0484,
+      "plays_pg": 73.8,
+      "motion_rate": 0.596,
+      "play_action_rate": 0.1,
+      "rpo_rate": 0.126,
+      "screen_rate": 0.118
+     },
+     "def": {
+      "blitz_rate": 0.202,
+      "avg_rushers": 2.67,
+      "avg_box_run": 5.23,
+      "stacked_box_rate": 0.0849,
+      "light_box_rate": 0.552,
+      "sack_rate": 0.0843,
+      "pressure_rate": 0.163,
+      "pass_epa": -0.0109,
+      "rush_epa": -0.156
+     }
+    },
+    "SEA": {
+     "season": 2026,
+     "team_abbr": "SEA",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.421,
+      "shotgun_rate": 0.706,
+      "no_huddle_rate": 0.0234,
+      "plays_pg": 51.4,
+      "motion_rate": 0.595,
+      "play_action_rate": 0.221,
+      "rpo_rate": 0.065,
+      "screen_rate": 0.082
+     },
+     "def": {
+      "blitz_rate": 0.17,
+      "avg_rushers": 5.41,
+      "avg_box_run": 6,
+      "stacked_box_rate": 0.0257,
+      "light_box_rate": 0.438,
+      "sack_rate": 0.0377,
+      "pressure_rate": 0.316,
+      "pass_epa": -0.0384,
+      "rush_epa": -0.114
+     }
+    },
+    "SF": {
+     "season": 2026,
+     "team_abbr": "SF",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.782,
+      "shotgun_rate": 0.541,
+      "no_huddle_rate": 0.0224,
+      "plays_pg": 67.6,
+      "motion_rate": 0.662,
+      "play_action_rate": 0.276,
+      "rpo_rate": 0.0114,
+      "screen_rate": 0.057
+     },
+     "def": {
+      "blitz_rate": 0.328,
+      "avg_rushers": 2.77,
+      "avg_box_run": 6.52,
+      "stacked_box_rate": 0.0299,
+      "light_box_rate": 0.465,
+      "sack_rate": 0.0522,
+      "pressure_rate": 0.146,
+      "pass_epa": 0.0903,
+      "rush_epa": -0.271
+     }
+    },
+    "TB": {
+     "season": 2026,
+     "team_abbr": "TB",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.655,
+      "shotgun_rate": 0.644,
+      "no_huddle_rate": 0.0727,
+      "plays_pg": 66.3,
+      "motion_rate": 0.785,
+      "play_action_rate": 0.27,
+      "rpo_rate": 0.0549,
+      "screen_rate": 0.0955
+     },
+     "def": {
+      "blitz_rate": 0.548,
+      "avg_rushers": 5.54,
+      "avg_box_run": 8.14,
+      "stacked_box_rate": 0.264,
+      "light_box_rate": 0.496,
+      "sack_rate": 0.0669,
+      "pressure_rate": 0.118,
+      "pass_epa": -0.142,
+      "rush_epa": -0.159
+     }
+    },
+    "TEN": {
+     "season": 2026,
+     "team_abbr": "TEN",
+     "games": 8,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.775,
+      "shotgun_rate": 0.519,
+      "no_huddle_rate": 0.241,
+      "plays_pg": 50.5,
+      "motion_rate": 0.515,
+      "play_action_rate": 0.211,
+      "rpo_rate": 0.0623,
+      "screen_rate": 0.0874
+     },
+     "def": {
+      "blitz_rate": 0.157,
+      "avg_rushers": 4.12,
+      "avg_box_run": 4.45,
+      "stacked_box_rate": 0.0271,
+      "light_box_rate": 0.372,
+      "sack_rate": 0.0658,
+      "pressure_rate": 0.209,
+      "pass_epa": 0.221,
+      "rush_epa": -0.0745
+     }
+    },
+    "WAS": {
+     "season": 2026,
+     "team_abbr": "WAS",
+     "games": 7,
+     "through_week": 8,
+     "off": {
+      "neutral_pass_rate": 0.392,
+      "shotgun_rate": 0.664,
+      "no_huddle_rate": 0.0525,
+      "plays_pg": 86.1,
+      "motion_rate": 0.674,
+      "play_action_rate": 0.223,
+      "rpo_rate": 0.0771,
+      "screen_rate": 0.0614
+     },
+     "def": {
+      "blitz_rate": 0.558,
+      "avg_rushers": 3.45,
+      "avg_box_run": 7.87,
+      "stacked_box_rate": 0.0579,
+      "light_box_rate": 0.577,
+      "sack_rate": 0.0426,
+      "pressure_rate": 0.249,
+      "pass_epa": 0.072,
+      "rush_epa": -0.1324
+     }
+    }
+   }
+  }
+ }
+}

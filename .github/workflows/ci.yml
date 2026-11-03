@@ -1,0 +1,41 @@
+name: CI
+
+# This repo had no CI at all. That is the reason it is here: scripts/lib/sb.guard.test.js
+# fails the build when a scheduled script starts talking to Supabase with a bare
+# fetch — which is worth nothing if nothing ever runs the tests. A guard that
+# never executes is worse than no guard, because it reads like coverage.
+#
+# Mirrors the MLB lab's CI (which is where the same guard lives).
+
+on:
+  push:
+    branches: [master]
+    paths-ignore:
+      - '**/*.md'
+      - 'docs/**'
+  pull_request:
+    paths-ignore:
+      - '**/*.md'
+      - 'docs/**'
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # src/lib/supabase.js constructs its client at import time, so any test that
+    # transitively imports it needs these to be SET, not to be real — no test here
+    # makes a network call. Placeholders rather than the repo's secrets on purpose:
+    # a test run should not be able to reach production data by accident.
+    env:
+      VITE_SUPABASE_URL: https://placeholder.supabase.co
+      VITE_SUPABASE_ANON_KEY: placeholder-anon-key
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          check-latest: true   # runner cache lags security releases
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build

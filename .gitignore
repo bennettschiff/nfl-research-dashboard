@@ -1,0 +1,19 @@
+node_modules
+dist
+.env
+.env.local
+.env.*.local
+.DS_Store
+*.log
+.vercel
+scripts/__pycache__
+scripts/.venv
+scripts/out/*.parquet
+scripts/cache
+scripts/odds_cache
+scripts/out/historical_odds_*.json
+# 10MB, and only ever read by calibrate_player_carryover.mjs. Regenerate with
+# `python3 scripts/build_player_history.py` (source parquets are disk-cached).
+scripts/out/player_week_multi.json
+backup-out
+*.pyc
